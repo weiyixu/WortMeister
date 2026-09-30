@@ -1,0 +1,1001 @@
+﻿id,level,lesson,german,chinese,example,example_zh,tags,enabled
+A11-0001,A1.1,Lektion 1,hallo,你好,"Hallo, ich heiße Weiyi.",你好，我叫 Weiyi。,greeting;introduction;personal-data,true
+A11-0002,A1.1,Lektion 1,guten Morgen,早上好,Guten Morgen! Haben Sie gut geschlafen?,早上好！您睡得好吗？,greeting;introduction;personal-data,true
+A11-0003,A1.1,Lektion 1,guten Tag,您好,"Guten Tag, wie kann ich Ihnen helfen?",您好，我能为您做什么？,greeting;introduction;personal-data,true
+A11-0004,A1.1,Lektion 1,guten Abend,晚上好,"Guten Abend, schön Sie zu sehen.",晚上好，很高兴见到您。,greeting;introduction;personal-data,true
+A11-0005,A1.1,Lektion 1,gute Nacht,晚安,Gute Nacht und schlafen Sie gut!,晚安，祝您睡个好觉！,greeting;introduction;personal-data,true
+A11-0006,A1.1,Lektion 1,tschüs,再见（口语）,"Tschüs, bis morgen!",再见，明天见！,greeting;introduction;personal-data,true
+A11-0007,A1.1,Lektion 1,auf Wiedersehen,再见（正式）,Auf Wiedersehen und einen schönen Tag!,再见，祝您今天愉快！,greeting;introduction;personal-data,true
+A11-0008,A1.1,Lektion 1,bitte,请；不客气,Bitte sprechen Sie etwas langsamer.,请您说慢一点。,greeting;introduction;personal-data,true
+A11-0009,A1.1,Lektion 1,danke,谢谢,Danke für Ihre Unterstützung.,谢谢您的支持。,greeting;introduction;personal-data,true
+A11-0010,A1.1,Lektion 1,Entschuldigung,对不起；劳驾,"Entschuldigung, wo ist der Bahnhof?",劳驾，请问火车站在哪里？,greeting;introduction;personal-data,true
+A11-0011,A1.1,Lektion 1,ja,是,"Ja, das stimmt.",是的，没错。,greeting;introduction;personal-data,true
+A11-0012,A1.1,Lektion 1,nein,不,"Nein, leider nicht.",不，很遗憾不是。,greeting;introduction;personal-data,true
+A11-0013,A1.1,Lektion 1,vielleicht,也许,Vielleicht komme ich morgen.,也许我明天来。,greeting;introduction;personal-data,true
+A11-0014,A1.1,Lektion 1,auch,也,Ich spreche Englisch und auch etwas Deutsch.,我会说英语，也会说一点德语。,greeting;introduction;personal-data,true
+A11-0015,A1.1,Lektion 1,sehr,很,Der Test ist sehr wichtig.,这个测试非常重要。,greeting;introduction;personal-data,true
+A11-0016,A1.1,Lektion 1,wie,怎样；如何,Wie heißen Sie?,您叫什么名字？,greeting;introduction;personal-data,true
+A11-0017,A1.1,Lektion 1,wer,谁,Wer ist das?,这是谁？,greeting;introduction;personal-data,true
+A11-0018,A1.1,Lektion 1,was,什么,Was machen Sie beruflich?,您从事什么工作？,greeting;introduction;personal-data,true
+A11-0019,A1.1,Lektion 1,wo,哪里,Wo wohnen Sie?,您住在哪里？,greeting;introduction;personal-data,true
+A11-0020,A1.1,Lektion 1,woher,从哪里,Woher kommen Sie?,您来自哪里？,greeting;introduction;personal-data,true
+A11-0021,A1.1,Lektion 1,heißen,叫作,Ich heiße Weiyi.,我叫 Weiyi。,greeting;introduction;personal-data,true
+A11-0022,A1.1,Lektion 1,sein,是,Ich bin Ingenieur.,我是一名工程师。,greeting;introduction;personal-data,true
+A11-0023,A1.1,Lektion 1,kommen,来自；来,Ich komme aus China.,我来自中国。,greeting;introduction;personal-data,true
+A11-0024,A1.1,Lektion 1,wohnen,居住,Ich wohne in Hamburg.,我住在汉堡。,greeting;introduction;personal-data,true
+A11-0025,A1.1,Lektion 1,sprechen,说；讲,Ich spreche ein bisschen Deutsch.,我会说一点德语。,greeting;introduction;personal-data,true
+A11-0026,A1.1,Lektion 1,lernen,学习,Ich lerne jeden Tag Deutsch.,我每天学习德语。,greeting;introduction;personal-data,true
+A11-0027,A1.1,Lektion 1,verstehen,理解,Ich verstehe die Frage.,我明白这个问题。,greeting;introduction;personal-data,true
+A11-0028,A1.1,Lektion 1,wiederholen,重复,Können Sie das bitte wiederholen?,您可以重复一遍吗？,greeting;introduction;personal-data,true
+A11-0029,A1.1,Lektion 1,buchstabieren,拼写,Können Sie Ihren Namen bitte buchstabieren?,您可以拼一下您的名字吗？,greeting;introduction;personal-data,true
+A11-0030,A1.1,Lektion 1,der Name,姓名,Das ist der Name.,这是姓名。,greeting;introduction;personal-data,true
+A11-0031,A1.1,Lektion 1,der Vorname,名,Hier ist der Vorname.,这里是名。,greeting;introduction;personal-data,true
+A11-0032,A1.1,Lektion 1,der Nachname,姓,Das ist der Nachname.,这是姓。,greeting;introduction;personal-data,true
+A11-0033,A1.1,Lektion 1,Herr,先生,Das ist Herr.,这是先生。,greeting;introduction;personal-data,true
+A11-0034,A1.1,Lektion 1,Frau,女士,Das ist Frau.,这是女士。,greeting;introduction;personal-data,true
+A11-0035,A1.1,Lektion 1,die Adresse,地址,Hier ist die Adresse.,这里是地址。,greeting;introduction;personal-data,true
+A11-0036,A1.1,Lektion 1,die Straße,街道,Das ist die Straße.,这是街道。,greeting;introduction;personal-data,true
+A11-0037,A1.1,Lektion 1,die Hausnummer,门牌号,Hier ist die Hausnummer.,这里是门牌号。,greeting;introduction;personal-data,true
+A11-0038,A1.1,Lektion 1,die Postleitzahl,邮政编码,Das ist die Postleitzahl.,这是邮政编码。,greeting;introduction;personal-data,true
+A11-0039,A1.1,Lektion 1,die Stadt,城市,Hier ist die Stadt.,这里是城市。,greeting;introduction;personal-data,true
+A11-0040,A1.1,Lektion 1,das Land,国家,Das ist das Land.,这是国家。,greeting;introduction;personal-data,true
+A11-0041,A1.1,Lektion 1,die Sprache,语言,Hier ist die Sprache.,这里是语言。,greeting;introduction;personal-data,true
+A11-0042,A1.1,Lektion 1,das Telefon,电话,Das ist das Telefon.,这是电话。,greeting;introduction;personal-data,true
+A11-0043,A1.1,Lektion 2,Deutschland,德国,Ich lebe und arbeite in Deutschland.,我在德国生活和工作。,country;language;number;personal-data,true
+A11-0044,A1.1,Lektion 2,China,中国,Meine Familie lebt in China.,我的家人住在中国。,country;language;number;personal-data,true
+A11-0045,A1.1,Lektion 2,Österreich,奥地利,Wien liegt in Österreich.,维也纳位于奥地利。,country;language;number;personal-data,true
+A11-0046,A1.1,Lektion 2,die Schweiz,瑞士,Die Schweiz hat vier Landessprachen.,瑞士有四种国家语言。,country;language;number;personal-data,true
+A11-0047,A1.1,Lektion 2,Europa,欧洲,Deutschland liegt in Europa.,德国位于欧洲。,country;language;number;personal-data,true
+A11-0048,A1.1,Lektion 2,deutsch,德语的；德国的,Ich lerne Deutsch und spreche gern deutsch.,我学习德语，也喜欢说德语。,country;language;number;personal-data,true
+A11-0049,A1.1,Lektion 2,chinesisch,中文的；中国的,Zu Hause spreche ich Chinesisch.,我在家说中文。,country;language;number;personal-data,true
+A11-0050,A1.1,Lektion 2,englisch,英语的,Im Team sprechen wir oft Englisch.,我们团队经常说英语。,country;language;number;personal-data,true
+A11-0051,A1.1,Lektion 2,null,零,Die Zahl ist null.,这个数字是零。,country;language;number;personal-data,true
+A11-0052,A1.1,Lektion 2,eins,一,Die Zahl ist eins.,这个数字是一。,country;language;number;personal-data,true
+A11-0053,A1.1,Lektion 2,zwei,二,Die Zahl ist zwei.,这个数字是二。,country;language;number;personal-data,true
+A11-0054,A1.1,Lektion 2,drei,三,Die Zahl ist drei.,这个数字是三。,country;language;number;personal-data,true
+A11-0055,A1.1,Lektion 2,vier,四,Die Zahl ist vier.,这个数字是四。,country;language;number;personal-data,true
+A11-0056,A1.1,Lektion 2,fünf,五,Die Zahl ist fünf.,这个数字是五。,country;language;number;personal-data,true
+A11-0057,A1.1,Lektion 2,sechs,六,Die Zahl ist sechs.,这个数字是六。,country;language;number;personal-data,true
+A11-0058,A1.1,Lektion 2,sieben,七,Die Zahl ist sieben.,这个数字是七。,country;language;number;personal-data,true
+A11-0059,A1.1,Lektion 2,acht,八,Die Zahl ist acht.,这个数字是八。,country;language;number;personal-data,true
+A11-0060,A1.1,Lektion 2,neun,九,Die Zahl ist neun.,这个数字是九。,country;language;number;personal-data,true
+A11-0061,A1.1,Lektion 2,zehn,十,Die Zahl ist zehn.,这个数字是十。,country;language;number;personal-data,true
+A11-0062,A1.1,Lektion 2,elf,十一,Die Zahl ist elf.,这个数字是十一。,country;language;number;personal-data,true
+A11-0063,A1.1,Lektion 2,zwölf,十二,Die Zahl ist zwölf.,这个数字是十二。,country;language;number;personal-data,true
+A11-0064,A1.1,Lektion 2,dreizehn,十三,Die Zahl ist dreizehn.,这个数字是十三。,country;language;number;personal-data,true
+A11-0065,A1.1,Lektion 2,vierzehn,十四,Die Zahl ist vierzehn.,这个数字是十四。,country;language;number;personal-data,true
+A11-0066,A1.1,Lektion 2,fünfzehn,十五,Die Zahl ist fünfzehn.,这个数字是十五。,country;language;number;personal-data,true
+A11-0067,A1.1,Lektion 2,sechzehn,十六,Die Zahl ist sechzehn.,这个数字是十六。,country;language;number;personal-data,true
+A11-0068,A1.1,Lektion 2,siebzehn,十七,Die Zahl ist siebzehn.,这个数字是十七。,country;language;number;personal-data,true
+A11-0069,A1.1,Lektion 2,achtzehn,十八,Die Zahl ist achtzehn.,这个数字是十八。,country;language;number;personal-data,true
+A11-0070,A1.1,Lektion 2,neunzehn,十九,Die Zahl ist neunzehn.,这个数字是十九。,country;language;number;personal-data,true
+A11-0071,A1.1,Lektion 2,zwanzig,二十,Die Zahl ist zwanzig.,这个数字是二十。,country;language;number;personal-data,true
+A11-0072,A1.1,Lektion 2,dreißig,三十,Die Zahl ist dreißig.,这个数字是三十。,country;language;number;personal-data,true
+A11-0073,A1.1,Lektion 2,vierzig,四十,Die Zahl ist vierzig.,这个数字是四十。,country;language;number;personal-data,true
+A11-0074,A1.1,Lektion 2,fünfzig,五十,Die Zahl ist fünfzig.,这个数字是五十。,country;language;number;personal-data,true
+A11-0075,A1.1,Lektion 2,sechzig,六十,Die Zahl ist sechzig.,这个数字是六十。,country;language;number;personal-data,true
+A11-0076,A1.1,Lektion 2,siebzig,七十,Die Zahl ist siebzig.,这个数字是七十。,country;language;number;personal-data,true
+A11-0077,A1.1,Lektion 2,achtzig,八十,Die Zahl ist achtzig.,这个数字是八十。,country;language;number;personal-data,true
+A11-0078,A1.1,Lektion 2,neunzig,九十,Die Zahl ist neunzig.,这个数字是九十。,country;language;number;personal-data,true
+A11-0079,A1.1,Lektion 2,hundert,一百,Die Zahl ist hundert.,这个数字是一百。,country;language;number;personal-data,true
+A11-0080,A1.1,Lektion 2,das Alter,年龄,Das ist das Alter.,这是年龄。,country;language;number;personal-data,true
+A11-0081,A1.1,Lektion 2,alt,……岁；老的,Wie alt sind Sie?,您多大了？,country;language;number;personal-data,true
+A11-0082,A1.1,Lektion 2,jung,年轻的,Das Team ist noch jung.,这个团队还很年轻。,country;language;number;personal-data,true
+A11-0083,A1.1,Lektion 2,geboren,出生的,Ich bin in China geboren.,我出生在中国。,country;language;number;personal-data,true
+A11-0084,A1.1,Lektion 2,der Geburtstag,生日,Das ist der Geburtstag.,这是生日。,country;language;number;personal-data,true
+A11-0085,A1.1,Lektion 3,die Familie,家庭,Hier ist die Familie.,这里是家庭。,family;people;relationship,true
+A11-0086,A1.1,Lektion 3,die Eltern,父母,Das sind die Eltern.,这些是父母。,family;people;relationship,true
+A11-0087,A1.1,Lektion 3,der Vater,父亲,Hier ist der Vater.,这里是父亲。,family;people;relationship,true
+A11-0088,A1.1,Lektion 3,die Mutter,母亲,Das ist die Mutter.,这是母亲。,family;people;relationship,true
+A11-0089,A1.1,Lektion 3,der Sohn,儿子,Hier ist der Sohn.,这里是儿子。,family;people;relationship,true
+A11-0090,A1.1,Lektion 3,die Tochter,女儿,Das ist die Tochter.,这是女儿。,family;people;relationship,true
+A11-0091,A1.1,Lektion 3,das Kind,孩子,Hier ist das Kind.,这里是孩子。,family;people;relationship,true
+A11-0092,A1.1,Lektion 3,der Bruder,兄弟,Das ist der Bruder.,这是兄弟。,family;people;relationship,true
+A11-0093,A1.1,Lektion 3,die Schwester,姐妹,Hier ist die Schwester.,这里是姐妹。,family;people;relationship,true
+A11-0094,A1.1,Lektion 3,die Geschwister,兄弟姐妹,Das sind die Geschwister.,这些是兄弟姐妹。,family;people;relationship,true
+A11-0095,A1.1,Lektion 3,der Mann,丈夫；男人,Hier ist der Mann.,这里是丈夫；男人。,family;people;relationship,true
+A11-0096,A1.1,Lektion 3,die Frau,妻子；女人,Das ist die Frau.,这是妻子；女人。,family;people;relationship,true
+A11-0097,A1.1,Lektion 3,der Partner,伴侣（男）,Hier ist der Partner.,这里是伴侣（男）。,family;people;relationship,true
+A11-0098,A1.1,Lektion 3,die Partnerin,伴侣（女）,Das ist die Partnerin.,这是伴侣（女）。,family;people;relationship,true
+A11-0099,A1.1,Lektion 3,der Großvater,祖父；外祖父,Hier ist der Großvater.,这里是祖父；外祖父。,family;people;relationship,true
+A11-0100,A1.1,Lektion 3,die Großmutter,祖母；外祖母,Das ist die Großmutter.,这是祖母；外祖母。,family;people;relationship,true
+A11-0101,A1.1,Lektion 3,der Opa,爷爷；外公,Hier ist der Opa.,这里是爷爷；外公。,family;people;relationship,true
+A11-0102,A1.1,Lektion 3,die Oma,奶奶；外婆,Das ist die Oma.,这是奶奶；外婆。,family;people;relationship,true
+A11-0103,A1.1,Lektion 3,der Onkel,叔叔；舅舅,Hier ist der Onkel.,这里是叔叔；舅舅。,family;people;relationship,true
+A11-0104,A1.1,Lektion 3,die Tante,姑姑；阿姨,Das ist die Tante.,这是姑姑；阿姨。,family;people;relationship,true
+A11-0105,A1.1,Lektion 3,der Cousin,堂/表兄弟,Hier ist der Cousin.,这里是堂/表兄弟。,family;people;relationship,true
+A11-0106,A1.1,Lektion 3,die Cousine,堂/表姐妹,Das ist die Cousine.,这是堂/表姐妹。,family;people;relationship,true
+A11-0107,A1.1,Lektion 3,der Freund,朋友；男朋友,Hier ist der Freund.,这里是朋友；男朋友。,family;people;relationship,true
+A11-0108,A1.1,Lektion 3,die Freundin,朋友；女朋友,Das ist die Freundin.,这是朋友；女朋友。,family;people;relationship,true
+A11-0109,A1.1,Lektion 3,der Nachbar,男邻居,Hier ist der Nachbar.,这里是男邻居。,family;people;relationship,true
+A11-0110,A1.1,Lektion 3,die Nachbarin,女邻居,Das ist die Nachbarin.,这是女邻居。,family;people;relationship,true
+A11-0111,A1.1,Lektion 3,die Person,人,Hier ist die Person.,这里是人。,family;people;relationship,true
+A11-0112,A1.1,Lektion 3,der Mensch,人,Das ist der Mensch.,这是人。,family;people;relationship,true
+A11-0113,A1.1,Lektion 3,das Baby,婴儿,Hier ist das Baby.,这里是婴儿。,family;people;relationship,true
+A11-0114,A1.1,Lektion 3,das Foto,照片,Das ist das Foto.,这是照片。,family;people;relationship,true
+A11-0115,A1.1,Lektion 3,haben,有,Wir haben heute eine Besprechung.,我们今天有一个会议。,family;people;relationship,true
+A11-0116,A1.1,Lektion 3,leben,生活,Meine Familie lebt in Hamburg.,我的家人住在汉堡。,family;people;relationship,true
+A11-0117,A1.1,Lektion 3,lieben,爱,Ich liebe meine Familie.,我爱我的家人。,family;people;relationship,true
+A11-0118,A1.1,Lektion 3,kennen,认识,Kennen Sie meinen Kollegen?,您认识我的同事吗？,family;people;relationship,true
+A11-0119,A1.1,Lektion 3,besuchen,拜访,Am Wochenende besuche ich meine Freunde.,周末我去看望朋友。,family;people;relationship,true
+A11-0120,A1.1,Lektion 3,er,他,Er arbeitet heute im Labor.,他今天在实验室工作。,family;people;relationship,true
+A11-0121,A1.1,Lektion 3,sie,她；他们,Sie kommt aus Hamburg.,她来自汉堡。,family;people;relationship,true
+A11-0122,A1.1,Lektion 3,wir,我们,Wir prüfen heute das System.,我们今天检查系统。,family;people;relationship,true
+A11-0123,A1.1,Lektion 3,ihr,你们,Arbeitet ihr heute im Büro?,你们今天在办公室工作吗？,family;people;relationship,true
+A11-0124,A1.1,Lektion 3,mein,我的,Das ist mein Arbeitsplatz.,这是我的工作岗位。,family;people;relationship,true
+A11-0125,A1.1,Lektion 3,dein,你的,Ist das dein Computer?,这是你的电脑吗？,family;people;relationship,true
+A11-0126,A1.1,Lektion 3,sein,他的,Ich bin Ingenieur.,我是一名工程师。,family;people;relationship,true
+A11-0127,A1.1,Lektion 4,die Arbeit,工作,Die Arbeit beginnt um acht Uhr.,工作八点开始。,work;office;profession,true
+A11-0128,A1.1,Lektion 4,der Beruf,职业,Das ist der Beruf.,这是职业。,work;office;profession,true
+A11-0129,A1.1,Lektion 4,die Firma,公司,Hier ist die Firma.,这里是公司。,work;office;profession,true
+A11-0130,A1.1,Lektion 4,der Arbeitsplatz,工作岗位,Das ist der Arbeitsplatz.,这是工作岗位。,work;office;profession,true
+A11-0131,A1.1,Lektion 4,das Büro,办公室,Hier ist das Büro.,这里是办公室。,work;office;profession,true
+A11-0132,A1.1,Lektion 4,die Werkstatt,车间；维修间,Das ist die Werkstatt.,这是车间；维修间。,work;office;profession,true
+A11-0133,A1.1,Lektion 4,die Fabrik,工厂,Hier ist die Fabrik.,这里是工厂。,work;office;profession,true
+A11-0134,A1.1,Lektion 4,das Team,团队,Das ist das Team.,这是团队。,work;office;profession,true
+A11-0135,A1.1,Lektion 4,der Chef,男上司,Hier ist der Chef.,这里是男上司。,work;office;profession,true
+A11-0136,A1.1,Lektion 4,die Chefin,女上司,Das ist die Chefin.,这是女上司。,work;office;profession,true
+A11-0137,A1.1,Lektion 4,der Kollege,男同事,Hier ist der Kollege.,这里是男同事。,work;office;profession,true
+A11-0138,A1.1,Lektion 4,die Kollegin,女同事,Das ist die Kollegin.,这是女同事。,work;office;profession,true
+A11-0139,A1.1,Lektion 4,der Mitarbeiter,男员工,Hier ist der Mitarbeiter.,这里是男员工。,work;office;profession,true
+A11-0140,A1.1,Lektion 4,die Mitarbeiterin,女员工,Das ist die Mitarbeiterin.,这是女员工。,work;office;profession,true
+A11-0141,A1.1,Lektion 4,der Kunde,男客户,Hier ist der Kunde.,这里是男客户。,work;office;profession,true
+A11-0142,A1.1,Lektion 4,die Kundin,女客户,Das ist die Kundin.,这是女客户。,work;office;profession,true
+A11-0143,A1.1,Lektion 4,der Ingenieur,男工程师,Ich arbeite als Ingenieur.,我是一名工程师。,work;office;profession,true
+A11-0144,A1.1,Lektion 4,die Ingenieurin,女工程师,Das ist die Ingenieurin.,这是女工程师。,work;office;profession,true
+A11-0145,A1.1,Lektion 4,der Techniker,男技术员,Hier ist der Techniker.,这里是男技术员。,work;office;profession,true
+A11-0146,A1.1,Lektion 4,die Technikerin,女技术员,Das ist die Technikerin.,这是女技术员。,work;office;profession,true
+A11-0147,A1.1,Lektion 4,der Verkäufer,男销售员,Hier ist der Verkäufer.,这里是男销售员。,work;office;profession,true
+A11-0148,A1.1,Lektion 4,die Verkäuferin,女销售员,Das ist die Verkäuferin.,这是女销售员。,work;office;profession,true
+A11-0149,A1.1,Lektion 4,der Fahrer,男司机,Hier ist der Fahrer.,这里是男司机。,work;office;profession,true
+A11-0150,A1.1,Lektion 4,die Fahrerin,女司机,Das ist die Fahrerin.,这是女司机。,work;office;profession,true
+A11-0151,A1.1,Lektion 4,der Arzt,男医生,Ich habe einen Termin beim Arzt.,我和医生有预约。,work;office;profession,true
+A11-0152,A1.1,Lektion 4,die Ärztin,女医生,Das ist die Ärztin.,这是女医生。,work;office;profession,true
+A11-0153,A1.1,Lektion 4,der Lehrer,男教师,Hier ist der Lehrer.,这里是男教师。,work;office;profession,true
+A11-0154,A1.1,Lektion 4,die Lehrerin,女教师,Das ist die Lehrerin.,这是女教师。,work;office;profession,true
+A11-0155,A1.1,Lektion 4,der Computer,电脑,Hier ist der Computer.,这里是电脑。,work;office;profession,true
+A11-0156,A1.1,Lektion 4,der Bildschirm,显示器,Das ist der Bildschirm.,这是显示器。,work;office;profession,true
+A11-0157,A1.1,Lektion 4,die Tastatur,键盘,Hier ist die Tastatur.,这里是键盘。,work;office;profession,true
+A11-0158,A1.1,Lektion 4,die Maus,鼠标,Das ist die Maus.,这是鼠标。,work;office;profession,true
+A11-0159,A1.1,Lektion 4,der Drucker,打印机,Hier ist der Drucker.,这里是打印机。,work;office;profession,true
+A11-0160,A1.1,Lektion 4,das Dokument,文件,Das ist das Dokument.,这是文件。,work;office;profession,true
+A11-0161,A1.1,Lektion 4,die Aufgabe,任务,Hier ist die Aufgabe.,这里是任务。,work;office;profession,true
+A11-0162,A1.1,Lektion 4,die Pause,休息,Das ist die Pause.,这是休息。,work;office;profession,true
+A11-0163,A1.1,Lektion 4,die Besprechung,会议,Heute haben wir eine Besprechung.,今天我们有一个会议。,work;office;profession,true
+A11-0164,A1.1,Lektion 4,der Termin,预约；日程,Ich habe morgen einen Termin.,我明天有一个预约。,work;office;profession,true
+A11-0165,A1.1,Lektion 4,arbeiten,工作,Ich arbeite als Ingenieur.,我是一名工程师。,work;office;profession,true
+A11-0166,A1.1,Lektion 4,machen,做,Wir machen jetzt eine kurze Pause.,我们现在短暂休息一下。,work;office;profession,true
+A11-0167,A1.1,Lektion 4,schreiben,写,Ich schreibe gerade eine E-Mail.,我正在写一封电子邮件。,work;office;profession,true
+A11-0168,A1.1,Lektion 4,lesen,读,Ich lese den Bericht am Nachmittag.,我下午阅读报告。,work;office;profession,true
+A11-0169,A1.1,Lektion 5,das Essen,食物；饭,Hier ist das Essen.,这里是食物；饭。,food;drink;restaurant,true
+A11-0170,A1.1,Lektion 5,das Getränk,饮料,Das ist das Getränk.,这是饮料。,food;drink;restaurant,true
+A11-0171,A1.1,Lektion 5,das Frühstück,早餐,Hier ist das Frühstück.,这里是早餐。,food;drink;restaurant,true
+A11-0172,A1.1,Lektion 5,das Mittagessen,午餐,Das ist das Mittagessen.,这是午餐。,food;drink;restaurant,true
+A11-0173,A1.1,Lektion 5,das Abendessen,晚餐,Hier ist das Abendessen.,这里是晚餐。,food;drink;restaurant,true
+A11-0174,A1.1,Lektion 5,das Brot,面包,Das ist das Brot.,这是面包。,food;drink;restaurant,true
+A11-0175,A1.1,Lektion 5,das Brötchen,小面包,Hier ist das Brötchen.,这里是小面包。,food;drink;restaurant,true
+A11-0176,A1.1,Lektion 5,die Butter,黄油,Das ist die Butter.,这是黄油。,food;drink;restaurant,true
+A11-0177,A1.1,Lektion 5,der Käse,奶酪,Hier ist der Käse.,这里是奶酪。,food;drink;restaurant,true
+A11-0178,A1.1,Lektion 5,die Wurst,香肠,Das ist die Wurst.,这是香肠。,food;drink;restaurant,true
+A11-0179,A1.1,Lektion 5,das Ei,鸡蛋,Hier ist das Ei.,这里是鸡蛋。,food;drink;restaurant,true
+A11-0180,A1.1,Lektion 5,das Fleisch,肉,Das ist das Fleisch.,这是肉。,food;drink;restaurant,true
+A11-0181,A1.1,Lektion 5,der Fisch,鱼,Hier ist der Fisch.,这里是鱼。,food;drink;restaurant,true
+A11-0182,A1.1,Lektion 5,das Gemüse,蔬菜,Das ist das Gemüse.,这是蔬菜。,food;drink;restaurant,true
+A11-0183,A1.1,Lektion 5,das Obst,水果,Hier ist das Obst.,这里是水果。,food;drink;restaurant,true
+A11-0184,A1.1,Lektion 5,der Apfel,苹果,Das ist der Apfel.,这是苹果。,food;drink;restaurant,true
+A11-0185,A1.1,Lektion 5,die Banane,香蕉,Hier ist die Banane.,这里是香蕉。,food;drink;restaurant,true
+A11-0186,A1.1,Lektion 5,die Orange,橙子,Das ist die Orange.,这是橙子。,food;drink;restaurant,true
+A11-0187,A1.1,Lektion 5,die Kartoffel,土豆,Hier ist die Kartoffel.,这里是土豆。,food;drink;restaurant,true
+A11-0188,A1.1,Lektion 5,die Tomate,西红柿,Das ist die Tomate.,这是西红柿。,food;drink;restaurant,true
+A11-0189,A1.1,Lektion 5,der Salat,沙拉；生菜,Hier ist der Salat.,这里是沙拉；生菜。,food;drink;restaurant,true
+A11-0190,A1.1,Lektion 5,die Suppe,汤,Das ist die Suppe.,这是汤。,food;drink;restaurant,true
+A11-0191,A1.1,Lektion 5,der Reis,米饭,Hier ist der Reis.,这里是米饭。,food;drink;restaurant,true
+A11-0192,A1.1,Lektion 5,die Nudel,面条,Das ist die Nudel.,这是面条。,food;drink;restaurant,true
+A11-0193,A1.1,Lektion 5,der Kuchen,蛋糕,Hier ist der Kuchen.,这里是蛋糕。,food;drink;restaurant,true
+A11-0194,A1.1,Lektion 5,das Wasser,水,Das ist das Wasser.,这是水。,food;drink;restaurant,true
+A11-0195,A1.1,Lektion 5,der Kaffee,咖啡,Hier ist der Kaffee.,这里是咖啡。,food;drink;restaurant,true
+A11-0196,A1.1,Lektion 5,der Tee,茶,Das ist der Tee.,这是茶。,food;drink;restaurant,true
+A11-0197,A1.1,Lektion 5,die Milch,牛奶,Hier ist die Milch.,这里是牛奶。,food;drink;restaurant,true
+A11-0198,A1.1,Lektion 5,der Saft,果汁,Das ist der Saft.,这是果汁。,food;drink;restaurant,true
+A11-0199,A1.1,Lektion 5,das Bier,啤酒,Hier ist das Bier.,这里是啤酒。,food;drink;restaurant,true
+A11-0200,A1.1,Lektion 5,der Zucker,糖,Das ist der Zucker.,这是糖。,food;drink;restaurant,true
+A11-0201,A1.1,Lektion 5,das Salz,盐,Hier ist das Salz.,这里是盐。,food;drink;restaurant,true
+A11-0202,A1.1,Lektion 5,der Hunger,饥饿,Das ist der Hunger.,这是饥饿。,food;drink;restaurant,true
+A11-0203,A1.1,Lektion 5,der Durst,口渴,Hier ist der Durst.,这里是口渴。,food;drink;restaurant,true
+A11-0204,A1.1,Lektion 5,essen,吃,Mittags esse ich in der Kantine.,中午我在食堂吃饭。,food;drink;restaurant,true
+A11-0205,A1.1,Lektion 5,trinken,喝,Zum Frühstück trinke ich Kaffee.,早餐我喝咖啡。,food;drink;restaurant,true
+A11-0206,A1.1,Lektion 5,kochen,做饭,Am Wochenende koche ich gern.,周末我喜欢做饭。,food;drink;restaurant,true
+A11-0207,A1.1,Lektion 5,schmecken,尝起来,Die Suppe schmeckt sehr gut.,这汤非常好喝。,food;drink;restaurant,true
+A11-0208,A1.1,Lektion 5,mögen,喜欢,Ich mag frisches Brot.,我喜欢新鲜面包。,food;drink;restaurant,true
+A11-0209,A1.1,Lektion 5,nehmen,拿；要,"Ich nehme einen Kaffee, bitte.",请给我一杯咖啡。,food;drink;restaurant,true
+A11-0210,A1.1,Lektion 5,bestellen,点餐,Ich möchte die Suppe bestellen.,我想点这道汤。,food;drink;restaurant,true
+A11-0211,A1.1,Lektion 6,einkaufen,购物,Nach der Arbeit kaufe ich ein.,下班后我去买东西。,shopping;price;clothing,true
+A11-0212,A1.1,Lektion 6,kaufen,购买,Ich kaufe ein Kilo Äpfel.,我买一公斤苹果。,shopping;price;clothing,true
+A11-0213,A1.1,Lektion 6,verkaufen,出售,Der Laden verkauft frisches Brot.,这家店卖新鲜面包。,shopping;price;clothing,true
+A11-0214,A1.1,Lektion 6,kosten,价值；花费,Wie viel kostet das?,这个多少钱？,shopping;price;clothing,true
+A11-0215,A1.1,Lektion 6,bezahlen,支付,Kann ich mit Karte bezahlen?,我可以刷卡支付吗？,shopping;price;clothing,true
+A11-0216,A1.1,Lektion 6,bar,现金地,Ich bezahle lieber bar.,我更喜欢付现金。,shopping;price;clothing,true
+A11-0217,A1.1,Lektion 6,die Karte,卡,Hier ist die Karte.,这里是卡。,shopping;price;clothing,true
+A11-0218,A1.1,Lektion 6,das Geld,钱,Das ist das Geld.,这是钱。,shopping;price;clothing,true
+A11-0219,A1.1,Lektion 6,der Euro,欧元,Hier ist der Euro.,这里是欧元。,shopping;price;clothing,true
+A11-0220,A1.1,Lektion 6,der Cent,欧分,Das ist der Cent.,这是欧分。,shopping;price;clothing,true
+A11-0221,A1.1,Lektion 6,der Preis,价格,Hier ist der Preis.,这里是价格。,shopping;price;clothing,true
+A11-0222,A1.1,Lektion 6,teuer,贵的,Die Wohnung ist zu teuer.,这套公寓太贵了。,shopping;price;clothing,true
+A11-0223,A1.1,Lektion 6,billig,便宜的,"Das T-Shirt ist billig, aber gut.",这件T恤便宜但不错。,shopping;price;clothing,true
+A11-0224,A1.1,Lektion 6,günstig,实惠的,Heute ist der Kaffee besonders günstig.,今天咖啡特别实惠。,shopping;price;clothing,true
+A11-0225,A1.1,Lektion 6,das Angebot,优惠；商品,Hier ist das Angebot.,这里是优惠；商品。,shopping;price;clothing,true
+A11-0226,A1.1,Lektion 6,der Supermarkt,超市,Das ist der Supermarkt.,这是超市。,shopping;price;clothing,true
+A11-0227,A1.1,Lektion 6,das Geschäft,商店,Hier ist das Geschäft.,这里是商店。,shopping;price;clothing,true
+A11-0228,A1.1,Lektion 6,der Laden,店铺,Das ist der Laden.,这是店铺。,shopping;price;clothing,true
+A11-0229,A1.1,Lektion 6,die Bäckerei,面包店,Hier ist die Bäckerei.,这里是面包店。,shopping;price;clothing,true
+A11-0230,A1.1,Lektion 6,die Apotheke,药店,Das ist die Apotheke.,这是药店。,shopping;price;clothing,true
+A11-0231,A1.1,Lektion 6,der Markt,市场,Hier ist der Markt.,这里是市场。,shopping;price;clothing,true
+A11-0232,A1.1,Lektion 6,die Kasse,收银台,Das ist die Kasse.,这是收银台。,shopping;price;clothing,true
+A11-0233,A1.1,Lektion 6,der Kassenzettel,小票,Hier ist der Kassenzettel.,这里是小票。,shopping;price;clothing,true
+A11-0234,A1.1,Lektion 6,die Tüte,袋子,Das ist die Tüte.,这是袋子。,shopping;price;clothing,true
+A11-0235,A1.1,Lektion 6,das Kilo,千克,Hier ist das Kilo.,这里是千克。,shopping;price;clothing,true
+A11-0236,A1.1,Lektion 6,das Gramm,克,Das ist das Gramm.,这是克。,shopping;price;clothing,true
+A11-0237,A1.1,Lektion 6,der Liter,升,Hier ist der Liter.,这里是升。,shopping;price;clothing,true
+A11-0238,A1.1,Lektion 6,die Flasche,瓶,Das ist die Flasche.,这是瓶。,shopping;price;clothing,true
+A11-0239,A1.1,Lektion 6,die Packung,包装,Hier ist die Packung.,这里是包装。,shopping;price;clothing,true
+A11-0240,A1.1,Lektion 6,das Stück,件；块,Das ist das Stück.,这是件；块。,shopping;price;clothing,true
+A11-0241,A1.1,Lektion 6,viel,多,Ich habe heute viel Arbeit.,我今天有很多工作。,shopping;price;clothing,true
+A11-0242,A1.1,Lektion 6,wenig,少,Ich habe heute wenig Zeit.,我今天时间不多。,shopping;price;clothing,true
+A11-0243,A1.1,Lektion 6,mehr,更多,Ich brauche mehr Zeit für den Test.,这个测试我需要更多时间。,shopping;price;clothing,true
+A11-0244,A1.1,Lektion 6,alles,全部,Ist alles in Ordnung?,一切都好吗？,shopping;price;clothing,true
+A11-0245,A1.1,Lektion 6,etwas,某物；一些,Möchten Sie etwas trinken?,您想喝点什么吗？,shopping;price;clothing,true
+A11-0246,A1.1,Lektion 6,nichts,没有东西,Heute muss ich nichts kaufen.,我今天什么都不用买。,shopping;price;clothing,true
+A11-0247,A1.1,Lektion 6,welcher,哪个,Welcher Bus fährt zum Bahnhof?,哪路公交车去火车站？,shopping;price;clothing,true
+A11-0248,A1.1,Lektion 6,wie viel,多少,Wie viel kostet die Fahrkarte?,车票多少钱？,shopping;price;clothing,true
+A11-0249,A1.1,Lektion 6,passen,合适,Der Termin passt mir gut.,这个时间对我很合适。,shopping;price;clothing,true
+A11-0250,A1.1,Lektion 6,anprobieren,试穿,Kann ich die Jacke anprobieren?,我可以试穿这件夹克吗？,shopping;price;clothing,true
+A11-0251,A1.1,Lektion 6,die Größe,尺码,Hier ist die Größe.,这里是尺码。,shopping;price;clothing,true
+A11-0252,A1.1,Lektion 6,die Farbe,颜色,Das ist die Farbe.,这是颜色。,shopping;price;clothing,true
+A11-0253,A1.1,Lektion 7,wohnen,居住,Ich wohne in Hamburg.,我住在汉堡。,home;housing;furniture,true
+A11-0254,A1.1,Lektion 7,das Haus,房子,Das Haus ist sehr ruhig.,这栋房子很安静。,home;housing;furniture,true
+A11-0255,A1.1,Lektion 7,die Wohnung,公寓,Die Wohnung liegt in Hamburg.,这套公寓位于汉堡。,home;housing;furniture,true
+A11-0256,A1.1,Lektion 7,das Zimmer,房间,Das ist das Zimmer.,这是房间。,home;housing;furniture,true
+A11-0257,A1.1,Lektion 7,das Wohnzimmer,客厅,Hier ist das Wohnzimmer.,这里是客厅。,home;housing;furniture,true
+A11-0258,A1.1,Lektion 7,das Schlafzimmer,卧室,Das ist das Schlafzimmer.,这是卧室。,home;housing;furniture,true
+A11-0259,A1.1,Lektion 7,das Kinderzimmer,儿童房,Hier ist das Kinderzimmer.,这里是儿童房。,home;housing;furniture,true
+A11-0260,A1.1,Lektion 7,die Küche,厨房,Das ist die Küche.,这是厨房。,home;housing;furniture,true
+A11-0261,A1.1,Lektion 7,das Bad,浴室,Hier ist das Bad.,这里是浴室。,home;housing;furniture,true
+A11-0262,A1.1,Lektion 7,der Balkon,阳台,Das ist der Balkon.,这是阳台。,home;housing;furniture,true
+A11-0263,A1.1,Lektion 7,der Garten,花园,Hier ist der Garten.,这里是花园。,home;housing;furniture,true
+A11-0264,A1.1,Lektion 7,der Keller,地下室,Das ist der Keller.,这是地下室。,home;housing;furniture,true
+A11-0265,A1.1,Lektion 7,der Flur,走廊,Hier ist der Flur.,这里是走廊。,home;housing;furniture,true
+A11-0266,A1.1,Lektion 7,die Tür,门,Das ist die Tür.,这是门。,home;housing;furniture,true
+A11-0267,A1.1,Lektion 7,das Fenster,窗户,Hier ist das Fenster.,这里是窗户。,home;housing;furniture,true
+A11-0268,A1.1,Lektion 7,die Wand,墙,Das ist die Wand.,这是墙。,home;housing;furniture,true
+A11-0269,A1.1,Lektion 7,der Boden,地板,Hier ist der Boden.,这里是地板。,home;housing;furniture,true
+A11-0270,A1.1,Lektion 7,die Treppe,楼梯,Das ist die Treppe.,这是楼梯。,home;housing;furniture,true
+A11-0271,A1.1,Lektion 7,der Aufzug,电梯,Hier ist der Aufzug.,这里是电梯。,home;housing;furniture,true
+A11-0272,A1.1,Lektion 7,der Schlüssel,钥匙,Das ist der Schlüssel.,这是钥匙。,home;housing;furniture,true
+A11-0273,A1.1,Lektion 7,der Tisch,桌子,Hier ist der Tisch.,这里是桌子。,home;housing;furniture,true
+A11-0274,A1.1,Lektion 7,der Stuhl,椅子,Das ist der Stuhl.,这是椅子。,home;housing;furniture,true
+A11-0275,A1.1,Lektion 7,das Bett,床,Hier ist das Bett.,这里是床。,home;housing;furniture,true
+A11-0276,A1.1,Lektion 7,der Schrank,柜子,Das ist der Schrank.,这是柜子。,home;housing;furniture,true
+A11-0277,A1.1,Lektion 7,das Sofa,沙发,Hier ist das Sofa.,这里是沙发。,home;housing;furniture,true
+A11-0278,A1.1,Lektion 7,die Lampe,灯,Das ist die Lampe.,这是灯。,home;housing;furniture,true
+A11-0279,A1.1,Lektion 7,der Kühlschrank,冰箱,Hier ist der Kühlschrank.,这里是冰箱。,home;housing;furniture,true
+A11-0280,A1.1,Lektion 7,der Herd,炉灶,Das ist der Herd.,这是炉灶。,home;housing;furniture,true
+A11-0281,A1.1,Lektion 7,die Waschmaschine,洗衣机,Hier ist die Waschmaschine.,这里是洗衣机。,home;housing;furniture,true
+A11-0282,A1.1,Lektion 7,die Dusche,淋浴,Das ist die Dusche.,这是淋浴。,home;housing;furniture,true
+A11-0283,A1.1,Lektion 7,die Toilette,厕所,Hier ist die Toilette.,这里是厕所。,home;housing;furniture,true
+A11-0284,A1.1,Lektion 7,die Miete,房租,Das ist die Miete.,这是房租。,home;housing;furniture,true
+A11-0285,A1.1,Lektion 7,der Vermieter,男房东,Hier ist der Vermieter.,这里是男房东。,home;housing;furniture,true
+A11-0286,A1.1,Lektion 7,die Vermieterin,女房东,Das ist die Vermieterin.,这是女房东。,home;housing;furniture,true
+A11-0287,A1.1,Lektion 7,der Mieter,男租客,Hier ist der Mieter.,这里是男租客。,home;housing;furniture,true
+A11-0288,A1.1,Lektion 7,die Mieterin,女租客,Das ist die Mieterin.,这是女租客。,home;housing;furniture,true
+A11-0289,A1.1,Lektion 7,die Nebenkosten,附加费用,Das sind die Nebenkosten.,这些是附加费用。,home;housing;furniture,true
+A11-0290,A1.1,Lektion 7,frei,空闲的；空置的,Ist dieser Platz noch frei?,这个座位还空着吗？,home;housing;furniture,true
+A11-0291,A1.1,Lektion 7,hell,明亮的,Das Wohnzimmer ist schön hell.,客厅很明亮。,home;housing;furniture,true
+A11-0292,A1.1,Lektion 7,dunkel,昏暗的,Im Keller ist es dunkel.,地下室里很暗。,home;housing;furniture,true
+A11-0293,A1.1,Lektion 7,ruhig,安静的,Die Wohnung liegt in einer ruhigen Straße.,这套公寓位于一条安静的街道上。,home;housing;furniture,true
+A11-0294,A1.1,Lektion 7,laut,吵闹的,Die Musik ist zu laut.,音乐太响了。,home;housing;furniture,true
+A11-0295,A1.1,Lektion 8,die Zeit,时间,Hier ist die Zeit.,这里是时间。,time;date;daily-routine,true
+A11-0296,A1.1,Lektion 8,die Uhr,钟；点钟,Das ist die Uhr.,这是钟；点钟。,time;date;daily-routine,true
+A11-0297,A1.1,Lektion 8,die Stunde,小时,Hier ist die Stunde.,这里是小时。,time;date;daily-routine,true
+A11-0298,A1.1,Lektion 8,die Minute,分钟,Das ist die Minute.,这是分钟。,time;date;daily-routine,true
+A11-0299,A1.1,Lektion 8,die Sekunde,秒,Hier ist die Sekunde.,这里是秒。,time;date;daily-routine,true
+A11-0300,A1.1,Lektion 8,das Datum,日期,Das ist das Datum.,这是日期。,time;date;daily-routine,true
+A11-0301,A1.1,Lektion 8,der Tag,天,Hier ist der Tag.,这里是天。,time;date;daily-routine,true
+A11-0302,A1.1,Lektion 8,die Woche,星期；周,Das ist die Woche.,这是星期；周。,time;date;daily-routine,true
+A11-0303,A1.1,Lektion 8,der Monat,月,Hier ist der Monat.,这里是月。,time;date;daily-routine,true
+A11-0304,A1.1,Lektion 8,das Jahr,年,Das ist das Jahr.,这是年。,time;date;daily-routine,true
+A11-0305,A1.1,Lektion 8,heute,今天,Heute arbeite ich von zu Hause.,我今天在家办公。,time;date;daily-routine,true
+A11-0306,A1.1,Lektion 8,gestern,昨天,Gestern war ich im Büro.,我昨天在办公室。,time;date;daily-routine,true
+A11-0307,A1.1,Lektion 8,morgen,明天,Morgen haben wir einen Test.,我们明天有一个测试。,time;date;daily-routine,true
+A11-0308,A1.1,Lektion 8,jetzt,现在,Wir beginnen jetzt.,我们现在开始。,time;date;daily-routine,true
+A11-0309,A1.1,Lektion 8,später,稍后,Ich rufe Sie später an.,我稍后给您打电话。,time;date;daily-routine,true
+A11-0310,A1.1,Lektion 8,früh,早,Ich stehe jeden Tag früh auf.,我每天起得很早。,time;date;daily-routine,true
+A11-0311,A1.1,Lektion 8,spät,晚,Der Zug kommt heute spät.,火车今天晚点到。,time;date;daily-routine,true
+A11-0312,A1.1,Lektion 8,pünktlich,准时的,Bitte kommen Sie pünktlich zum Termin.,请准时赴约。,time;date;daily-routine,true
+A11-0313,A1.1,Lektion 8,der Morgen,早晨,Hier ist der Morgen.,这里是早晨。,time;date;daily-routine,true
+A11-0314,A1.1,Lektion 8,der Vormittag,上午,Das ist der Vormittag.,这是上午。,time;date;daily-routine,true
+A11-0315,A1.1,Lektion 8,der Mittag,中午,Hier ist der Mittag.,这里是中午。,time;date;daily-routine,true
+A11-0316,A1.1,Lektion 8,der Nachmittag,下午,Das ist der Nachmittag.,这是下午。,time;date;daily-routine,true
+A11-0317,A1.1,Lektion 8,der Abend,晚上,Hier ist der Abend.,这里是晚上。,time;date;daily-routine,true
+A11-0318,A1.1,Lektion 8,die Nacht,夜晚,Das ist die Nacht.,这是夜晚。,time;date;daily-routine,true
+A11-0319,A1.1,Lektion 8,Montag,星期一,Am Montag lerne ich Deutsch.,星期一我学习德语。,time;date;daily-routine,true
+A11-0320,A1.1,Lektion 8,Dienstag,星期二,Am Dienstag lerne ich Deutsch.,星期二我学习德语。,time;date;daily-routine,true
+A11-0321,A1.1,Lektion 8,Mittwoch,星期三,Am Mittwoch lerne ich Deutsch.,星期三我学习德语。,time;date;daily-routine,true
+A11-0322,A1.1,Lektion 8,Donnerstag,星期四,Am Donnerstag lerne ich Deutsch.,星期四我学习德语。,time;date;daily-routine,true
+A11-0323,A1.1,Lektion 8,Freitag,星期五,Am Freitag lerne ich Deutsch.,星期五我学习德语。,time;date;daily-routine,true
+A11-0324,A1.1,Lektion 8,Samstag,星期六,Am Samstag lerne ich Deutsch.,星期六我学习德语。,time;date;daily-routine,true
+A11-0325,A1.1,Lektion 8,Sonntag,星期日,Am Sonntag lerne ich Deutsch.,星期日我学习德语。,time;date;daily-routine,true
+A11-0326,A1.1,Lektion 8,das Wochenende,周末,Das ist das Wochenende.,这是周末。,time;date;daily-routine,true
+A11-0327,A1.1,Lektion 8,anfangen,开始,Der Kurs fängt um neun Uhr an.,课程九点开始。,time;date;daily-routine,true
+A11-0328,A1.1,Lektion 8,beginnen,开始,Die Besprechung beginnt gleich.,会议马上开始。,time;date;daily-routine,true
+A11-0329,A1.1,Lektion 8,enden,结束,Der Arbeitstag endet um fünf Uhr.,工作日五点结束。,time;date;daily-routine,true
+A11-0330,A1.1,Lektion 8,aufstehen,起床,Ich stehe um sechs Uhr auf.,我六点起床。,time;date;daily-routine,true
+A11-0331,A1.1,Lektion 8,frühstücken,吃早餐,Am Morgen frühstücke ich zu Hause.,早上我在家吃早餐。,time;date;daily-routine,true
+A11-0332,A1.1,Lektion 8,duschen,洗澡,Nach dem Sport dusche ich.,运动后我洗澡。,time;date;daily-routine,true
+A11-0333,A1.1,Lektion 8,arbeiten,工作,Ich arbeite als Ingenieur.,我是一名工程师。,time;date;daily-routine,true
+A11-0334,A1.1,Lektion 8,Pause machen,休息,Um zwölf Uhr machen wir Pause.,我们十二点休息。,time;date;daily-routine,true
+A11-0335,A1.1,Lektion 8,nach Hause gehen,回家,Nach der Arbeit gehe ich nach Hause.,下班后我回家。,time;date;daily-routine,true
+A11-0336,A1.1,Lektion 8,einkaufen gehen,去购物,Am Samstag gehe ich einkaufen.,星期六我去购物。,time;date;daily-routine,true
+A11-0337,A1.1,Lektion 9,die Freizeit,空闲时间,Hier ist die Freizeit.,这里是空闲时间。,leisure;hobby;sport,true
+A11-0338,A1.1,Lektion 9,das Hobby,爱好,Das ist das Hobby.,这是爱好。,leisure;hobby;sport,true
+A11-0339,A1.1,Lektion 9,der Sport,运动,Hier ist der Sport.,这里是运动。,leisure;hobby;sport,true
+A11-0340,A1.1,Lektion 9,der Fußball,足球,Das ist der Fußball.,这是足球。,leisure;hobby;sport,true
+A11-0341,A1.1,Lektion 9,das Tennis,网球,Hier ist das Tennis.,这里是网球。,leisure;hobby;sport,true
+A11-0342,A1.1,Lektion 9,das Schwimmen,游泳,Das ist das Schwimmen.,这是游泳。,leisure;hobby;sport,true
+A11-0343,A1.1,Lektion 9,das Fahrradfahren,骑自行车,Hier ist das Fahrradfahren.,这里是骑自行车。,leisure;hobby;sport,true
+A11-0344,A1.1,Lektion 9,die Musik,音乐,Das ist die Musik.,这是音乐。,leisure;hobby;sport,true
+A11-0345,A1.1,Lektion 9,der Film,电影,Hier ist der Film.,这里是电影。,leisure;hobby;sport,true
+A11-0346,A1.1,Lektion 9,das Kino,电影院,Das ist das Kino.,这是电影院。,leisure;hobby;sport,true
+A11-0347,A1.1,Lektion 9,das Fernsehen,电视,Hier ist das Fernsehen.,这里是电视。,leisure;hobby;sport,true
+A11-0348,A1.1,Lektion 9,das Radio,收音机,Das ist das Radio.,这是收音机。,leisure;hobby;sport,true
+A11-0349,A1.1,Lektion 9,das Internet,互联网,Hier ist das Internet.,这里是互联网。,leisure;hobby;sport,true
+A11-0350,A1.1,Lektion 9,das Buch,书,Das ist das Buch.,这是书。,leisure;hobby;sport,true
+A11-0351,A1.1,Lektion 9,die Zeitung,报纸,Hier ist die Zeitung.,这里是报纸。,leisure;hobby;sport,true
+A11-0352,A1.1,Lektion 9,die Zeitschrift,杂志,Das ist die Zeitschrift.,这是杂志。,leisure;hobby;sport,true
+A11-0353,A1.1,Lektion 9,das Spiel,游戏,Hier ist das Spiel.,这里是游戏。,leisure;hobby;sport,true
+A11-0354,A1.1,Lektion 9,die Party,聚会,Das ist die Party.,这是聚会。,leisure;hobby;sport,true
+A11-0355,A1.1,Lektion 9,der Ausflug,短途旅行,Hier ist der Ausflug.,这里是短途旅行。,leisure;hobby;sport,true
+A11-0356,A1.1,Lektion 9,der Urlaub,假期,Das ist der Urlaub.,这是假期。,leisure;hobby;sport,true
+A11-0357,A1.1,Lektion 9,spielen,玩；演奏,Ich möchte heute spielen.,我今天想玩；演奏。,leisure;hobby;sport,true
+A11-0358,A1.1,Lektion 9,schwimmen,游泳,Ich möchte heute schwimmen.,我今天想游泳。,leisure;hobby;sport,true
+A11-0359,A1.1,Lektion 9,laufen,跑步,Am Wochenende laufe ich im Park.,周末我在公园跑步。,leisure;hobby;sport,true
+A11-0360,A1.1,Lektion 9,wandern,徒步,Ich möchte heute wandern.,我今天想徒步。,leisure;hobby;sport,true
+A11-0361,A1.1,Lektion 9,tanzen,跳舞,Ich möchte heute tanzen.,我今天想跳舞。,leisure;hobby;sport,true
+A11-0362,A1.1,Lektion 9,singen,唱歌,Ich möchte heute singen.,我今天想唱歌。,leisure;hobby;sport,true
+A11-0363,A1.1,Lektion 9,hören,听,Ich möchte heute hören.,我今天想听。,leisure;hobby;sport,true
+A11-0364,A1.1,Lektion 9,sehen,看,Ich möchte heute sehen.,我今天想看。,leisure;hobby;sport,true
+A11-0365,A1.1,Lektion 9,fernsehen,看电视,Ich möchte heute fernsehen.,我今天想看电视。,leisure;hobby;sport,true
+A11-0366,A1.1,Lektion 9,lesen,阅读,Ich lese den Bericht am Nachmittag.,我下午阅读报告。,leisure;hobby;sport,true
+A11-0367,A1.1,Lektion 9,fotografieren,拍照,Ich möchte heute fotografieren.,我今天想拍照。,leisure;hobby;sport,true
+A11-0368,A1.1,Lektion 9,reisen,旅行,Ich möchte heute reisen.,我今天想旅行。,leisure;hobby;sport,true
+A11-0369,A1.1,Lektion 9,treffen,见面,Ich möchte heute treffen.,我今天想见面。,leisure;hobby;sport,true
+A11-0370,A1.1,Lektion 9,feiern,庆祝,Ich möchte heute feiern.,我今天想庆祝。,leisure;hobby;sport,true
+A11-0371,A1.1,Lektion 9,entspannen,放松,Ich möchte heute entspannen.,我今天想放松。,leisure;hobby;sport,true
+A11-0372,A1.1,Lektion 9,Spaß haben,玩得开心,Ich möchte heute Spaß haben.,我今天想玩得开心。,leisure;hobby;sport,true
+A11-0373,A1.1,Lektion 9,gern,乐意地,Ich höre gern Musik.,我喜欢听音乐。,leisure;hobby;sport,true
+A11-0374,A1.1,Lektion 9,lieber,更喜欢,Ich trinke lieber Tee als Kaffee.,比起咖啡，我更喜欢喝茶。,leisure;hobby;sport,true
+A11-0375,A1.1,Lektion 9,am liebsten,最喜欢,Am liebsten wandere ich am Wochenende.,周末我最喜欢徒步。,leisure;hobby;sport,true
+A11-0376,A1.1,Lektion 9,interessant,有趣的,Der Film ist sehr interessant.,这部电影很有趣。,leisure;hobby;sport,true
+A11-0377,A1.1,Lektion 9,langweilig,无聊的,Die Sendung ist langweilig.,这个节目很无聊。,leisure;hobby;sport,true
+A11-0378,A1.1,Lektion 10,unterwegs,在路上,Ich bin gerade unterwegs.,我现在正在路上。,city;transport;directions,true
+A11-0379,A1.1,Lektion 10,die Stadt,城市,Hier ist die Stadt.,这里是城市。,city;transport;directions,true
+A11-0380,A1.1,Lektion 10,das Zentrum,市中心,Das ist das Zentrum.,这是市中心。,city;transport;directions,true
+A11-0381,A1.1,Lektion 10,die Straße,街道,Hier ist die Straße.,这里是街道。,city;transport;directions,true
+A11-0382,A1.1,Lektion 10,der Weg,路,Das ist der Weg.,这是路。,city;transport;directions,true
+A11-0383,A1.1,Lektion 10,die Kreuzung,十字路口,Hier ist die Kreuzung.,这里是十字路口。,city;transport;directions,true
+A11-0384,A1.1,Lektion 10,die Ampel,红绿灯,Das ist die Ampel.,这是红绿灯。,city;transport;directions,true
+A11-0385,A1.1,Lektion 10,die Ecke,拐角,Hier ist die Ecke.,这里是拐角。,city;transport;directions,true
+A11-0386,A1.1,Lektion 10,der Platz,广场；位置,Das ist der Platz.,这是广场；位置。,city;transport;directions,true
+A11-0387,A1.1,Lektion 10,der Bahnhof,火车站,Der Bahnhof ist nicht weit.,火车站不远。,city;transport;directions,true
+A11-0388,A1.1,Lektion 10,die Haltestelle,车站,Das ist die Haltestelle.,这是车站。,city;transport;directions,true
+A11-0389,A1.1,Lektion 10,der Flughafen,机场,Hier ist der Flughafen.,这里是机场。,city;transport;directions,true
+A11-0390,A1.1,Lektion 10,der Bus,公交车,Das ist der Bus.,这是公交车。,city;transport;directions,true
+A11-0391,A1.1,Lektion 10,die U-Bahn,地铁,Hier ist die U-Bahn.,这里是地铁。,city;transport;directions,true
+A11-0392,A1.1,Lektion 10,die S-Bahn,城市快铁,Das ist die S-Bahn.,这是城市快铁。,city;transport;directions,true
+A11-0393,A1.1,Lektion 10,die Straßenbahn,有轨电车,Hier ist die Straßenbahn.,这里是有轨电车。,city;transport;directions,true
+A11-0394,A1.1,Lektion 10,der Zug,火车,Das ist der Zug.,这是火车。,city;transport;directions,true
+A11-0395,A1.1,Lektion 10,das Taxi,出租车,Hier ist das Taxi.,这里是出租车。,city;transport;directions,true
+A11-0396,A1.1,Lektion 10,das Auto,汽车,Das ist das Auto.,这是汽车。,city;transport;directions,true
+A11-0397,A1.1,Lektion 10,das Fahrrad,自行车,Hier ist das Fahrrad.,这里是自行车。,city;transport;directions,true
+A11-0398,A1.1,Lektion 10,die Fahrkarte,车票,Ich kaufe eine Fahrkarte.,我买一张车票。,city;transport;directions,true
+A11-0399,A1.1,Lektion 10,der Fahrplan,时刻表,Hier ist der Fahrplan.,这里是时刻表。,city;transport;directions,true
+A11-0400,A1.1,Lektion 10,die Abfahrt,出发,Das ist die Abfahrt.,这是出发。,city;transport;directions,true
+A11-0401,A1.1,Lektion 10,die Ankunft,到达,Hier ist die Ankunft.,这里是到达。,city;transport;directions,true
+A11-0402,A1.1,Lektion 10,das Gleis,站台轨道,Das ist das Gleis.,这是站台轨道。,city;transport;directions,true
+A11-0403,A1.1,Lektion 10,fahren,乘车；驾驶,Ich fahre mit der S-Bahn zur Arbeit.,我乘城市快铁上班。,city;transport;directions,true
+A11-0404,A1.1,Lektion 10,gehen,走,Ich gehe zu Fuß zum Bahnhof.,我步行去火车站。,city;transport;directions,true
+A11-0405,A1.1,Lektion 10,laufen,步行；跑,Am Wochenende laufe ich im Park.,周末我在公园跑步。,city;transport;directions,true
+A11-0406,A1.1,Lektion 10,fliegen,乘飞机,Im Sommer fliegen wir nach China.,夏天我们坐飞机去中国。,city;transport;directions,true
+A11-0407,A1.1,Lektion 10,abfahren,出发,Der Zug fährt um acht Uhr ab.,火车八点出发。,city;transport;directions,true
+A11-0408,A1.1,Lektion 10,ankommen,到达,Wir kommen um zehn Uhr an.,我们十点到达。,city;transport;directions,true
+A11-0409,A1.1,Lektion 10,einsteigen,上车,Bitte steigen Sie vorne ein.,请从前门上车。,city;transport;directions,true
+A11-0410,A1.1,Lektion 10,aussteigen,下车,An der nächsten Haltestelle steige ich aus.,我在下一站下车。,city;transport;directions,true
+A11-0411,A1.1,Lektion 10,umsteigen,换乘,Am Hauptbahnhof müssen Sie umsteigen.,您必须在中央火车站换乘。,city;transport;directions,true
+A11-0412,A1.1,Lektion 10,links,左边,Die Apotheke ist links.,药店在左边。,city;transport;directions,true
+A11-0413,A1.1,Lektion 10,rechts,右边,Der Eingang ist rechts.,入口在右边。,city;transport;directions,true
+A11-0414,A1.1,Lektion 10,geradeaus,直走,Gehen Sie bitte geradeaus.,请一直往前走。,city;transport;directions,true
+A11-0415,A1.1,Lektion 10,hier,这里,Hier ist die Bushaltestelle.,公交站在这里。,city;transport;directions,true
+A11-0416,A1.1,Lektion 10,dort,那里,Dort ist der Bahnhof.,火车站在那里。,city;transport;directions,true
+A11-0417,A1.1,Lektion 10,nah,近的,Der Supermarkt ist ganz nah.,超市就在附近。,city;transport;directions,true
+A11-0418,A1.1,Lektion 10,weit,远的,Der Flughafen ist weit weg.,机场很远。,city;transport;directions,true
+A11-0419,A1.1,Lektion 11,die Gesundheit,健康,Hier ist die Gesundheit.,这里是健康。,health;doctor;appointment,true
+A11-0420,A1.1,Lektion 11,krank,生病的,Ich bin heute krank.,我今天生病了。,health;doctor;appointment,true
+A11-0421,A1.1,Lektion 11,gesund,健康的,Obst und Gemüse sind gesund.,水果和蔬菜很健康。,health;doctor;appointment,true
+A11-0422,A1.1,Lektion 11,der Arzt,医生,Ich habe einen Termin beim Arzt.,我和医生有预约。,health;doctor;appointment,true
+A11-0423,A1.1,Lektion 11,die Ärztin,女医生,Hier ist die Ärztin.,这里是女医生。,health;doctor;appointment,true
+A11-0424,A1.1,Lektion 11,die Praxis,诊所,Das ist die Praxis.,这是诊所。,health;doctor;appointment,true
+A11-0425,A1.1,Lektion 11,das Krankenhaus,医院,Hier ist das Krankenhaus.,这里是医院。,health;doctor;appointment,true
+A11-0426,A1.1,Lektion 11,die Apotheke,药店,Das ist die Apotheke.,这是药店。,health;doctor;appointment,true
+A11-0427,A1.1,Lektion 11,der Patient,男病人,Hier ist der Patient.,这里是男病人。,health;doctor;appointment,true
+A11-0428,A1.1,Lektion 11,die Patientin,女病人,Das ist die Patientin.,这是女病人。,health;doctor;appointment,true
+A11-0429,A1.1,Lektion 11,der Termin,预约,Ich habe morgen einen Termin.,我明天有一个预约。,health;doctor;appointment,true
+A11-0430,A1.1,Lektion 11,die Untersuchung,检查,Das ist die Untersuchung.,这是检查。,health;doctor;appointment,true
+A11-0431,A1.1,Lektion 11,das Medikament,药物,Hier ist das Medikament.,这里是药物。,health;doctor;appointment,true
+A11-0432,A1.1,Lektion 11,die Tablette,药片,Das ist die Tablette.,这是药片。,health;doctor;appointment,true
+A11-0433,A1.1,Lektion 11,das Rezept,处方,Hier ist das Rezept.,这里是处方。,health;doctor;appointment,true
+A11-0434,A1.1,Lektion 11,der Schmerz,疼痛,Das ist der Schmerz.,这是疼痛。,health;doctor;appointment,true
+A11-0435,A1.1,Lektion 11,der Kopf,头,Hier ist der Kopf.,这里是头。,health;doctor;appointment,true
+A11-0436,A1.1,Lektion 11,der Hals,喉咙,Das ist der Hals.,这是喉咙。,health;doctor;appointment,true
+A11-0437,A1.1,Lektion 11,der Bauch,肚子,Hier ist der Bauch.,这里是肚子。,health;doctor;appointment,true
+A11-0438,A1.1,Lektion 11,der Rücken,背部,Das ist der Rücken.,这是背部。,health;doctor;appointment,true
+A11-0439,A1.1,Lektion 11,der Arm,手臂,Hier ist der Arm.,这里是手臂。,health;doctor;appointment,true
+A11-0440,A1.1,Lektion 11,die Hand,手,Das ist die Hand.,这是手。,health;doctor;appointment,true
+A11-0441,A1.1,Lektion 11,das Bein,腿,Hier ist das Bein.,这里是腿。,health;doctor;appointment,true
+A11-0442,A1.1,Lektion 11,der Fuß,脚,Das ist der Fuß.,这是脚。,health;doctor;appointment,true
+A11-0443,A1.1,Lektion 11,das Auge,眼睛,Hier ist das Auge.,这里是眼睛。,health;doctor;appointment,true
+A11-0444,A1.1,Lektion 11,das Ohr,耳朵,Das ist das Ohr.,这是耳朵。,health;doctor;appointment,true
+A11-0445,A1.1,Lektion 11,der Zahn,牙齿,Hier ist der Zahn.,这里是牙齿。,health;doctor;appointment,true
+A11-0446,A1.1,Lektion 11,die Nase,鼻子,Das ist die Nase.,这是鼻子。,health;doctor;appointment,true
+A11-0447,A1.1,Lektion 11,der Husten,咳嗽,Hier ist der Husten.,这里是咳嗽。,health;doctor;appointment,true
+A11-0448,A1.1,Lektion 11,der Schnupfen,感冒；流鼻涕,Das ist der Schnupfen.,这是感冒；流鼻涕。,health;doctor;appointment,true
+A11-0449,A1.1,Lektion 11,das Fieber,发烧,Hier ist das Fieber.,这里是发烧。,health;doctor;appointment,true
+A11-0450,A1.1,Lektion 11,weh tun,疼,Mein Rücken tut weh.,我的背疼。,health;doctor;appointment,true
+A11-0451,A1.1,Lektion 11,fehlen,不舒服；缺少,Was fehlt Ihnen?,您哪里不舒服？,health;doctor;appointment,true
+A11-0452,A1.1,Lektion 11,helfen,帮助,Kann ich Ihnen helfen?,我能帮您吗？,health;doctor;appointment,true
+A11-0453,A1.1,Lektion 11,nehmen,服用,"Ich nehme einen Kaffee, bitte.",请给我一杯咖啡。,health;doctor;appointment,true
+A11-0454,A1.1,Lektion 11,schlafen,睡觉,Ich muss heute früh schlafen.,我今天必须早点睡。,health;doctor;appointment,true
+A11-0455,A1.1,Lektion 11,sich ausruhen,休息,Sie sollten sich zu Hause ausruhen.,您应该在家休息。,health;doctor;appointment,true
+A11-0456,A1.1,Lektion 11,anrufen,打电话,Ich rufe morgen in der Praxis an.,我明天给诊所打电话。,health;doctor;appointment,true
+A11-0457,A1.1,Lektion 11,vereinbaren,约定,Ich möchte einen Termin vereinbaren.,我想预约一个时间。,health;doctor;appointment,true
+A11-0458,A1.1,Lektion 11,absagen,取消,Leider muss ich den Termin absagen.,很遗憾，我必须取消预约。,health;doctor;appointment,true
+A11-0459,A1.1,Lektion 11,warten,等待,Bitte warten Sie einen Moment.,请稍等。,health;doctor;appointment,true
+A11-0460,A1.1,Lektion 12,der Alltag,日常生活,Das ist der Alltag.,这是日常生活。,daily-life;communication;public-service,true
+A11-0461,A1.1,Lektion 12,die Hilfe,帮助,Hier ist die Hilfe.,这里是帮助。,daily-life;communication;public-service,true
+A11-0462,A1.1,Lektion 12,die Information,信息,Das ist die Information.,这是信息。,daily-life;communication;public-service,true
+A11-0463,A1.1,Lektion 12,die Nachricht,消息,Hier ist die Nachricht.,这里是消息。,daily-life;communication;public-service,true
+A11-0464,A1.1,Lektion 12,der Brief,信,Das ist der Brief.,这是信。,daily-life;communication;public-service,true
+A11-0465,A1.1,Lektion 12,die Post,邮局；邮件,Hier ist die Post.,这里是邮局；邮件。,daily-life;communication;public-service,true
+A11-0466,A1.1,Lektion 12,das Paket,包裹,Das ist das Paket.,这是包裹。,daily-life;communication;public-service,true
+A11-0467,A1.1,Lektion 12,die Bank,银行,Hier ist die Bank.,这里是银行。,daily-life;communication;public-service,true
+A11-0468,A1.1,Lektion 12,das Konto,账户,Das ist das Konto.,这是账户。,daily-life;communication;public-service,true
+A11-0469,A1.1,Lektion 12,die Karte,卡,Hier ist die Karte.,这里是卡。,daily-life;communication;public-service,true
+A11-0470,A1.1,Lektion 12,der Ausweis,身份证件,Das ist der Ausweis.,这是身份证件。,daily-life;communication;public-service,true
+A11-0471,A1.1,Lektion 12,der Pass,护照,Hier ist der Pass.,这里是护照。,daily-life;communication;public-service,true
+A11-0472,A1.1,Lektion 12,das Rathaus,市政厅,Das ist das Rathaus.,这是市政厅。,daily-life;communication;public-service,true
+A11-0473,A1.1,Lektion 12,die Behörde,政府部门,Hier ist die Behörde.,这里是政府部门。,daily-life;communication;public-service,true
+A11-0474,A1.1,Lektion 12,das Amt,办事处,Das ist das Amt.,这是办事处。,daily-life;communication;public-service,true
+A11-0475,A1.1,Lektion 12,die Polizei,警察,Hier ist die Polizei.,这里是警察。,daily-life;communication;public-service,true
+A11-0476,A1.1,Lektion 12,die Schule,学校,Das ist die Schule.,这是学校。,daily-life;communication;public-service,true
+A11-0477,A1.1,Lektion 12,der Kurs,课程,Hier ist der Kurs.,这里是课程。,daily-life;communication;public-service,true
+A11-0478,A1.1,Lektion 12,die Prüfung,考试,Das ist die Prüfung.,这是考试。,daily-life;communication;public-service,true
+A11-0479,A1.1,Lektion 12,die Übung,练习,Hier ist die Übung.,这里是练习。,daily-life;communication;public-service,true
+A11-0480,A1.1,Lektion 12,das Beispiel,例子,Das ist das Beispiel.,这是例子。,daily-life;communication;public-service,true
+A11-0481,A1.1,Lektion 12,das Problem,问题,Hier ist das Problem.,这里是问题。,daily-life;communication;public-service,true
+A11-0482,A1.1,Lektion 12,die Lösung,解决办法,Das ist die Lösung.,这是解决办法。,daily-life;communication;public-service,true
+A11-0483,A1.1,Lektion 12,die Nummer,号码,Hier ist die Nummer.,这里是号码。,daily-life;communication;public-service,true
+A11-0484,A1.1,Lektion 12,die Öffnungszeit,开放时间,Das sind die Öffnungszeit.,这些是开放时间。,daily-life;communication;public-service,true
+A11-0485,A1.1,Lektion 12,schicken,发送,Ich möchte heute schicken.,我今天想发送。,daily-life;communication;public-service,true
+A11-0486,A1.1,Lektion 12,bekommen,得到,Ich möchte heute bekommen.,我今天想得到。,daily-life;communication;public-service,true
+A11-0487,A1.1,Lektion 12,geben,给,Ich möchte heute geben.,我今天想给。,daily-life;communication;public-service,true
+A11-0488,A1.1,Lektion 12,holen,取,Ich möchte heute holen.,我今天想取。,daily-life;communication;public-service,true
+A11-0489,A1.1,Lektion 12,bringen,带来,Ich möchte heute bringen.,我今天想带来。,daily-life;communication;public-service,true
+A11-0490,A1.1,Lektion 12,öffnen,打开,Ich möchte heute öffnen.,我今天想打开。,daily-life;communication;public-service,true
+A11-0491,A1.1,Lektion 12,schließen,关闭,Ich möchte heute schließen.,我今天想关闭。,daily-life;communication;public-service,true
+A11-0492,A1.1,Lektion 12,erklären,解释,Ich möchte heute erklären.,我今天想解释。,daily-life;communication;public-service,true
+A11-0493,A1.1,Lektion 12,wissen,知道,Ich möchte heute wissen.,我今天想知道。,daily-life;communication;public-service,true
+A11-0494,A1.1,Lektion 12,glauben,相信,Ich möchte heute glauben.,我今天想相信。,daily-life;communication;public-service,true
+A11-0495,A1.1,Lektion 12,meinen,认为,Ich möchte heute meinen.,我今天想认为。,daily-life;communication;public-service,true
+A11-0496,A1.1,Lektion 12,sagen,说,Ich möchte heute sagen.,我今天想说。,daily-life;communication;public-service,true
+A11-0497,A1.1,Lektion 12,wiederholen,重复,Können Sie das bitte wiederholen?,您可以重复一遍吗？,daily-life;communication;public-service,true
+A11-0498,A1.1,Lektion 12,üben,练习,Ich möchte heute üben.,我今天想练习。,daily-life;communication;public-service,true
+A11-0499,A1.1,Lektion 12,unterschreiben,签字,Ich möchte heute unterschreiben.,我今天想签字。,daily-life;communication;public-service,true
+A11-0500,A1.1,Lektion 12,warten,等待,Bitte warten Sie einen Moment.,请稍等。,daily-life;communication;public-service,true
+A12-0001,A1.2,Lektion 1,die Orientierung,方向辨认,Hier ist die Orientierung.,这里是方向辨认。,orientation;transport;mobility,true
+A12-0002,A1.2,Lektion 1,der Stadtplan,城市地图,Das ist der Stadtplan.,这是城市地图。,orientation;transport;mobility,true
+A12-0003,A1.2,Lektion 1,die Karte,地图,Hier ist die Karte.,这里是地图。,orientation;transport;mobility,true
+A12-0004,A1.2,Lektion 1,die Richtung,方向,Das ist die Richtung.,这是方向。,orientation;transport;mobility,true
+A12-0005,A1.2,Lektion 1,die Adresse,地址,Hier ist die Adresse.,这里是地址。,orientation;transport;mobility,true
+A12-0006,A1.2,Lektion 1,das Ziel,目的地,Das ist das Ziel.,这是目的地。,orientation;transport;mobility,true
+A12-0007,A1.2,Lektion 1,der Eingang,入口,Hier ist der Eingang.,这里是入口。,orientation;transport;mobility,true
+A12-0008,A1.2,Lektion 1,der Ausgang,出口,Das ist der Ausgang.,这是出口。,orientation;transport;mobility,true
+A12-0009,A1.2,Lektion 1,die Information,咨询处；信息,Hier ist die Information.,这里是咨询处；信息。,orientation;transport;mobility,true
+A12-0010,A1.2,Lektion 1,das Schild,标牌,Das ist das Schild.,这是标牌。,orientation;transport;mobility,true
+A12-0011,A1.2,Lektion 1,die Brücke,桥,Hier ist die Brücke.,这里是桥。,orientation;transport;mobility,true
+A12-0012,A1.2,Lektion 1,der Tunnel,隧道,Das ist der Tunnel.,这是隧道。,orientation;transport;mobility,true
+A12-0013,A1.2,Lektion 1,der Kreisverkehr,环岛,Hier ist der Kreisverkehr.,这里是环岛。,orientation;transport;mobility,true
+A12-0014,A1.2,Lektion 1,der Bürgersteig,人行道,Das ist der Bürgersteig.,这是人行道。,orientation;transport;mobility,true
+A12-0015,A1.2,Lektion 1,der Zebrastreifen,斑马线,Hier ist der Zebrastreifen.,这里是斑马线。,orientation;transport;mobility,true
+A12-0016,A1.2,Lektion 1,die Bushaltestelle,公交站,Das ist die Bushaltestelle.,这是公交站。,orientation;transport;mobility,true
+A12-0017,A1.2,Lektion 1,der Fahrkartenautomat,售票机,Hier ist der Fahrkartenautomat.,这里是售票机。,orientation;transport;mobility,true
+A12-0018,A1.2,Lektion 1,die Verbindung,交通连接,Das ist die Verbindung.,这是交通连接。,orientation;transport;mobility,true
+A12-0019,A1.2,Lektion 1,die Verspätung,晚点,Hier ist die Verspätung.,这里是晚点。,orientation;transport;mobility,true
+A12-0020,A1.2,Lektion 1,der Anschluss,换乘衔接,Das ist der Anschluss.,这是换乘衔接。,orientation;transport;mobility,true
+A12-0021,A1.2,Lektion 1,die Linie,线路,Hier ist die Linie.,这里是线路。,orientation;transport;mobility,true
+A12-0022,A1.2,Lektion 1,die Station,车站,Das ist die Station.,这是车站。,orientation;transport;mobility,true
+A12-0023,A1.2,Lektion 1,die Endstation,终点站,Hier ist die Endstation.,这里是终点站。,orientation;transport;mobility,true
+A12-0024,A1.2,Lektion 1,die Rückfahrt,返程,Das ist die Rückfahrt.,这是返程。,orientation;transport;mobility,true
+A12-0025,A1.2,Lektion 1,die Hinfahrt,去程,Hier ist die Hinfahrt.,这里是去程。,orientation;transport;mobility,true
+A12-0026,A1.2,Lektion 1,die Monatskarte,月票,Das ist die Monatskarte.,这是月票。,orientation;transport;mobility,true
+A12-0027,A1.2,Lektion 1,die Einzelfahrkarte,单程票,Hier ist die Einzelfahrkarte.,这里是单程票。,orientation;transport;mobility,true
+A12-0028,A1.2,Lektion 1,gültig,有效的,Die Fahrkarte ist heute noch gültig.,这张车票今天仍然有效。,orientation;transport;mobility,true
+A12-0029,A1.2,Lektion 1,ungültig,无效的,Ohne Stempel ist die Fahrkarte ungültig.,没有盖章的车票无效。,orientation;transport;mobility,true
+A12-0030,A1.2,Lektion 1,besetzt,占用的；有人坐的,"Entschuldigung, dieser Platz ist besetzt.",抱歉，这个座位有人了。,orientation;transport;mobility,true
+A12-0031,A1.2,Lektion 1,frei,空的；自由的,Ist dieser Platz noch frei?,这个座位还空着吗？,orientation;transport;mobility,true
+A12-0032,A1.2,Lektion 1,abbiegen,转弯,Ich möchte heute abbiegen.,我今天想转弯。,orientation;transport;mobility,true
+A12-0033,A1.2,Lektion 1,überqueren,穿过,Ich möchte heute überqueren.,我今天想穿过。,orientation;transport;mobility,true
+A12-0034,A1.2,Lektion 1,folgen,跟随,Ich möchte heute folgen.,我今天想跟随。,orientation;transport;mobility,true
+A12-0035,A1.2,Lektion 1,erreichen,到达,Ich möchte heute erreichen.,我今天想到达。,orientation;transport;mobility,true
+A12-0036,A1.2,Lektion 1,sich verirren,迷路,Ich möchte mich heute verirren.,我今天想迷路。,orientation;transport;mobility,true
+A12-0037,A1.2,Lektion 1,reservieren,预订,Ich möchte heute reservieren.,我今天想预订。,orientation;transport;mobility,true
+A12-0038,A1.2,Lektion 1,entwerten,检票打孔,Ich möchte heute entwerten.,我今天想检票打孔。,orientation;transport;mobility,true
+A12-0039,A1.2,Lektion 1,rechtzeitig,及时地,Wir sind rechtzeitig am Bahnhof.,我们及时到达了火车站。,orientation;transport;mobility,true
+A12-0040,A1.2,Lektion 1,ungefähr,大约,Die Fahrt dauert ungefähr zwanzig Minuten.,车程大约二十分钟。,orientation;transport;mobility,true
+A12-0041,A1.2,Lektion 1,gegenüber,在对面,Der Bahnhof ist gegenüber dem Hotel.,火车站在酒店对面。,orientation;transport;mobility,true
+A12-0042,A1.2,Lektion 1,zwischen,在……之间,Die Apotheke liegt zwischen der Bank und der Post.,药店位于银行和邮局之间。,orientation;transport;mobility,true
+A12-0043,A1.2,Lektion 2,die Wohnungsanzeige,租房广告,Hier ist die Wohnungsanzeige.,这里是租房广告。,housing;rent;neighborhood,true
+A12-0044,A1.2,Lektion 2,die Besichtigung,看房,Das ist die Besichtigung.,这是看房。,housing;rent;neighborhood,true
+A12-0045,A1.2,Lektion 2,der Mietvertrag,租赁合同,Hier ist der Mietvertrag.,这里是租赁合同。,housing;rent;neighborhood,true
+A12-0046,A1.2,Lektion 2,die Kaution,押金,Das ist die Kaution.,这是押金。,housing;rent;neighborhood,true
+A12-0047,A1.2,Lektion 2,die Warmmiete,含暖租金,Hier ist die Warmmiete.,这里是含暖租金。,housing;rent;neighborhood,true
+A12-0048,A1.2,Lektion 2,die Kaltmiete,冷租金,Das ist die Kaltmiete.,这是冷租金。,housing;rent;neighborhood,true
+A12-0049,A1.2,Lektion 2,die Heizung,暖气,Hier ist die Heizung.,这里是暖气。,housing;rent;neighborhood,true
+A12-0050,A1.2,Lektion 2,der Strom,电,Das ist der Strom.,这是电。,housing;rent;neighborhood,true
+A12-0051,A1.2,Lektion 2,das Gas,燃气,Hier ist das Gas.,这里是燃气。,housing;rent;neighborhood,true
+A12-0052,A1.2,Lektion 2,das Wasser,水,Das ist das Wasser.,这是水。,housing;rent;neighborhood,true
+A12-0053,A1.2,Lektion 2,der Hausmeister,物业管理员,Hier ist der Hausmeister.,这里是物业管理员。,housing;rent;neighborhood,true
+A12-0054,A1.2,Lektion 2,die Hausordnung,住户规定,Das ist die Hausordnung.,这是住户规定。,housing;rent;neighborhood,true
+A12-0055,A1.2,Lektion 2,der Müll,垃圾,Hier ist der Müll.,这里是垃圾。,housing;rent;neighborhood,true
+A12-0056,A1.2,Lektion 2,die Mülltonne,垃圾桶,Das ist die Mülltonne.,这是垃圾桶。,housing;rent;neighborhood,true
+A12-0057,A1.2,Lektion 2,der Briefkasten,信箱,Hier ist der Briefkasten.,这里是信箱。,housing;rent;neighborhood,true
+A12-0058,A1.2,Lektion 2,die Klingel,门铃,Das ist die Klingel.,这是门铃。,housing;rent;neighborhood,true
+A12-0059,A1.2,Lektion 2,das Erdgeschoss,一楼,Hier ist das Erdgeschoss.,这里是一楼。,housing;rent;neighborhood,true
+A12-0060,A1.2,Lektion 2,der Stock,楼层,Das ist der Stock.,这是楼层。,housing;rent;neighborhood,true
+A12-0061,A1.2,Lektion 2,das Dachgeschoss,顶楼,Hier ist das Dachgeschoss.,这里是顶楼。,housing;rent;neighborhood,true
+A12-0062,A1.2,Lektion 2,die Wohnfläche,居住面积,Das ist die Wohnfläche.,这是居住面积。,housing;rent;neighborhood,true
+A12-0063,A1.2,Lektion 2,der Quadratmeter,平方米,Hier ist der Quadratmeter.,这里是平方米。,housing;rent;neighborhood,true
+A12-0064,A1.2,Lektion 2,die Gegend,区域,Das ist die Gegend.,这是区域。,housing;rent;neighborhood,true
+A12-0065,A1.2,Lektion 2,die Nachbarschaft,邻里,Hier ist die Nachbarschaft.,这里是邻里。,housing;rent;neighborhood,true
+A12-0066,A1.2,Lektion 2,der Lärm,噪音,Das ist der Lärm.,这是噪音。,housing;rent;neighborhood,true
+A12-0067,A1.2,Lektion 2,die Ruhe,安静,Hier ist die Ruhe.,这里是安静。,housing;rent;neighborhood,true
+A12-0068,A1.2,Lektion 2,die Reparatur,维修,Das ist die Reparatur.,这是维修。,housing;rent;neighborhood,true
+A12-0069,A1.2,Lektion 2,der Schaden,损坏,Hier ist der Schaden.,这里是损坏。,housing;rent;neighborhood,true
+A12-0070,A1.2,Lektion 2,die Störung,故障,Das ist die Störung.,这是故障。,housing;rent;neighborhood,true
+A12-0071,A1.2,Lektion 2,das Möbelstück,家具,Hier ist das Möbelstück.,这里是家具。,housing;rent;neighborhood,true
+A12-0072,A1.2,Lektion 2,der Teppich,地毯,Das ist der Teppich.,这是地毯。,housing;rent;neighborhood,true
+A12-0073,A1.2,Lektion 2,das Regal,架子,Hier ist das Regal.,这里是架子。,housing;rent;neighborhood,true
+A12-0074,A1.2,Lektion 2,der Sessel,扶手椅,Das ist der Sessel.,这是扶手椅。,housing;rent;neighborhood,true
+A12-0075,A1.2,Lektion 2,der Spiegel,镜子,Hier ist der Spiegel.,这里是镜子。,housing;rent;neighborhood,true
+A12-0076,A1.2,Lektion 2,der Vorhang,窗帘,Das ist der Vorhang.,这是窗帘。,housing;rent;neighborhood,true
+A12-0077,A1.2,Lektion 2,einrichten,布置,Ich möchte heute einrichten.,我今天想布置。,housing;rent;neighborhood,true
+A12-0078,A1.2,Lektion 2,renovieren,翻新,Ich möchte heute renovieren.,我今天想翻新。,housing;rent;neighborhood,true
+A12-0079,A1.2,Lektion 2,reparieren,修理,Ich möchte heute reparieren.,我今天想修理。,housing;rent;neighborhood,true
+A12-0080,A1.2,Lektion 2,einziehen,搬入,Ich möchte heute einziehen.,我今天想搬入。,housing;rent;neighborhood,true
+A12-0081,A1.2,Lektion 2,ausziehen,搬出,Ich möchte heute ausziehen.,我今天想搬出。,housing;rent;neighborhood,true
+A12-0082,A1.2,Lektion 2,kündigen,解约；辞职,Ich möchte heute kündigen.,我今天想解约；辞职。,housing;rent;neighborhood,true
+A12-0083,A1.2,Lektion 2,teilen,分享；合住,Ich möchte heute teilen.,我今天想分享；合住。,housing;rent;neighborhood,true
+A12-0084,A1.2,Lektion 2,gehören,属于,Ich möchte heute gehören.,我今天想属于。,housing;rent;neighborhood,true
+A12-0085,A1.2,Lektion 3,das Kaufhaus,百货商店,Hier ist das Kaufhaus.,这里是百货商店。,shopping;clothing;complaint,true
+A12-0086,A1.2,Lektion 3,die Abteilung,部门；柜台,Das ist die Abteilung.,这是部门；柜台。,shopping;clothing;complaint,true
+A12-0087,A1.2,Lektion 3,die Umkleidekabine,试衣间,Hier ist die Umkleidekabine.,这里是试衣间。,shopping;clothing;complaint,true
+A12-0088,A1.2,Lektion 3,der Umtausch,换货,Das ist der Umtausch.,这是换货。,shopping;clothing;complaint,true
+A12-0089,A1.2,Lektion 3,die Reklamation,投诉；退换要求,Hier ist die Reklamation.,这里是投诉；退换要求。,shopping;clothing;complaint,true
+A12-0090,A1.2,Lektion 3,die Quittung,收据,Das ist die Quittung.,这是收据。,shopping;clothing;complaint,true
+A12-0091,A1.2,Lektion 3,die Garantie,保修,Hier ist die Garantie.,这里是保修。,shopping;clothing;complaint,true
+A12-0092,A1.2,Lektion 3,der Rabatt,折扣,Das ist der Rabatt.,这是折扣。,shopping;clothing;complaint,true
+A12-0093,A1.2,Lektion 3,die Auswahl,选择,Hier ist die Auswahl.,这里是选择。,shopping;clothing;complaint,true
+A12-0094,A1.2,Lektion 3,die Qualität,质量,Das ist die Qualität.,这是质量。,shopping;clothing;complaint,true
+A12-0095,A1.2,Lektion 3,das Material,材料,Hier ist das Material.,这里是材料。,shopping;clothing;complaint,true
+A12-0096,A1.2,Lektion 3,die Baumwolle,棉,Das ist die Baumwolle.,这是棉。,shopping;clothing;complaint,true
+A12-0097,A1.2,Lektion 3,die Wolle,羊毛,Hier ist die Wolle.,这里是羊毛。,shopping;clothing;complaint,true
+A12-0098,A1.2,Lektion 3,das Leder,皮革,Das ist das Leder.,这是皮革。,shopping;clothing;complaint,true
+A12-0099,A1.2,Lektion 3,das Kleid,连衣裙,Hier ist das Kleid.,这里是连衣裙。,shopping;clothing;complaint,true
+A12-0100,A1.2,Lektion 3,der Rock,裙子,Das ist der Rock.,这是裙子。,shopping;clothing;complaint,true
+A12-0101,A1.2,Lektion 3,die Bluse,女衬衫,Hier ist die Bluse.,这里是女衬衫。,shopping;clothing;complaint,true
+A12-0102,A1.2,Lektion 3,der Pullover,套头衫,Das ist der Pullover.,这是套头衫。,shopping;clothing;complaint,true
+A12-0103,A1.2,Lektion 3,das T-Shirt,T恤衫,Hier ist das T-Shirt.,这里是T恤衫。,shopping;clothing;complaint,true
+A12-0104,A1.2,Lektion 3,der Mantel,大衣,Das ist der Mantel.,这是大衣。,shopping;clothing;complaint,true
+A12-0105,A1.2,Lektion 3,der Anzug,西装,Hier ist der Anzug.,这里是西装。,shopping;clothing;complaint,true
+A12-0106,A1.2,Lektion 3,die Socke,袜子,Das ist die Socke.,这是袜子。,shopping;clothing;complaint,true
+A12-0107,A1.2,Lektion 3,der Gürtel,腰带,Hier ist der Gürtel.,这里是腰带。,shopping;clothing;complaint,true
+A12-0108,A1.2,Lektion 3,die Mütze,帽子,Das ist die Mütze.,这是帽子。,shopping;clothing;complaint,true
+A12-0109,A1.2,Lektion 3,der Handschuh,手套,Hier ist der Handschuh.,这里是手套。,shopping;clothing;complaint,true
+A12-0110,A1.2,Lektion 3,der Regenschirm,雨伞,Das ist der Regenschirm.,这是雨伞。,shopping;clothing;complaint,true
+A12-0111,A1.2,Lektion 3,eng,紧的,Das ist eng.,这是紧的。,shopping;clothing;complaint,true
+A12-0112,A1.2,Lektion 3,weit,宽松的,Der Flughafen ist weit weg.,机场很远。,shopping;clothing;complaint,true
+A12-0113,A1.2,Lektion 3,kurz,短的,Das ist kurz.,这是短的。,shopping;clothing;complaint,true
+A12-0114,A1.2,Lektion 3,lang,长的,Das ist lang.,这是长的。,shopping;clothing;complaint,true
+A12-0115,A1.2,Lektion 3,modisch,时髦的,Das ist modisch.,这是时髦的。,shopping;clothing;complaint,true
+A12-0116,A1.2,Lektion 3,praktisch,实用的,Das ist praktisch.,这是实用的。,shopping;clothing;complaint,true
+A12-0117,A1.2,Lektion 3,umtauschen,换货,Ich möchte heute umtauschen.,我今天想换货。,shopping;clothing;complaint,true
+A12-0118,A1.2,Lektion 3,zurückgeben,退还,Ich möchte heute zurückgeben.,我今天想退还。,shopping;clothing;complaint,true
+A12-0119,A1.2,Lektion 3,reklamieren,投诉商品,Ich möchte heute reklamieren.,我今天想投诉商品。,shopping;clothing;complaint,true
+A12-0120,A1.2,Lektion 3,funktionieren,运转,Ich möchte heute funktionieren.,我今天想运转。,shopping;clothing;complaint,true
+A12-0121,A1.2,Lektion 3,reduziert,降价的,Diese Jacke ist heute reduziert.,这件夹克今天降价。,shopping;clothing;complaint,true
+A12-0122,A1.2,Lektion 3,verfügbar,有货的,Das Zimmer ist ab Montag verfügbar.,这个房间从星期一起可用。,shopping;clothing;complaint,true
+A12-0123,A1.2,Lektion 3,ausverkauft,售罄的,Dieses Modell ist leider ausverkauft.,这个型号很遗憾已经售罄。,shopping;clothing;complaint,true
+A12-0124,A1.2,Lektion 3,ähnlich,相似的,Die beiden Modelle sind sehr ähnlich.,这两个型号很相似。,shopping;clothing;complaint,true
+A12-0125,A1.2,Lektion 3,anders,不同的,Dieses Gerät funktioniert etwas anders.,这个设备的工作方式有些不同。,shopping;clothing;complaint,true
+A12-0126,A1.2,Lektion 3,genug,足够,Wir haben genug Zeit für den Test.,我们有足够时间做测试。,shopping;clothing;complaint,true
+A12-0127,A1.2,Lektion 4,das Restaurant,餐厅,Hier ist das Restaurant.,这里是餐厅。,food;restaurant;nutrition,true
+A12-0128,A1.2,Lektion 4,die Reservierung,预订,Das ist die Reservierung.,这是预订。,food;restaurant;nutrition,true
+A12-0129,A1.2,Lektion 4,der Kellner,男服务员,Hier ist der Kellner.,这里是男服务员。,food;restaurant;nutrition,true
+A12-0130,A1.2,Lektion 4,die Kellnerin,女服务员,Das ist die Kellnerin.,这是女服务员。,food;restaurant;nutrition,true
+A12-0131,A1.2,Lektion 4,die Vorspeise,前菜,Hier ist die Vorspeise.,这里是前菜。,food;restaurant;nutrition,true
+A12-0132,A1.2,Lektion 4,das Hauptgericht,主菜,Das ist das Hauptgericht.,这是主菜。,food;restaurant;nutrition,true
+A12-0133,A1.2,Lektion 4,die Nachspeise,甜点,Hier ist die Nachspeise.,这里是甜点。,food;restaurant;nutrition,true
+A12-0134,A1.2,Lektion 4,die Beilage,配菜,Das ist die Beilage.,这是配菜。,food;restaurant;nutrition,true
+A12-0135,A1.2,Lektion 4,das Tagesgericht,今日特餐,Hier ist das Tagesgericht.,这里是今日特餐。,food;restaurant;nutrition,true
+A12-0136,A1.2,Lektion 4,die Portion,一份,Das ist die Portion.,这是一份。,food;restaurant;nutrition,true
+A12-0137,A1.2,Lektion 4,die Zutat,配料,Hier ist die Zutat.,这里是配料。,food;restaurant;nutrition,true
+A12-0138,A1.2,Lektion 4,das Rindfleisch,牛肉,Das ist das Rindfleisch.,这是牛肉。,food;restaurant;nutrition,true
+A12-0139,A1.2,Lektion 4,das Hähnchen,鸡肉,Hier ist das Hähnchen.,这里是鸡肉。,food;restaurant;nutrition,true
+A12-0140,A1.2,Lektion 4,das Schweinefleisch,猪肉,Das ist das Schweinefleisch.,这是猪肉。,food;restaurant;nutrition,true
+A12-0141,A1.2,Lektion 4,die Bohne,豆子,Hier ist die Bohne.,这里是豆子。,food;restaurant;nutrition,true
+A12-0142,A1.2,Lektion 4,die Erbse,豌豆,Das ist die Erbse.,这是豌豆。,food;restaurant;nutrition,true
+A12-0143,A1.2,Lektion 4,die Zwiebel,洋葱,Hier ist die Zwiebel.,这里是洋葱。,food;restaurant;nutrition,true
+A12-0144,A1.2,Lektion 4,der Knoblauch,大蒜,Das ist der Knoblauch.,这是大蒜。,food;restaurant;nutrition,true
+A12-0145,A1.2,Lektion 4,die Paprika,甜椒,Hier ist die Paprika.,这里是甜椒。,food;restaurant;nutrition,true
+A12-0146,A1.2,Lektion 4,die Karotte,胡萝卜,Das ist die Karotte.,这是胡萝卜。,food;restaurant;nutrition,true
+A12-0147,A1.2,Lektion 4,die Erdbeere,草莓,Hier ist die Erdbeere.,这里是草莓。,food;restaurant;nutrition,true
+A12-0148,A1.2,Lektion 4,die Traube,葡萄,Das ist die Traube.,这是葡萄。,food;restaurant;nutrition,true
+A12-0149,A1.2,Lektion 4,das Mehl,面粉,Hier ist das Mehl.,这里是面粉。,food;restaurant;nutrition,true
+A12-0150,A1.2,Lektion 4,das Öl,油,Das ist das Öl.,这是油。,food;restaurant;nutrition,true
+A12-0151,A1.2,Lektion 4,der Essig,醋,Hier ist der Essig.,这里是醋。,food;restaurant;nutrition,true
+A12-0152,A1.2,Lektion 4,das Gewürz,调味料,Das ist das Gewürz.,这是调味料。,food;restaurant;nutrition,true
+A12-0153,A1.2,Lektion 4,vegetarisch,素食的,Ich nehme das vegetarische Gericht.,我要这道素食菜。,food;restaurant;nutrition,true
+A12-0154,A1.2,Lektion 4,vegan,纯素的,Gibt es auch ein veganes Gericht?,也有纯素菜吗？,food;restaurant;nutrition,true
+A12-0155,A1.2,Lektion 4,scharf,辣的,Ist die Suppe sehr scharf?,这汤很辣吗？,food;restaurant;nutrition,true
+A12-0156,A1.2,Lektion 4,süß,甜的,Der Kuchen ist mir zu süß.,这个蛋糕对我来说太甜了。,food;restaurant;nutrition,true
+A12-0157,A1.2,Lektion 4,sauer,酸的,Die Zitrone schmeckt sauer.,柠檬尝起来很酸。,food;restaurant;nutrition,true
+A12-0158,A1.2,Lektion 4,salzig,咸的,Die Suppe ist etwas zu salzig.,这汤有点太咸。,food;restaurant;nutrition,true
+A12-0159,A1.2,Lektion 4,frisch,新鲜的,Das Gemüse ist frisch.,这些蔬菜很新鲜。,food;restaurant;nutrition,true
+A12-0160,A1.2,Lektion 4,lecker,好吃的,Das Essen schmeckt lecker.,这顿饭很好吃。,food;restaurant;nutrition,true
+A12-0161,A1.2,Lektion 4,backen,烘焙,Ich möchte heute backen.,我今天想烘焙。,food;restaurant;nutrition,true
+A12-0162,A1.2,Lektion 4,braten,煎；烤,Ich möchte heute braten.,我今天想煎；烤。,food;restaurant;nutrition,true
+A12-0163,A1.2,Lektion 4,schneiden,切,Ich möchte heute schneiden.,我今天想切。,food;restaurant;nutrition,true
+A12-0164,A1.2,Lektion 4,dazugeben,加入,Ich möchte heute dazugeben.,我今天想加入。,food;restaurant;nutrition,true
+A12-0165,A1.2,Lektion 4,mischen,混合,Ich möchte heute mischen.,我今天想混合。,food;restaurant;nutrition,true
+A12-0166,A1.2,Lektion 4,probieren,品尝,Ich möchte heute probieren.,我今天想品尝。,food;restaurant;nutrition,true
+A12-0167,A1.2,Lektion 4,empfehlen,推荐,Ich möchte heute empfehlen.,我今天想推荐。,food;restaurant;nutrition,true
+A12-0168,A1.2,Lektion 4,servieren,上菜,Ich möchte heute servieren.,我今天想上菜。,food;restaurant;nutrition,true
+A12-0169,A1.2,Lektion 5,die Erkältung,感冒,Hier ist die Erkältung.,这里是感冒。,health;body;doctor,true
+A12-0170,A1.2,Lektion 5,die Grippe,流感,Das ist die Grippe.,这是流感。,health;body;doctor,true
+A12-0171,A1.2,Lektion 5,die Kopfschmerzen,头痛,Das sind die Kopfschmerzen.,这些是头痛。,health;body;doctor,true
+A12-0172,A1.2,Lektion 5,die Bauchschmerzen,肚子痛,Das sind die Bauchschmerzen.,这些是肚子痛。,health;body;doctor,true
+A12-0173,A1.2,Lektion 5,die Rückenschmerzen,背痛,Das sind die Rückenschmerzen.,这些是背痛。,health;body;doctor,true
+A12-0174,A1.2,Lektion 5,die Halsschmerzen,喉咙痛,Das sind die Halsschmerzen.,这些是喉咙痛。,health;body;doctor,true
+A12-0175,A1.2,Lektion 5,die Verletzung,受伤,Hier ist die Verletzung.,这里是受伤。,health;body;doctor,true
+A12-0176,A1.2,Lektion 5,die Wunde,伤口,Das ist die Wunde.,这是伤口。,health;body;doctor,true
+A12-0177,A1.2,Lektion 5,der Unfall,事故,Hier ist der Unfall.,这里是事故。,health;body;doctor,true
+A12-0178,A1.2,Lektion 5,der Rettungsdienst,急救服务,Das ist der Rettungsdienst.,这是急救服务。,health;body;doctor,true
+A12-0179,A1.2,Lektion 5,der Krankenwagen,救护车,Hier ist der Krankenwagen.,这里是救护车。,health;body;doctor,true
+A12-0180,A1.2,Lektion 5,die Notaufnahme,急诊室,Das ist die Notaufnahme.,这是急诊室。,health;body;doctor,true
+A12-0181,A1.2,Lektion 5,der Hausarzt,家庭医生,Hier ist der Hausarzt.,这里是家庭医生。,health;body;doctor,true
+A12-0182,A1.2,Lektion 5,der Zahnarzt,牙医,Das ist der Zahnarzt.,这是牙医。,health;body;doctor,true
+A12-0183,A1.2,Lektion 5,der Facharzt,专科医生,Hier ist der Facharzt.,这里是专科医生。,health;body;doctor,true
+A12-0184,A1.2,Lektion 5,die Sprechstunde,门诊时间,Das ist die Sprechstunde.,这是门诊时间。,health;body;doctor,true
+A12-0185,A1.2,Lektion 5,die Behandlung,治疗,Hier ist die Behandlung.,这里是治疗。,health;body;doctor,true
+A12-0186,A1.2,Lektion 5,die Diagnose,诊断,Das ist die Diagnose.,这是诊断。,health;body;doctor,true
+A12-0187,A1.2,Lektion 5,die Überweisung,转诊单,Hier ist die Überweisung.,这里是转诊单。,health;body;doctor,true
+A12-0188,A1.2,Lektion 5,die Krankmeldung,病假条,Das ist die Krankmeldung.,这是病假条。,health;body;doctor,true
+A12-0189,A1.2,Lektion 5,die Impfung,疫苗接种,Hier ist die Impfung.,这里是疫苗接种。,health;body;doctor,true
+A12-0190,A1.2,Lektion 5,der Blutdruck,血压,Das ist der Blutdruck.,这是血压。,health;body;doctor,true
+A12-0191,A1.2,Lektion 5,das Gewicht,体重,Hier ist das Gewicht.,这里是体重。,health;body;doctor,true
+A12-0192,A1.2,Lektion 5,die Beschwerden,不适症状,Das sind die Beschwerden.,这些是不适症状。,health;body;doctor,true
+A12-0193,A1.2,Lektion 5,die Salbe,药膏,Hier ist die Salbe.,这里是药膏。,health;body;doctor,true
+A12-0194,A1.2,Lektion 5,die Tropfen,滴剂,Das sind die Tropfen.,这些是滴剂。,health;body;doctor,true
+A12-0195,A1.2,Lektion 5,der Verband,绷带,Hier ist der Verband.,这里是绷带。,health;body;doctor,true
+A12-0196,A1.2,Lektion 5,die Dosis,剂量,Das ist die Dosis.,这是剂量。,health;body;doctor,true
+A12-0197,A1.2,Lektion 5,untersuchen,检查,Ich möchte heute untersuchen.,我今天想检查。,health;body;doctor,true
+A12-0198,A1.2,Lektion 5,behandeln,治疗,Ich möchte heute behandeln.,我今天想治疗。,health;body;doctor,true
+A12-0199,A1.2,Lektion 5,messen,测量,Ich möchte heute messen.,我今天想测量。,health;body;doctor,true
+A12-0200,A1.2,Lektion 5,atmen,呼吸,Ich möchte heute atmen.,我今天想呼吸。,health;body;doctor,true
+A12-0201,A1.2,Lektion 5,husten,咳嗽,Ich möchte heute husten.,我今天想咳嗽。,health;body;doctor,true
+A12-0202,A1.2,Lektion 5,niesen,打喷嚏,Ich möchte heute niesen.,我今天想打喷嚏。,health;body;doctor,true
+A12-0203,A1.2,Lektion 5,bluten,流血,Ich möchte heute bluten.,我今天想流血。,health;body;doctor,true
+A12-0204,A1.2,Lektion 5,sich verletzen,受伤,Ich möchte mich heute verletzen.,我今天想受伤。,health;body;doctor,true
+A12-0205,A1.2,Lektion 5,sich fühlen,感觉,Ich möchte mich heute fühlen.,我今天想感觉。,health;body;doctor,true
+A12-0206,A1.2,Lektion 5,verschreiben,开处方,Ich möchte heute verschreiben.,我今天想开处方。,health;body;doctor,true
+A12-0207,A1.2,Lektion 5,krankgeschrieben,开了病假的,Ich bin bis Freitag krankgeschrieben.,我病假开到星期五。,health;body;doctor,true
+A12-0208,A1.2,Lektion 5,regelmäßig,定期地,Ich nehme das Medikament regelmäßig.,我定期服用这种药。,health;body;doctor,true
+A12-0209,A1.2,Lektion 5,nüchtern,空腹的,Bitte kommen Sie nüchtern zur Untersuchung.,请空腹来做检查。,health;body;doctor,true
+A12-0210,A1.2,Lektion 5,schwindelig,头晕的,Mir ist seit heute Morgen schwindelig.,我从今天早上开始头晕。,health;body;doctor,true
+A12-0211,A1.2,Lektion 6,die Stelle,职位,Hier ist die Stelle.,这里是职位。,work;application;communication,true
+A12-0212,A1.2,Lektion 6,die Stellenanzeige,招聘广告,Das ist die Stellenanzeige.,这是招聘广告。,work;application;communication,true
+A12-0213,A1.2,Lektion 6,die Bewerbung,求职申请,Ich sende heute meine Bewerbung.,我今天发送求职申请。,work;application;communication,true
+A12-0214,A1.2,Lektion 6,der Lebenslauf,简历,Das ist der Lebenslauf.,这是简历。,work;application;communication,true
+A12-0215,A1.2,Lektion 6,das Anschreiben,求职信,Hier ist das Anschreiben.,这里是求职信。,work;application;communication,true
+A12-0216,A1.2,Lektion 6,das Zeugnis,证书；工作证明,Das ist das Zeugnis.,这是证书；工作证明。,work;application;communication,true
+A12-0217,A1.2,Lektion 6,die Erfahrung,经验,Hier ist die Erfahrung.,这里是经验。,work;application;communication,true
+A12-0218,A1.2,Lektion 6,die Ausbildung,职业培训,Das ist die Ausbildung.,这是职业培训。,work;application;communication,true
+A12-0219,A1.2,Lektion 6,das Studium,大学学习,Hier ist das Studium.,这里是大学学习。,work;application;communication,true
+A12-0220,A1.2,Lektion 6,die Qualifikation,资质,Das ist die Qualifikation.,这是资质。,work;application;communication,true
+A12-0221,A1.2,Lektion 6,die Fähigkeit,能力,Hier ist die Fähigkeit.,这里是能力。,work;application;communication,true
+A12-0222,A1.2,Lektion 6,die Kenntnis,知识；技能,Das ist die Kenntnis.,这是知识；技能。,work;application;communication,true
+A12-0223,A1.2,Lektion 6,die Arbeitszeit,工作时间,Hier ist die Arbeitszeit.,这里是工作时间。,work;application;communication,true
+A12-0224,A1.2,Lektion 6,die Vollzeit,全职,Das ist die Vollzeit.,这是全职。,work;application;communication,true
+A12-0225,A1.2,Lektion 6,die Teilzeit,兼职,Hier ist die Teilzeit.,这里是兼职。,work;application;communication,true
+A12-0226,A1.2,Lektion 6,die Schicht,班次,Das ist die Schicht.,这是班次。,work;application;communication,true
+A12-0227,A1.2,Lektion 6,das Gehalt,工资,Hier ist das Gehalt.,这里是工资。,work;application;communication,true
+A12-0228,A1.2,Lektion 6,der Lohn,薪酬,Das ist der Lohn.,这是薪酬。,work;application;communication,true
+A12-0229,A1.2,Lektion 6,der Urlaubstag,休假日,Hier ist der Urlaubstag.,这里是休假日。,work;application;communication,true
+A12-0230,A1.2,Lektion 6,die Überstunde,加班小时,Das ist die Überstunde.,这是加班小时。,work;application;communication,true
+A12-0231,A1.2,Lektion 6,der Vertrag,合同,Hier ist der Vertrag.,这里是合同。,work;application;communication,true
+A12-0232,A1.2,Lektion 6,die Probezeit,试用期,Das ist die Probezeit.,这是试用期。,work;application;communication,true
+A12-0233,A1.2,Lektion 6,die Abteilung,部门,Hier ist die Abteilung.,这里是部门。,work;application;communication,true
+A12-0234,A1.2,Lektion 6,die Personalabteilung,人事部门,Das ist die Personalabteilung.,这是人事部门。,work;application;communication,true
+A12-0235,A1.2,Lektion 6,das Vorstellungsgespräch,面试,Hier ist das Vorstellungsgespräch.,这里是面试。,work;application;communication,true
+A12-0236,A1.2,Lektion 6,die Einladung,邀请,Das ist die Einladung.,这是邀请。,work;application;communication,true
+A12-0237,A1.2,Lektion 6,die Rückmeldung,反馈,Hier ist die Rückmeldung.,这里是反馈。,work;application;communication,true
+A12-0238,A1.2,Lektion 6,die Verantwortung,责任,Das ist die Verantwortung.,这是责任。,work;application;communication,true
+A12-0239,A1.2,Lektion 6,die Tätigkeit,工作内容,Hier ist die Tätigkeit.,这里是工作内容。,work;application;communication,true
+A12-0240,A1.2,Lektion 6,die Fortbildung,进修,Das ist die Fortbildung.,这是进修。,work;application;communication,true
+A12-0241,A1.2,Lektion 6,sich bewerben,申请职位,Ich möchte mich heute bewerben.,我今天想申请职位。,work;application;communication,true
+A12-0242,A1.2,Lektion 6,einstellen,录用,Ich möchte heute einstellen.,我今天想录用。,work;application;communication,true
+A12-0243,A1.2,Lektion 6,verdienen,挣钱,Ich möchte heute verdienen.,我今天想挣钱。,work;application;communication,true
+A12-0244,A1.2,Lektion 6,kündigen,辞职；解雇,Ich möchte heute kündigen.,我今天想辞职；解雇。,work;application;communication,true
+A12-0245,A1.2,Lektion 6,vereinbaren,约定,Ich möchte einen Termin vereinbaren.,我想预约一个时间。,work;application;communication,true
+A12-0246,A1.2,Lektion 6,verschieben,推迟,Ich möchte heute verschieben.,我今天想推迟。,work;application;communication,true
+A12-0247,A1.2,Lektion 6,teilnehmen,参加,Ich möchte heute teilnehmen.,我今天想参加。,work;application;communication,true
+A12-0248,A1.2,Lektion 6,vorbereiten,准备,Ich möchte heute vorbereiten.,我今天想准备。,work;application;communication,true
+A12-0249,A1.2,Lektion 6,vorstellen,介绍；想象,Ich möchte heute vorstellen.,我今天想介绍；想象。,work;application;communication,true
+A12-0250,A1.2,Lektion 6,berichten,汇报,Ich möchte heute berichten.,我今天想汇报。,work;application;communication,true
+A12-0251,A1.2,Lektion 6,besprechen,讨论,Ich möchte heute besprechen.,我今天想讨论。,work;application;communication,true
+A12-0252,A1.2,Lektion 6,erledigen,完成处理,Ich möchte heute erledigen.,我今天想完成处理。,work;application;communication,true
+A12-0253,A1.2,Lektion 7,der Arbeitsauftrag,工作任务,Hier ist der Arbeitsauftrag.,这里是工作任务。,work;technology;validation;test-bench,true
+A12-0254,A1.2,Lektion 7,die Anleitung,说明书,Das ist die Anleitung.,这是说明书。,work;technology;validation;test-bench,true
+A12-0255,A1.2,Lektion 7,die Sicherheit,安全,Hier ist die Sicherheit.,这里是安全。,work;technology;validation;test-bench,true
+A12-0256,A1.2,Lektion 7,die Vorschrift,规定,Das ist die Vorschrift.,这是规定。,work;technology;validation;test-bench,true
+A12-0257,A1.2,Lektion 7,die Schutzausrüstung,防护装备,Hier ist die Schutzausrüstung.,这里是防护装备。,work;technology;validation;test-bench,true
+A12-0258,A1.2,Lektion 7,der Helm,头盔,Das ist der Helm.,这是头盔。,work;technology;validation;test-bench,true
+A12-0259,A1.2,Lektion 7,der Handschuh,手套,Hier ist der Handschuh.,这里是手套。,work;technology;validation;test-bench,true
+A12-0260,A1.2,Lektion 7,die Maschine,机器,Das ist die Maschine.,这是机器。,work;technology;validation;test-bench,true
+A12-0261,A1.2,Lektion 7,das Gerät,设备,Hier ist das Gerät.,这里是设备。,work;technology;validation;test-bench,true
+A12-0262,A1.2,Lektion 7,das Werkzeug,工具,Das ist das Werkzeug.,这是工具。,work;technology;validation;test-bench,true
+A12-0263,A1.2,Lektion 7,der Schraubenzieher,螺丝刀,Hier ist der Schraubenzieher.,这里是螺丝刀。,work;technology;validation;test-bench,true
+A12-0264,A1.2,Lektion 7,der Fehler,错误；故障,Wir suchen den Fehler.,我们正在查找故障。,work;technology;validation;test-bench,true
+A12-0265,A1.2,Lektion 7,die Ursache,原因,Hier ist die Ursache.,这里是原因。,work;technology;validation;test-bench,true
+A12-0266,A1.2,Lektion 7,die Lösung,解决方案,Das ist die Lösung.,这是解决方案。,work;technology;validation;test-bench,true
+A12-0267,A1.2,Lektion 7,die Messung,测量,Die Messung ist abgeschlossen.,测量已经完成。,work;technology;validation;test-bench,true
+A12-0268,A1.2,Lektion 7,das Ergebnis,结果,Das ist das Ergebnis.,这是结果。,work;technology;validation;test-bench,true
+A12-0269,A1.2,Lektion 7,der Bericht,报告,Hier ist der Bericht.,这里是报告。,work;technology;validation;test-bench,true
+A12-0270,A1.2,Lektion 7,die Datei,文件,Das ist die Datei.,这是文件。,work;technology;validation;test-bench,true
+A12-0271,A1.2,Lektion 7,der Ordner,文件夹,Hier ist der Ordner.,这里是文件夹。,work;technology;validation;test-bench,true
+A12-0272,A1.2,Lektion 7,das Passwort,密码,Das ist das Passwort.,这是密码。,work;technology;validation;test-bench,true
+A12-0273,A1.2,Lektion 7,das Netzwerk,网络,Hier ist das Netzwerk.,这里是网络。,work;technology;validation;test-bench,true
+A12-0274,A1.2,Lektion 7,die Software,软件,Das ist die Software.,这是软件。,work;technology;validation;test-bench,true
+A12-0275,A1.2,Lektion 7,die Hardware,硬件,Hier ist die Hardware.,这里是硬件。,work;technology;validation;test-bench,true
+A12-0276,A1.2,Lektion 7,das System,系统,Das System funktioniert wieder.,系统又能正常工作了。,work;technology;validation;test-bench,true
+A12-0277,A1.2,Lektion 7,die Anlage,设备；系统,Hier ist die Anlage.,这里是设备；系统。,work;technology;validation;test-bench,true
+A12-0278,A1.2,Lektion 7,der Test,测试,Der Test ist erfolgreich.,测试成功。,work;technology;validation;test-bench,true
+A12-0279,A1.2,Lektion 7,der Prüfstand,试验台,Der Prüfstand ist heute frei.,试验台今天空闲。,work;technology;validation;test-bench,true
+A12-0280,A1.2,Lektion 7,die Entwicklung,开发,Das ist die Entwicklung.,这是开发。,work;technology;validation;test-bench,true
+A12-0281,A1.2,Lektion 7,die Freigabe,批准；放行,Hier ist die Freigabe.,这里是批准；放行。,work;technology;validation;test-bench,true
+A12-0282,A1.2,Lektion 7,die Wartung,维护,Das ist die Wartung.,这是维护。,work;technology;validation;test-bench,true
+A12-0283,A1.2,Lektion 7,prüfen,检查,Ich prüfe die Messergebnisse.,我检查测量结果。,work;technology;validation;test-bench,true
+A12-0284,A1.2,Lektion 7,messen,测量,Ich möchte heute messen.,我今天想测量。,work;technology;validation;test-bench,true
+A12-0285,A1.2,Lektion 7,montieren,安装,Ich möchte heute montieren.,我今天想安装。,work;technology;validation;test-bench,true
+A12-0286,A1.2,Lektion 7,verbinden,连接,Ich möchte heute verbinden.,我今天想连接。,work;technology;validation;test-bench,true
+A12-0287,A1.2,Lektion 7,einschalten,打开电源,Ich möchte heute einschalten.,我今天想打开电源。,work;technology;validation;test-bench,true
+A12-0288,A1.2,Lektion 7,ausschalten,关闭电源,Ich möchte heute ausschalten.,我今天想关闭电源。,work;technology;validation;test-bench,true
+A12-0289,A1.2,Lektion 7,speichern,保存,Ich möchte heute speichern.,我今天想保存。,work;technology;validation;test-bench,true
+A12-0290,A1.2,Lektion 7,drucken,打印,Ich möchte heute drucken.,我今天想打印。,work;technology;validation;test-bench,true
+A12-0291,A1.2,Lektion 7,kopieren,复制,Ich möchte heute kopieren.,我今天想复制。,work;technology;validation;test-bench,true
+A12-0292,A1.2,Lektion 7,löschen,删除,Ich möchte heute löschen.,我今天想删除。,work;technology;validation;test-bench,true
+A12-0293,A1.2,Lektion 7,hochladen,上传,Ich möchte heute hochladen.,我今天想上传。,work;technology;validation;test-bench,true
+A12-0294,A1.2,Lektion 7,herunterladen,下载,Ich möchte heute herunterladen.,我今天想下载。,work;technology;validation;test-bench,true
+A12-0295,A1.2,Lektion 8,die Verabredung,约会；约定,Hier ist die Verabredung.,这里是约会；约定。,appointment;invitation;celebration,true
+A12-0296,A1.2,Lektion 8,der Kalender,日历,Das ist der Kalender.,这是日历。,appointment;invitation;celebration,true
+A12-0297,A1.2,Lektion 8,die Einladung,邀请,Hier ist die Einladung.,这里是邀请。,appointment;invitation;celebration,true
+A12-0298,A1.2,Lektion 8,die Feier,庆祝活动,Das ist die Feier.,这是庆祝活动。,appointment;invitation;celebration,true
+A12-0299,A1.2,Lektion 8,das Fest,节日；庆典,Hier ist das Fest.,这里是节日；庆典。,appointment;invitation;celebration,true
+A12-0300,A1.2,Lektion 8,die Hochzeit,婚礼,Das ist die Hochzeit.,这是婚礼。,appointment;invitation;celebration,true
+A12-0301,A1.2,Lektion 8,der Geburtstag,生日,Hier ist der Geburtstag.,这里是生日。,appointment;invitation;celebration,true
+A12-0302,A1.2,Lektion 8,das Geschenk,礼物,Das ist das Geschenk.,这是礼物。,appointment;invitation;celebration,true
+A12-0303,A1.2,Lektion 8,die Glückwünsche,祝福,Das sind die Glückwünsche.,这些是祝福。,appointment;invitation;celebration,true
+A12-0304,A1.2,Lektion 8,der Gast,客人,Das ist der Gast.,这是客人。,appointment;invitation;celebration,true
+A12-0305,A1.2,Lektion 8,der Gastgeber,男主人,Hier ist der Gastgeber.,这里是男主人。,appointment;invitation;celebration,true
+A12-0306,A1.2,Lektion 8,die Gastgeberin,女主人,Das ist die Gastgeberin.,这是女主人。,appointment;invitation;celebration,true
+A12-0307,A1.2,Lektion 8,die Zusage,接受邀请,Hier ist die Zusage.,这里是接受邀请。,appointment;invitation;celebration,true
+A12-0308,A1.2,Lektion 8,die Absage,拒绝；取消,Das ist die Absage.,这是拒绝；取消。,appointment;invitation;celebration,true
+A12-0309,A1.2,Lektion 8,der Vorschlag,建议,Hier ist der Vorschlag.,这里是建议。,appointment;invitation;celebration,true
+A12-0310,A1.2,Lektion 8,die Änderung,更改,Das ist die Änderung.,这是更改。,appointment;invitation;celebration,true
+A12-0311,A1.2,Lektion 8,die Gelegenheit,机会,Hier ist die Gelegenheit.,这里是机会。,appointment;invitation;celebration,true
+A12-0312,A1.2,Lektion 8,die Vorbereitung,准备,Das ist die Vorbereitung.,这是准备。,appointment;invitation;celebration,true
+A12-0313,A1.2,Lektion 8,die Dekoration,装饰,Hier ist die Dekoration.,这里是装饰。,appointment;invitation;celebration,true
+A12-0314,A1.2,Lektion 8,die Kerze,蜡烛,Das ist die Kerze.,这是蜡烛。,appointment;invitation;celebration,true
+A12-0315,A1.2,Lektion 8,die Blume,花,Hier ist die Blume.,这里是花。,appointment;invitation;celebration,true
+A12-0316,A1.2,Lektion 8,sich treffen,见面,Ich möchte mich heute treffen.,我今天想见面。,appointment;invitation;celebration,true
+A12-0317,A1.2,Lektion 8,einladen,邀请,Ich möchte heute einladen.,我今天想邀请。,appointment;invitation;celebration,true
+A12-0318,A1.2,Lektion 8,zusagen,答应,Ich möchte heute zusagen.,我今天想答应。,appointment;invitation;celebration,true
+A12-0319,A1.2,Lektion 8,absagen,取消,Leider muss ich den Termin absagen.,很遗憾，我必须取消预约。,appointment;invitation;celebration,true
+A12-0320,A1.2,Lektion 8,verschieben,推迟,Ich möchte heute verschieben.,我今天想推迟。,appointment;invitation;celebration,true
+A12-0321,A1.2,Lektion 8,feiern,庆祝,Ich möchte heute feiern.,我今天想庆祝。,appointment;invitation;celebration,true
+A12-0322,A1.2,Lektion 8,gratulieren,祝贺,Ich möchte heute gratulieren.,我今天想祝贺。,appointment;invitation;celebration,true
+A12-0323,A1.2,Lektion 8,schenken,赠送,Ich möchte heute schenken.,我今天想赠送。,appointment;invitation;celebration,true
+A12-0324,A1.2,Lektion 8,mitbringen,带来,Ich möchte heute mitbringen.,我今天想带来。,appointment;invitation;celebration,true
+A12-0325,A1.2,Lektion 8,vorbeikommen,顺道来访,Ich möchte heute vorbeikommen.,我今天想顺道来访。,appointment;invitation;celebration,true
+A12-0326,A1.2,Lektion 8,stattfinden,举行,Ich möchte heute stattfinden.,我今天想举行。,appointment;invitation;celebration,true
+A12-0327,A1.2,Lektion 8,planen,计划,Ich möchte heute planen.,我今天想计划。,appointment;invitation;celebration,true
+A12-0328,A1.2,Lektion 8,organisieren,组织,Ich möchte heute organisieren.,我今天想组织。,appointment;invitation;celebration,true
+A12-0329,A1.2,Lektion 8,passen,时间合适,Der Termin passt mir gut.,这个时间对我很合适。,appointment;invitation;celebration,true
+A12-0330,A1.2,Lektion 8,möglich,可能的,Ist ein Termin am Freitag möglich?,星期五可以预约吗？,appointment;invitation;celebration,true
+A12-0331,A1.2,Lektion 8,leider,遗憾地,Leider kann ich heute nicht kommen.,很遗憾，我今天不能来。,appointment;invitation;celebration,true
+A12-0332,A1.2,Lektion 8,hoffentlich,希望如此,Hoffentlich kommt der Zug pünktlich.,希望火车准点到。,appointment;invitation;celebration,true
+A12-0333,A1.2,Lektion 8,bestimmt,肯定地,Wir finden bestimmt eine Lösung.,我们一定能找到解决办法。,appointment;invitation;celebration,true
+A12-0334,A1.2,Lektion 8,voraussichtlich,预计,Der Test endet voraussichtlich um vier Uhr.,测试预计四点结束。,appointment;invitation;celebration,true
+A12-0335,A1.2,Lektion 8,herzlich,衷心地,Herzlichen Glückwunsch zum Geburtstag!,衷心祝你生日快乐！,appointment;invitation;celebration,true
+A12-0336,A1.2,Lektion 8,gemeinsam,共同地,Wir prüfen die Ergebnisse gemeinsam.,我们一起检查结果。,appointment;invitation;celebration,true
+A12-0337,A1.2,Lektion 9,das Gespräch,谈话,Hier ist das Gespräch.,这里是谈话。,media;email;communication,true
+A12-0338,A1.2,Lektion 9,der Anruf,电话,Das ist der Anruf.,这是电话。,media;email;communication,true
+A12-0339,A1.2,Lektion 9,die Mailbox,语音信箱,Hier ist die Mailbox.,这里是语音信箱。,media;email;communication,true
+A12-0340,A1.2,Lektion 9,die Nachricht,消息,Das ist die Nachricht.,这是消息。,media;email;communication,true
+A12-0341,A1.2,Lektion 9,die E-Mail,电子邮件,Ich schreibe eine E-Mail.,我写一封电子邮件。,media;email;communication,true
+A12-0342,A1.2,Lektion 9,der Betreff,主题,Das ist der Betreff.,这是主题。,media;email;communication,true
+A12-0343,A1.2,Lektion 9,der Anhang,附件,Hier ist der Anhang.,这里是附件。,media;email;communication,true
+A12-0344,A1.2,Lektion 9,der Empfänger,收件人,Das ist der Empfänger.,这是收件人。,media;email;communication,true
+A12-0345,A1.2,Lektion 9,der Absender,发件人,Hier ist der Absender.,这里是发件人。,media;email;communication,true
+A12-0346,A1.2,Lektion 9,die Webseite,网页,Das ist die Webseite.,这是网页。,media;email;communication,true
+A12-0347,A1.2,Lektion 9,die App,应用程序,Hier ist die App.,这里是应用程序。,media;email;communication,true
+A12-0348,A1.2,Lektion 9,das soziale Netzwerk,社交网络,Das ist das soziale Netzwerk.,这是社交网络。,media;email;communication,true
+A12-0349,A1.2,Lektion 9,der Beitrag,帖子；文章,Hier ist der Beitrag.,这里是帖子；文章。,media;email;communication,true
+A12-0350,A1.2,Lektion 9,der Kommentar,评论,Das ist der Kommentar.,这是评论。,media;email;communication,true
+A12-0351,A1.2,Lektion 9,das Profil,个人资料,Hier ist das Profil.,这里是个人资料。,media;email;communication,true
+A12-0352,A1.2,Lektion 9,das Foto,照片,Das ist das Foto.,这是照片。,media;email;communication,true
+A12-0353,A1.2,Lektion 9,das Video,视频,Hier ist das Video.,这里是视频。,media;email;communication,true
+A12-0354,A1.2,Lektion 9,der Link,链接,Das ist der Link.,这是链接。,media;email;communication,true
+A12-0355,A1.2,Lektion 9,die Verbindung,连接,Hier ist die Verbindung.,这里是连接。,media;email;communication,true
+A12-0356,A1.2,Lektion 9,der Empfang,信号；接收,Das ist der Empfang.,这是信号；接收。,media;email;communication,true
+A12-0357,A1.2,Lektion 9,das WLAN,无线网络,Hier ist das WLAN.,这里是无线网络。,media;email;communication,true
+A12-0358,A1.2,Lektion 9,das Datenvolumen,数据流量,Das ist das Datenvolumen.,这是数据流量。,media;email;communication,true
+A12-0359,A1.2,Lektion 9,die Telefonnummer,电话号码,Hier ist die Telefonnummer.,这里是电话号码。,media;email;communication,true
+A12-0360,A1.2,Lektion 9,die Vorwahl,区号,Das ist die Vorwahl.,这是区号。,media;email;communication,true
+A12-0361,A1.2,Lektion 9,die Durchwahl,分机号,Hier ist die Durchwahl.,这里是分机号。,media;email;communication,true
+A12-0362,A1.2,Lektion 9,anrufen,打电话,Ich rufe morgen in der Praxis an.,我明天给诊所打电话。,media;email;communication,true
+A12-0363,A1.2,Lektion 9,zurückrufen,回电话,Ich möchte heute zurückrufen.,我今天想回电话。,media;email;communication,true
+A12-0364,A1.2,Lektion 9,weiterleiten,转发,Ich möchte heute weiterleiten.,我今天想转发。,media;email;communication,true
+A12-0365,A1.2,Lektion 9,anhängen,附加,Ich möchte heute anhängen.,我今天想附加。,media;email;communication,true
+A12-0366,A1.2,Lektion 9,senden,发送,Ich möchte heute senden.,我今天想发送。,media;email;communication,true
+A12-0367,A1.2,Lektion 9,empfangen,接收,Ich möchte heute empfangen.,我今天想接收。,media;email;communication,true
+A12-0368,A1.2,Lektion 9,antworten,回复,Ich möchte heute antworten.,我今天想回复。,media;email;communication,true
+A12-0369,A1.2,Lektion 9,löschen,删除,Ich möchte heute löschen.,我今天想删除。,media;email;communication,true
+A12-0370,A1.2,Lektion 9,posten,发布,Ich möchte heute posten.,我今天想发布。,media;email;communication,true
+A12-0371,A1.2,Lektion 9,teilen,分享,Ich möchte heute teilen.,我今天想分享。,media;email;communication,true
+A12-0372,A1.2,Lektion 9,herunterladen,下载,Ich möchte heute herunterladen.,我今天想下载。,media;email;communication,true
+A12-0373,A1.2,Lektion 9,installieren,安装,Ich möchte heute installieren.,我今天想安装。,media;email;communication,true
+A12-0374,A1.2,Lektion 9,aktualisieren,更新,Ich möchte heute aktualisieren.,我今天想更新。,media;email;communication,true
+A12-0375,A1.2,Lektion 9,registrieren,注册,Ich möchte heute registrieren.,我今天想注册。,media;email;communication,true
+A12-0376,A1.2,Lektion 9,sich anmelden,登录,Ich möchte mich heute anmelden.,我今天想登录。,media;email;communication,true
+A12-0377,A1.2,Lektion 9,sich abmelden,退出登录,Ich möchte mich heute abmelden.,我今天想退出登录。,media;email;communication,true
+A12-0378,A1.2,Lektion 10,die Behörde,政府部门,Das ist die Behörde.,这是政府部门。,public-service;bank;insurance,true
+A12-0379,A1.2,Lektion 10,das Bürgeramt,市民服务中心,Hier ist das Bürgeramt.,这里是市民服务中心。,public-service;bank;insurance,true
+A12-0380,A1.2,Lektion 10,die Ausländerbehörde,外国人管理局,Das ist die Ausländerbehörde.,这是外国人管理局。,public-service;bank;insurance,true
+A12-0381,A1.2,Lektion 10,das Finanzamt,税务局,Hier ist das Finanzamt.,这里是税务局。,public-service;bank;insurance,true
+A12-0382,A1.2,Lektion 10,die Krankenkasse,医保机构,Das ist die Krankenkasse.,这是医保机构。,public-service;bank;insurance,true
+A12-0383,A1.2,Lektion 10,die Versicherung,保险,Hier ist die Versicherung.,这里是保险。,public-service;bank;insurance,true
+A12-0384,A1.2,Lektion 10,die Haftpflichtversicherung,责任保险,Das ist die Haftpflichtversicherung.,这是责任保险。,public-service;bank;insurance,true
+A12-0385,A1.2,Lektion 10,die Hausratversicherung,家财险,Hier ist die Hausratversicherung.,这里是家财险。,public-service;bank;insurance,true
+A12-0386,A1.2,Lektion 10,der Antrag,申请,Das ist der Antrag.,这是申请。,public-service;bank;insurance,true
+A12-0387,A1.2,Lektion 10,das Formular,表格,Hier ist das Formular.,这里是表格。,public-service;bank;insurance,true
+A12-0388,A1.2,Lektion 10,die Bescheinigung,证明,Das ist die Bescheinigung.,这是证明。,public-service;bank;insurance,true
+A12-0389,A1.2,Lektion 10,die Genehmigung,许可,Hier ist die Genehmigung.,这里是许可。,public-service;bank;insurance,true
+A12-0390,A1.2,Lektion 10,die Aufenthaltserlaubnis,居留许可,Das ist die Aufenthaltserlaubnis.,这是居留许可。,public-service;bank;insurance,true
+A12-0391,A1.2,Lektion 10,die Geburtsurkunde,出生证明,Hier ist die Geburtsurkunde.,这里是出生证明。,public-service;bank;insurance,true
+A12-0392,A1.2,Lektion 10,die Meldebescheinigung,住址登记证明,Das ist die Meldebescheinigung.,这是住址登记证明。,public-service;bank;insurance,true
+A12-0393,A1.2,Lektion 10,die Unterschrift,签名,Hier ist die Unterschrift.,这里是签名。,public-service;bank;insurance,true
+A12-0394,A1.2,Lektion 10,die Frist,截止期限,Das ist die Frist.,这是截止期限。,public-service;bank;insurance,true
+A12-0395,A1.2,Lektion 10,die Gebühr,费用,Hier ist die Gebühr.,这里是费用。,public-service;bank;insurance,true
+A12-0396,A1.2,Lektion 10,die Kopie,复印件,Das ist die Kopie.,这是复印件。,public-service;bank;insurance,true
+A12-0397,A1.2,Lektion 10,das Original,原件,Hier ist das Original.,这里是原件。,public-service;bank;insurance,true
+A12-0398,A1.2,Lektion 10,das Konto,账户,Das ist das Konto.,这是账户。,public-service;bank;insurance,true
+A12-0399,A1.2,Lektion 10,das Girokonto,活期账户,Hier ist das Girokonto.,这里是活期账户。,public-service;bank;insurance,true
+A12-0400,A1.2,Lektion 10,die Überweisung,转账,Das ist die Überweisung.,这是转账。,public-service;bank;insurance,true
+A12-0401,A1.2,Lektion 10,der Dauerauftrag,定期转账,Hier ist der Dauerauftrag.,这里是定期转账。,public-service;bank;insurance,true
+A12-0402,A1.2,Lektion 10,die Lastschrift,自动扣款,Das ist die Lastschrift.,这是自动扣款。,public-service;bank;insurance,true
+A12-0403,A1.2,Lektion 10,die EC-Karte,银行卡,Hier ist die EC-Karte.,这里是银行卡。,public-service;bank;insurance,true
+A12-0404,A1.2,Lektion 10,die PIN,密码,Das ist die PIN.,这是密码。,public-service;bank;insurance,true
+A12-0405,A1.2,Lektion 10,der Geldautomat,自动取款机,Hier ist der Geldautomat.,这里是自动取款机。,public-service;bank;insurance,true
+A12-0406,A1.2,Lektion 10,der Kontoauszug,银行对账单,Das ist der Kontoauszug.,这是银行对账单。,public-service;bank;insurance,true
+A12-0407,A1.2,Lektion 10,die Rechnung,账单,Hier ist die Rechnung.,这里是账单。,public-service;bank;insurance,true
+A12-0408,A1.2,Lektion 10,die Mahnung,催款通知,Das ist die Mahnung.,这是催款通知。,public-service;bank;insurance,true
+A12-0409,A1.2,Lektion 10,beantragen,申请,Ich möchte heute beantragen.,我今天想申请。,public-service;bank;insurance,true
+A12-0410,A1.2,Lektion 10,verlängern,延长,Ich möchte heute verlängern.,我今天想延长。,public-service;bank;insurance,true
+A12-0411,A1.2,Lektion 10,abgeben,提交,Ich möchte heute abgeben.,我今天想提交。,public-service;bank;insurance,true
+A12-0412,A1.2,Lektion 10,vorlegen,出示,Ich möchte heute vorlegen.,我今天想出示。,public-service;bank;insurance,true
+A12-0413,A1.2,Lektion 10,überweisen,转账,Ich möchte heute überweisen.,我今天想转账。,public-service;bank;insurance,true
+A12-0414,A1.2,Lektion 10,einzahlen,存款,Ich möchte heute einzahlen.,我今天想存款。,public-service;bank;insurance,true
+A12-0415,A1.2,Lektion 10,abheben,取款,Ich möchte heute abheben.,我今天想取款。,public-service;bank;insurance,true
+A12-0416,A1.2,Lektion 10,unterschreiben,签字,Ich möchte heute unterschreiben.,我今天想签字。,public-service;bank;insurance,true
+A12-0417,A1.2,Lektion 10,bestätigen,确认,Ich möchte heute bestätigen.,我今天想确认。,public-service;bank;insurance,true
+A12-0418,A1.2,Lektion 10,gültig,有效的,Die Fahrkarte ist heute noch gültig.,这张车票今天仍然有效。,public-service;bank;insurance,true
+A12-0419,A1.2,Lektion 11,die Reise,旅行,Hier ist die Reise.,这里是旅行。,travel;hotel;holiday,true
+A12-0420,A1.2,Lektion 11,das Reiseziel,旅行目的地,Das ist das Reiseziel.,这是旅行目的地。,travel;hotel;holiday,true
+A12-0421,A1.2,Lektion 11,die Unterkunft,住宿,Hier ist die Unterkunft.,这里是住宿。,travel;hotel;holiday,true
+A12-0422,A1.2,Lektion 11,das Hotel,酒店,Das ist das Hotel.,这是酒店。,travel;hotel;holiday,true
+A12-0423,A1.2,Lektion 11,die Pension,家庭旅馆,Hier ist die Pension.,这里是家庭旅馆。,travel;hotel;holiday,true
+A12-0424,A1.2,Lektion 11,die Jugendherberge,青年旅舍,Das ist die Jugendherberge.,这是青年旅舍。,travel;hotel;holiday,true
+A12-0425,A1.2,Lektion 11,das Einzelzimmer,单人间,Hier ist das Einzelzimmer.,这里是单人间。,travel;hotel;holiday,true
+A12-0426,A1.2,Lektion 11,das Doppelzimmer,双人间,Das ist das Doppelzimmer.,这是双人间。,travel;hotel;holiday,true
+A12-0427,A1.2,Lektion 11,die Rezeption,前台,Hier ist die Rezeption.,这里是前台。,travel;hotel;holiday,true
+A12-0428,A1.2,Lektion 11,die Buchung,预订,Das ist die Buchung.,这是预订。,travel;hotel;holiday,true
+A12-0429,A1.2,Lektion 11,die Bestätigung,确认,Hier ist die Bestätigung.,这里是确认。,travel;hotel;holiday,true
+A12-0430,A1.2,Lektion 11,die Übernachtung,住宿一晚,Das ist die Übernachtung.,这是住宿一晚。,travel;hotel;holiday,true
+A12-0431,A1.2,Lektion 11,das Gepäck,行李,Hier ist das Gepäck.,这里是行李。,travel;hotel;holiday,true
+A12-0432,A1.2,Lektion 11,der Koffer,行李箱,Das ist der Koffer.,这是行李箱。,travel;hotel;holiday,true
+A12-0433,A1.2,Lektion 11,der Rucksack,背包,Hier ist der Rucksack.,这里是背包。,travel;hotel;holiday,true
+A12-0434,A1.2,Lektion 11,der Reisepass,护照,Das ist der Reisepass.,这是护照。,travel;hotel;holiday,true
+A12-0435,A1.2,Lektion 11,das Visum,签证,Hier ist das Visum.,这里是签证。,travel;hotel;holiday,true
+A12-0436,A1.2,Lektion 11,die Grenze,边境,Das ist die Grenze.,这是边境。,travel;hotel;holiday,true
+A12-0437,A1.2,Lektion 11,die Sehenswürdigkeit,景点,Hier ist die Sehenswürdigkeit.,这里是景点。,travel;hotel;holiday,true
+A12-0438,A1.2,Lektion 11,die Führung,导览,Das ist die Führung.,这是导览。,travel;hotel;holiday,true
+A12-0439,A1.2,Lektion 11,der Strand,海滩,Hier ist der Strand.,这里是海滩。,travel;hotel;holiday,true
+A12-0440,A1.2,Lektion 11,das Meer,海,Das ist das Meer.,这是海。,travel;hotel;holiday,true
+A12-0441,A1.2,Lektion 11,der Berg,山,Hier ist der Berg.,这里是山。,travel;hotel;holiday,true
+A12-0442,A1.2,Lektion 11,die Landschaft,风景,Das ist die Landschaft.,这是风景。,travel;hotel;holiday,true
+A12-0443,A1.2,Lektion 11,die Postkarte,明信片,Hier ist die Postkarte.,这里是明信片。,travel;hotel;holiday,true
+A12-0444,A1.2,Lektion 11,das Souvenir,纪念品,Das ist das Souvenir.,这是纪念品。,travel;hotel;holiday,true
+A12-0445,A1.2,Lektion 11,die Abreise,离开,Hier ist die Abreise.,这里是离开。,travel;hotel;holiday,true
+A12-0446,A1.2,Lektion 11,die Anreise,到达旅程,Das ist die Anreise.,这是到达旅程。,travel;hotel;holiday,true
+A12-0447,A1.2,Lektion 11,einchecken,办理入住,Ich möchte heute einchecken.,我今天想办理入住。,travel;hotel;holiday,true
+A12-0448,A1.2,Lektion 11,auschecken,退房,Ich möchte heute auschecken.,我今天想退房。,travel;hotel;holiday,true
+A12-0449,A1.2,Lektion 11,buchen,预订,Ich möchte heute buchen.,我今天想预订。,travel;hotel;holiday,true
+A12-0450,A1.2,Lektion 11,stornieren,取消预订,Ich möchte heute stornieren.,我今天想取消预订。,travel;hotel;holiday,true
+A12-0451,A1.2,Lektion 11,übernachten,过夜,Ich möchte heute übernachten.,我今天想过夜。,travel;hotel;holiday,true
+A12-0452,A1.2,Lektion 11,packen,打包,Ich möchte heute packen.,我今天想打包。,travel;hotel;holiday,true
+A12-0453,A1.2,Lektion 11,mitnehmen,随身带走,Ich möchte heute mitnehmen.,我今天想随身带走。,travel;hotel;holiday,true
+A12-0454,A1.2,Lektion 11,besichtigen,参观,Ich möchte heute besichtigen.,我今天想参观。,travel;hotel;holiday,true
+A12-0455,A1.2,Lektion 11,sich erholen,休养,Ich möchte mich heute erholen.,我今天想休养。,travel;hotel;holiday,true
+A12-0456,A1.2,Lektion 11,verbringen,度过,Ich möchte heute verbringen.,我今天想度过。,travel;hotel;holiday,true
+A12-0457,A1.2,Lektion 11,empfehlen,推荐,Ich möchte heute empfehlen.,我今天想推荐。,travel;hotel;holiday,true
+A12-0458,A1.2,Lektion 11,verfügbar,可用的,Das Zimmer ist ab Montag verfügbar.,这个房间从星期一起可用。,travel;hotel;holiday,true
+A12-0459,A1.2,Lektion 11,belegt,已被预订的,Das Doppelzimmer ist leider schon belegt.,双人间很遗憾已经被预订了。,travel;hotel;holiday,true
+A12-0460,A1.2,Lektion 12,das Wetter,天气,Das Wetter ist heute schön.,今天天气很好。,weather;environment;community,true
+A12-0461,A1.2,Lektion 12,die Sonne,太阳,Hier ist die Sonne.,这里是太阳。,weather;environment;community,true
+A12-0462,A1.2,Lektion 12,der Regen,雨,Das ist der Regen.,这是雨。,weather;environment;community,true
+A12-0463,A1.2,Lektion 12,der Schnee,雪,Hier ist der Schnee.,这里是雪。,weather;environment;community,true
+A12-0464,A1.2,Lektion 12,der Wind,风,Das ist der Wind.,这是风。,weather;environment;community,true
+A12-0465,A1.2,Lektion 12,die Wolke,云,Hier ist die Wolke.,这里是云。,weather;environment;community,true
+A12-0466,A1.2,Lektion 12,das Gewitter,雷暴,Das ist das Gewitter.,这是雷暴。,weather;environment;community,true
+A12-0467,A1.2,Lektion 12,die Temperatur,温度,Hier ist die Temperatur.,这里是温度。,weather;environment;community,true
+A12-0468,A1.2,Lektion 12,der Grad,度,Das ist der Grad.,这是度。,weather;environment;community,true
+A12-0469,A1.2,Lektion 12,der Frühling,春天,Hier ist der Frühling.,这里是春天。,weather;environment;community,true
+A12-0470,A1.2,Lektion 12,der Sommer,夏天,Das ist der Sommer.,这是夏天。,weather;environment;community,true
+A12-0471,A1.2,Lektion 12,der Herbst,秋天,Hier ist der Herbst.,这里是秋天。,weather;environment;community,true
+A12-0472,A1.2,Lektion 12,der Winter,冬天,Das ist der Winter.,这是冬天。,weather;environment;community,true
+A12-0473,A1.2,Lektion 12,die Umwelt,环境,Hier ist die Umwelt.,这里是环境。,weather;environment;community,true
+A12-0474,A1.2,Lektion 12,die Natur,自然,Das ist die Natur.,这是自然。,weather;environment;community,true
+A12-0475,A1.2,Lektion 12,der Park,公园,Hier ist der Park.,这里是公园。,weather;environment;community,true
+A12-0476,A1.2,Lektion 12,der Wald,森林,Das ist der Wald.,这是森林。,weather;environment;community,true
+A12-0477,A1.2,Lektion 12,der See,湖,Hier ist der See.,这里是湖。,weather;environment;community,true
+A12-0478,A1.2,Lektion 12,der Fluss,河,Das ist der Fluss.,这是河。,weather;environment;community,true
+A12-0479,A1.2,Lektion 12,die Luft,空气,Hier ist die Luft.,这里是空气。,weather;environment;community,true
+A12-0480,A1.2,Lektion 12,der Müll,垃圾,Das ist der Müll.,这是垃圾。,weather;environment;community,true
+A12-0481,A1.2,Lektion 12,das Papier,纸,Hier ist das Papier.,这里是纸。,weather;environment;community,true
+A12-0482,A1.2,Lektion 12,das Plastik,塑料,Das ist das Plastik.,这是塑料。,weather;environment;community,true
+A12-0483,A1.2,Lektion 12,das Glas,玻璃,Hier ist das Glas.,这里是玻璃。,weather;environment;community,true
+A12-0484,A1.2,Lektion 12,die Biotonne,厨余垃圾桶,Das ist die Biotonne.,这是厨余垃圾桶。,weather;environment;community,true
+A12-0485,A1.2,Lektion 12,der Restmüll,其他垃圾,Hier ist der Restmüll.,这里是其他垃圾。,weather;environment;community,true
+A12-0486,A1.2,Lektion 12,die Energie,能源,Das ist die Energie.,这是能源。,weather;environment;community,true
+A12-0487,A1.2,Lektion 12,der Strom,电,Hier ist der Strom.,这里是电。,weather;environment;community,true
+A12-0488,A1.2,Lektion 12,das Klima,气候,Das ist das Klima.,这是气候。,weather;environment;community,true
+A12-0489,A1.2,Lektion 12,die Gemeinschaft,社区,Hier ist die Gemeinschaft.,这里是社区。,weather;environment;community,true
+A12-0490,A1.2,Lektion 12,die Rücksicht,体谅,Das ist die Rücksicht.,这是体谅。,weather;environment;community,true
+A12-0491,A1.2,Lektion 12,die Regel,规则,Hier ist die Regel.,这里是规则。,weather;environment;community,true
+A12-0492,A1.2,Lektion 12,die Erlaubnis,许可,Das ist die Erlaubnis.,这是许可。,weather;environment;community,true
+A12-0493,A1.2,Lektion 12,das Verbot,禁令,Hier ist das Verbot.,这里是禁令。,weather;environment;community,true
+A12-0494,A1.2,Lektion 12,scheinen,照耀,Heute scheint die Sonne.,今天阳光明媚。,weather;environment;community,true
+A12-0495,A1.2,Lektion 12,regnen,下雨,Morgen soll es regnen.,明天可能下雨。,weather;environment;community,true
+A12-0496,A1.2,Lektion 12,schneien,下雪,Im Winter schneit es oft.,冬天经常下雪。,weather;environment;community,true
+A12-0497,A1.2,Lektion 12,frieren,结冰；感到冷,Ohne Jacke friere ich.,不穿外套我会冷。,weather;environment;community,true
+A12-0498,A1.2,Lektion 12,steigen,上升,Die Temperatur steigt am Nachmittag.,下午气温升高。,weather;environment;community,true
+A12-0499,A1.2,Lektion 12,sinken,下降,In der Nacht sinkt die Temperatur.,夜间气温下降。,weather;environment;community,true
+A12-0500,A1.2,Lektion 12,trennen,分类；分开,"Wir trennen Papier, Glas und Plastik.",我们把纸、玻璃和塑料分类。,weather;environment;community,true

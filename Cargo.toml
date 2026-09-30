@@ -1,0 +1,22 @@
+[package]
+name = "deutsch-worttrainer"
+version = "1.0.0"
+edition = "2021"
+authors = ["Deutsch Coach Pro"]
+description = "Windows desktop German vocabulary trainer"
+
+[dependencies]
+eframe = "0.29"
+egui = "0.29"
+csv = "1.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde"] }
+rand = "0.8"
+unicode-normalization = "0.1"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
+opt-level = "z"
