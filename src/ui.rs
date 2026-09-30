@@ -248,6 +248,11 @@ impl App {
                     .hint_text("请输入德语单词，名词包含冠词")
                     .desired_width(420.0),
             );
+            // Auto-focus the input so the user can type immediately, until the
+            // answer has been checked (so grade shortcuts are not swallowed).
+            if !self.revealed {
+                resp.request_focus();
+            }
             let enter =
                 resp.lost_focus() && ui.input(|i| i.key_pressed(egui::Key::Enter));
             if enter || ui.button("检查答案").clicked() {
@@ -256,8 +261,12 @@ impl App {
             }
         } else {
             ui.heading(&w.german);
-            if !self.revealed && ui.button("显示释义与例句").clicked() {
-                self.revealed = true;
+            if !self.revealed {
+                // Enter is equivalent to clicking the reveal button.
+                let enter = ui.input(|i| i.key_pressed(egui::Key::Enter));
+                if ui.button("显示释义与例句").clicked() || enter {
+                    self.revealed = true;
+                }
             }
         }
 
