@@ -34,6 +34,7 @@ pub struct App {
     pub input: String,
     pub feedback: Option<bool>,
     pub notice: String,
+    pub show_about: bool,
 }
 
 impl App {
@@ -68,6 +69,7 @@ impl App {
             input: String::new(),
             feedback: None,
             notice,
+            show_about: false,
         }
     }
 

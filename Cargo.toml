@@ -1,6 +1,6 @@
 [package]
 name = "deutsch-worttrainer"
-version = "1.0.0"
+version = "0.0.4"
 edition = "2021"
 authors = ["Deutsch Coach Pro"]
 description = "Windows desktop German vocabulary trainer"

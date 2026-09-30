@@ -10,6 +10,9 @@ use crate::util::{norm, today};
 /// Accent color used for headings and highlighted German words.
 const ACCENT: Color32 = Color32::from_rgb(35, 90, 150);
 
+/// Application version, taken from Cargo.toml at compile time.
+const VERSION: &str = env!("CARGO_PKG_VERSION");
+
 impl App {
     /// Top navigation bar with title and mode tabs.
     fn topbar(&mut self, ui: &mut egui::Ui) {
@@ -31,8 +34,39 @@ impl App {
                     }
                 }
             }
+
+            // Right-aligned Help menu with an About item.
+            ui.with_layout(egui::Layout::right_to_left(egui::Align::Center), |ui| {
+                ui.menu_button("帮助", |ui| {
+                    if ui.button("关于").clicked() {
+                        self.show_about = true;
+                        ui.close_menu();
+                    }
+                });
+            });
         });
         ui.separator();
+    }
+
+    /// Modal "About" window showing the app name, version and a short blurb.
+    fn about_window(&mut self, ctx: &egui::Context) {
+        let mut open = self.show_about;
+        egui::Window::new("关于")
+            .open(&mut open)
+            .collapsible(false)
+            .resizable(false)
+            .anchor(egui::Align2::CENTER_CENTER, [0.0, 0.0])
+            .show(ctx, |ui| {
+                ui.heading(RichText::new("Deutsch Worttrainer").color(ACCENT));
+                ui.label(format!("版本 {VERSION}"));
+                ui.add_space(8.0);
+                ui.label("本地离线德语词汇学习与默写工具。");
+                ui.label("基于 SM-2 间隔重复算法。");
+                ui.add_space(8.0);
+                ui.separator();
+                ui.small("词库存储于 vocabulary.csv，学习进度存储于 progress.json。");
+            });
+        self.show_about = open;
     }
 
     /// Level / lesson / daily-limit filter row.
@@ -246,5 +280,9 @@ impl eframe::App for App {
                 Mode::Browse => self.browse(ui),
             }
         });
+
+        if self.show_about {
+            self.about_window(ctx);
+        }
     }
 }
