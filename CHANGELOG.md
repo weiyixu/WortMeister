@@ -5,6 +5,17 @@ All notable changes to Deutsch Worttrainer are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.5] - 2026-10-01
+
+### Added
+- Dictation now tolerates ASCII transcriptions of German umlauts and eszett,
+  so `ue/ae/oe/ss` are accepted for `ü/ä/ö/ß` (e.g. `Fuesse` matches `Füße`).
+- Keyboard shortcuts 1 / 2 / 3 / 4 in the review card to grade Again / Hard /
+  Good / Easy without using the mouse; button labels show the shortcut.
+- Search box in the vocabulary browser that filters by German, Chinese or tag.
+- Learning statistics on the home page: overall accuracy (correct / wrong /
+  percentage) and a 7-day review-count bar chart.
+
 ## [0.0.4] - 2026-09-30
 
 ### Added

@@ -13,18 +13,34 @@ pub fn today() -> NaiveDate {
 }
 
 /// Normalize an answer string for lenient comparison in dictation mode.
-/// Trims, lowercases, applies Unicode NFC, strips common punctuation and
-/// collapses inner whitespace to single spaces.
+///
+/// Trims, lowercases, applies Unicode NFC, strips common punctuation, folds
+/// German umlauts and eszett to their ASCII transcriptions (so `ue == ü`,
+/// `ae == ä`, `oe == ö`, `ss == ß`) and collapses inner whitespace to single
+/// spaces. Folding both the expected answer and the user input the same way
+/// makes typing `Fuesse` accepted for `Füße`.
 pub fn norm(s: &str) -> String {
     let punctuation = ['.', ',', '!', '?', ';', ':', '"', '\'', '„', '“'];
-    s.trim()
+    let lowered: String = s
+        .trim()
         .to_lowercase()
         .nfc()
         .filter(|c| !punctuation.contains(c))
-        .collect::<String>()
-        .split_whitespace()
-        .collect::<Vec<_>>()
-        .join(" ")
+        .collect();
+
+    // Fold umlauts/eszett to ASCII so both spellings compare equal.
+    let mut folded = String::with_capacity(lowered.len());
+    for c in lowered.chars() {
+        match c {
+            'ä' => folded.push_str("ae"),
+            'ö' => folded.push_str("oe"),
+            'ü' => folded.push_str("ue"),
+            'ß' => folded.push_str("ss"),
+            other => folded.push(other),
+        }
+    }
+
+    folded.split_whitespace().collect::<Vec<_>>().join(" ")
 }
 
 /// Directory next to the running executable, falling back to the current

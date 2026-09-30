@@ -153,6 +153,63 @@ impl App {
                 self.make_queue(Mode::Dictation);
             }
         });
+
+        ui.add_space(20.0);
+        ui.separator();
+        self.stats(ui);
+    }
+
+    /// Learning statistics: overall accuracy and a simple 7-day review bar
+    /// chart derived from the persisted daily counts.
+    fn stats(&mut self, ui: &mut egui::Ui) {
+        ui.heading("学习统计");
+        ui.add_space(6.0);
+
+        // Overall accuracy across all graded cards.
+        let (correct, wrong) = self
+            .progress
+            .cards
+            .values()
+            .fold((0u32, 0u32), |(c, w), p| (c + p.correct, w + p.wrong));
+        let total = correct + wrong;
+        let accuracy = if total > 0 {
+            correct as f32 / total as f32 * 100.0
+        } else {
+            0.0
+        };
+        ui.label(format!(
+            "累计答对 {correct} · 答错 {wrong} · 正确率 {accuracy:.0}%"
+        ));
+
+        ui.add_space(10.0);
+        ui.label("最近 7 天复习次数");
+        ui.add_space(4.0);
+
+        // Gather counts for the last 7 days in chronological order
+        // (oldest -> newest). Iterating d from 6 down to 0 yields today - 6
+        // days first and today last.
+        let today = today();
+        let days: Vec<(String, u32)> = (0..7)
+            .rev()
+            .map(|d| {
+                let date = today - chrono::Duration::days(d);
+                let key = date.to_string();
+                let count = self.progress.daily_counts.get(&key).copied().unwrap_or(0);
+                (date.format("%m-%d").to_string(), count)
+            })
+            .collect();
+
+        let max = days.iter().map(|(_, n)| *n).max().unwrap_or(0).max(1);
+        for (label, count) in &days {
+            ui.horizontal(|ui| {
+                ui.monospace(label);
+                ui.add(
+                    egui::ProgressBar::new(*count as f32 / max as f32)
+                        .desired_width(260.0)
+                        .text(format!("{count}")),
+                );
+            });
+        }
     }
 
     /// A single learning or dictation card.
@@ -224,31 +281,74 @@ impl App {
 
             ui.add_space(12.0);
             ui.horizontal(|ui| {
-                if ui.button("重来").clicked() {
+                if ui.button("重来 (1)").clicked() {
                     self.grade(Grade::Again);
                 }
-                if ui.button("困难").clicked() {
+                if ui.button("困难 (2)").clicked() {
                     self.grade(Grade::Hard);
                 }
-                if ui.button("记住了").clicked() {
+                if ui.button("记住了 (3)").clicked() {
                     self.grade(Grade::Good);
                 }
-                if ui.button("很容易").clicked() {
+                if ui.button("很容易 (4)").clicked() {
                     self.grade(Grade::Easy);
                 }
             });
+            ui.add_space(4.0);
+            ui.small("快捷键：1 重来 · 2 困难 · 3 记住了 · 4 很容易");
+
+            // Keyboard shortcuts 1..=4 mirror the grade buttons. Only active
+            // once the answer is revealed and the grade buttons are shown.
+            if let Some(g) = ui.input(|i| {
+                if i.key_pressed(egui::Key::Num1) {
+                    Some(Grade::Again)
+                } else if i.key_pressed(egui::Key::Num2) {
+                    Some(Grade::Hard)
+                } else if i.key_pressed(egui::Key::Num3) {
+                    Some(Grade::Good)
+                } else if i.key_pressed(egui::Key::Num4) {
+                    Some(Grade::Easy)
+                } else {
+                    None
+                }
+            }) {
+                self.grade(g);
+            }
         }
     }
 
-    /// Scrollable list of all filtered vocabulary entries.
+    /// Scrollable list of all filtered vocabulary entries, with a search box
+    /// that matches against German, Chinese and tags.
     fn browse(&mut self, ui: &mut egui::Ui) {
         self.filters(ui);
+        ui.horizontal(|ui| {
+            ui.label("搜索");
+            ui.add(
+                egui::TextEdit::singleline(&mut self.search)
+                    .hint_text("德语 / 中文 / 标签")
+                    .desired_width(300.0),
+            );
+            if ui.button("清除").clicked() {
+                self.search.clear();
+            }
+        });
         ui.separator();
+
+        let query = self.search.trim().to_lowercase();
+        let mut shown = 0usize;
         egui::ScrollArea::vertical().show(ui, |ui| {
             for (i, w) in self.words.iter().enumerate() {
                 if !self.filtered(i) {
                     continue;
                 }
+                if !query.is_empty()
+                    && !w.german.to_lowercase().contains(&query)
+                    && !w.chinese.to_lowercase().contains(&query)
+                    && !w.tags.to_lowercase().contains(&query)
+                {
+                    continue;
+                }
+                shown += 1;
                 ui.group(|ui| {
                     ui.horizontal(|ui| {
                         ui.strong(&w.german);
@@ -260,6 +360,9 @@ impl App {
                         ui.small(format!("标签: {}", w.tags));
                     }
                 });
+            }
+            if shown == 0 {
+                ui.label("没有匹配的词条。");
             }
         });
     }
