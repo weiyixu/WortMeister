@@ -63,6 +63,8 @@ impl App {
                 ui.label("本地离线德语词汇学习与默写工具。");
                 ui.label("基于 SM-2 间隔重复算法。");
                 ui.add_space(8.0);
+                ui.label("作者：wei.y.xu@gmail.com");
+                ui.add_space(8.0);
                 ui.separator();
                 ui.small("词库存储于 vocabulary.csv，学习进度存储于 progress.json。");
             });
@@ -101,26 +103,25 @@ impl App {
         ui.add_space(16.0);
 
         let t = today();
-        let learned = self
-            .progress
-            .cards
-            .values()
-            .filter(|p| p.repetitions > 0)
-            .count();
-        let due = self
-            .words
-            .iter()
-            .enumerate()
-            .filter(|(i, w)| {
-                self.filtered(*i)
-                    && self
-                        .progress
-                        .cards
-                        .get(&w.id)
-                        .map(|p| p.due <= t)
-                        .unwrap_or(true)
-            })
-            .count();
+
+        // Classify every word inside the current filter (level / lesson) into
+        // three mutually exclusive buckets so the numbers add up to the total:
+        //   - new:      no learning record yet
+        //   - due:      studied, and the review date has arrived (<= today)
+        //   - mastered: studied, but scheduled for a future date
+        let (mut new_n, mut due_n, mut mastered_n) = (0usize, 0usize, 0usize);
+        for (i, w) in self.words.iter().enumerate() {
+            if !self.filtered(i) {
+                continue;
+            }
+            match self.progress.cards.get(&w.id) {
+                None => new_n += 1,
+                Some(p) if p.due <= t => due_n += 1,
+                Some(_) => mastered_n += 1,
+            }
+        }
+        let total_n = new_n + due_n + mastered_n;
+
         let today_n = self
             .progress
             .daily_counts
@@ -128,14 +129,17 @@ impl App {
             .copied()
             .unwrap_or(0);
 
-        ui.columns(3, |c| {
-            c[0].heading(format!("{}", self.words.len()));
-            c[0].label("词库词条");
-            c[1].heading(format!("{learned}"));
-            c[1].label("已学习");
-            c[2].heading(format!("{due}"));
-            c[2].label("今日到期");
+        ui.columns(4, |c| {
+            c[0].heading(format!("{total_n}"));
+            c[0].label("筛选范围");
+            c[1].heading(format!("{new_n}"));
+            c[1].label("未学新词");
+            c[2].heading(format!("{due_n}"));
+            c[2].label("今日待复习");
+            c[3].heading(format!("{mastered_n}"));
+            c[3].label("已掌握");
         });
+        ui.small("三者之和等于筛选范围内的词条数。切换级别 / 课次可改变统计范围。");
 
         ui.add_space(15.0);
         ui.label(format!("今天已复习 {today_n} 次"));
@@ -239,9 +243,25 @@ impl App {
         ui.add_space(20.0);
 
         if dictation {
-            ui.heading(&w.chinese);
+            ui.horizontal(|ui| {
+                ui.heading(&w.chinese);
+                if self.tts.is_some() && ui.button("🔊 播放读音").clicked() {
+                    self.speak(&w.german);
+                }
+            });
+            ui.checkbox(&mut self.speak_on_dictation, "出题时自动播放读音");
             ui.label(&w.example_zh);
             ui.add_space(8.0);
+
+            // Auto-play the German word once per card when enabled, tracking the
+            // queue position so it does not repeat on every UI frame.
+            if self.speak_on_dictation
+                && self.tts.is_some()
+                && self.spoken_pos != Some(self.pos)
+            {
+                self.speak(&w.german);
+                self.spoken_pos = Some(self.pos);
+            }
 
             let resp = ui.add(
                 egui::TextEdit::singleline(&mut self.input)
@@ -260,7 +280,24 @@ impl App {
                 self.revealed = true;
             }
         } else {
-            ui.heading(&w.german);
+            ui.horizontal(|ui| {
+                ui.heading(&w.german);
+                if self.tts.is_some() && ui.button("🔊 播放读音").clicked() {
+                    self.speak(&w.german);
+                }
+            });
+            ui.checkbox(&mut self.speak_on_dictation, "显示单词时自动播放读音");
+
+            // Auto-play the German word once per card when enabled, tracking the
+            // queue position so it does not repeat on every UI frame.
+            if self.speak_on_dictation
+                && self.tts.is_some()
+                && self.spoken_pos != Some(self.pos)
+            {
+                self.speak(&w.german);
+                self.spoken_pos = Some(self.pos);
+            }
+
             if !self.revealed {
                 // Enter is equivalent to clicking the reveal button.
                 let enter = ui.input(|i| i.key_pressed(egui::Key::Enter));

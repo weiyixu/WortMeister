@@ -5,6 +5,7 @@ use std::fs;
 use std::path::PathBuf;
 
 use rand::seq::SliceRandom;
+use tts::Tts;
 
 use crate::model::{CardProgress, ProgressFile, Word};
 use crate::srs::{apply_grade, Grade};
@@ -36,6 +37,12 @@ pub struct App {
     pub notice: String,
     pub show_about: bool,
     pub search: String,
+    /// Text-to-speech engine, None if the platform backend failed to init.
+    pub tts: Option<Tts>,
+    /// When true, dictation cards auto-play the German word on each new card.
+    pub speak_on_dictation: bool,
+    /// Queue position last auto-spoken, to avoid replaying every UI frame.
+    pub spoken_pos: Option<usize>,
 }
 
 impl App {
@@ -49,8 +56,18 @@ impl App {
             Err(e) => (Vec::new(), e),
         };
 
+        // Try to initialise the platform text-to-speech backend. On failure we
+        // keep running without audio and surface a hint via the notice line.
+        let (tts, tts_notice) = match Tts::default() {
+            Ok(engine) => (Some(engine), String::new()),
+            Err(e) => (
+                None,
+                format!("语音功能不可用（{e}）。朗读按钮将不起作用。"),
+            ),
+        };
+
         // Combine any notices from loading progress and vocabulary.
-        let notice = [progress_notice, words_notice]
+        let notice = [progress_notice, words_notice, tts_notice]
             .into_iter()
             .filter(|s| !s.is_empty())
             .collect::<Vec<_>>()
@@ -72,6 +89,21 @@ impl App {
             notice,
             show_about: false,
             search: String::new(),
+            tts,
+            speak_on_dictation: false,
+            spoken_pos: None,
+        }
+    }
+
+    /// Speak the given text through the platform TTS backend, if available.
+    /// Errors are surfaced on the notice line but never panic. Calling this
+    /// again while speech is playing interrupts the previous utterance.
+    pub fn speak(&mut self, text: &str) {
+        if let Some(tts) = self.tts.as_mut() {
+            // `interrupt = true` so rapid clicks cancel the prior word.
+            if let Err(e) = tts.speak(text, true) {
+                self.notice = format!("朗读失败: {e}");
+            }
         }
     }
 
@@ -115,6 +147,7 @@ impl App {
 
         self.queue = due;
         self.pos = 0;
+        self.spoken_pos = None;
         self.mode = mode;
         self.revealed = false;
         self.input.clear();

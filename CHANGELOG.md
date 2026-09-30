@@ -5,6 +5,28 @@ All notable changes to Deutsch Worttrainer are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.7] - 2026-10-01
+
+### Added
+- Text-to-speech pronunciation using the platform speech backend (Windows
+  SAPI), fully offline. A "🔊 播放读音" button on the learning card and the
+  dictation card plays the German word on demand.
+- Auto-play option on both cards: dictation shows "出题时自动播放读音" and
+  learning shows "显示单词时自动播放读音". When enabled, each new card speaks
+  the German word once (not on every UI frame). The two modes share one
+  preference toggle.
+- If the speech backend fails to initialise, a notice is shown and the app
+  keeps working without audio. For accurate German pronunciation a German
+  speech voice must be installed in Windows.
+
+### Changed
+- Home dashboard statistics reworked into three mutually exclusive buckets,
+  all scoped to the current level / lesson filter: 未学新词 (no record yet),
+  今日待复习 (studied and due today), 已掌握 (studied, scheduled for a future
+  date). The three now add up to the filtered vocabulary count. The previous
+  "已学习" / "今日到期" figures used inconsistent scopes (whole library vs.
+  filtered) and could overlap, so they did not sum to the total.
+
 ## [0.0.6] - 2026-10-01
 
 ### Added
