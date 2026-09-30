@@ -1,10 +1,11 @@
 // Small helpers used across the app: date, text normalization, paths, CSV load.
 
 use chrono::{Local, NaiveDate};
+use std::fs;
 use std::path::{Path, PathBuf};
 use unicode_normalization::UnicodeNormalization;
 
-use crate::model::Word;
+use crate::model::{ProgressFile, Word};
 
 /// Current local date (no time component).
 pub fn today() -> NaiveDate {
@@ -67,3 +68,50 @@ pub fn load_words(base: &Path) -> Result<Vec<Word>, String> {
     }
     Ok(words)
 }
+
+/// Load the progress file. Returns the parsed progress plus an optional
+/// user-facing notice.
+///
+/// If the file is missing we start fresh with no notice. If the file exists
+/// but cannot be parsed (corrupted or from an incompatible version) we do NOT
+/// silently discard it: the damaged file is renamed to a timestamped backup
+/// so the user can recover it, and a notice is returned explaining what
+/// happened.
+pub fn load_progress(path: &Path) -> (ProgressFile, String) {
+    let raw = match fs::read_to_string(path) {
+        Ok(s) => s,
+        // No file yet (first run) or unreadable: start fresh, no notice.
+        Err(_) => return (ProgressFile::default(), String::new()),
+    };
+
+    match serde_json::from_str::<ProgressFile>(&raw) {
+        Ok(progress) => (progress, String::new()),
+        Err(e) => {
+            let notice = match backup_corrupt_file(path) {
+                Ok(backup) => format!(
+                    "进度文件已损坏，无法解析（{e}）。已备份为 {} 并新建空进度。",
+                    backup.display()
+                ),
+                Err(be) => format!(
+                    "进度文件已损坏，无法解析（{e}），且备份失败（{be}）。已使用空进度，请手动备份 progress.json。"
+                ),
+            };
+            (ProgressFile::default(), notice)
+        }
+    }
+}
+
+/// Rename a corrupt progress file to a timestamped ".bak" sibling so it is
+/// preserved rather than overwritten. Returns the backup path on success.
+fn backup_corrupt_file(path: &Path) -> std::io::Result<PathBuf> {
+    let stamp = Local::now().format("%Y%m%d-%H%M%S");
+    let file_name = path
+        .file_name()
+        .and_then(|n| n.to_str())
+        .unwrap_or("progress.json");
+    let backup = path.with_file_name(format!("{file_name}.corrupt-{stamp}.bak"));
+    fs::rename(path, &backup)?;
+    Ok(backup)
+}
+
+

@@ -8,7 +8,7 @@ use rand::seq::SliceRandom;
 
 use crate::model::{CardProgress, ProgressFile, Word};
 use crate::srs::{apply_grade, Grade};
-use crate::util::{app_dir, load_words, today};
+use crate::util::{app_dir, load_progress, load_words, today};
 
 /// The four screens the app can display.
 #[derive(Clone, Copy, PartialEq)]
@@ -40,15 +40,19 @@ impl App {
     pub fn new() -> Self {
         let base = app_dir();
         let progress_path = base.join("progress.json");
-        let progress = fs::read_to_string(&progress_path)
-            .ok()
-            .and_then(|s| serde_json::from_str(&s).ok())
-            .unwrap_or_default();
+        let (progress, progress_notice) = load_progress(&progress_path);
 
-        let (words, notice) = match load_words(&base) {
+        let (words, words_notice) = match load_words(&base) {
             Ok(words) => (words, String::new()),
             Err(e) => (Vec::new(), e),
         };
+
+        // Combine any notices from loading progress and vocabulary.
+        let notice = [progress_notice, words_notice]
+            .into_iter()
+            .filter(|s| !s.is_empty())
+            .collect::<Vec<_>>()
+            .join("\n");
 
         Self {
             words,
