@@ -57,3 +57,25 @@ pub struct ProgressFile {
     pub cards: HashMap<String, CardProgress>,
     pub daily_counts: HashMap<String, u32>,
 }
+
+/// User-configurable application settings, persisted to settings.ini so they
+/// survive across runs. New options can be added here as the app grows; the
+/// INI loader ignores unknown keys and fills missing ones with defaults.
+#[derive(Clone, Debug)]
+pub struct Settings {
+    /// Number of cards to review per day (the "每日数量" control).
+    pub daily_limit: usize,
+    /// Whether dictation/learn cards auto-play the German word on each card.
+    pub speak_on_dictation: bool,
+}
+
+impl Default for Settings {
+    fn default() -> Self {
+        Self {
+            daily_limit: 20,
+            speak_on_dictation: false,
+        }
+    }
+}
+
+

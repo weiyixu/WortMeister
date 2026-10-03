@@ -1,0 +1,38 @@
+name: Build Windows
+
+# Builds the Windows .exe using GitHub's Windows runners.
+# Push to GitHub (or trigger manually) and download the artifact from the Actions run.
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache cargo
+        uses: Swatinem/rust-cache@v2
+
+      - name: Build release
+        run: cargo build --release
+
+      - name: Assemble dist folder
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path dist | Out-Null
+          Copy-Item target\release\deutsch-worttrainer.exe dist\DeutschWorttrainer.exe -Force
+          Copy-Item data\vocabulary.csv dist\vocabulary.csv -Force
+
+      - name: Upload Windows artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: DeutschWorttrainer-windows
+          path: dist/

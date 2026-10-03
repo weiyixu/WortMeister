@@ -7,9 +7,13 @@ use std::path::PathBuf;
 use rand::seq::SliceRandom;
 use tts::{Tts, Voice};
 
-use crate::model::{CardProgress, ProgressFile, Word};
+use crate::model::{CardProgress, ProgressFile, Settings, Word};
+
 use crate::srs::{apply_grade, Grade};
-use crate::util::{app_dir, load_progress, load_words, today};
+use crate::util::{
+    app_dir, load_progress, load_settings, load_words, save_settings, today,
+};
+
 
 /// The four screens the app can display.
 #[derive(Clone, Copy, PartialEq)]
@@ -25,7 +29,10 @@ pub struct App {
     pub words: Vec<Word>,
     pub progress: ProgressFile,
     pub progress_path: PathBuf,
+    /// Path to the INI settings file, persisted next to the executable.
+    pub settings_path: PathBuf,
     pub mode: Mode,
+
     pub level: String,
     pub lesson: String,
     pub daily_limit: usize,
@@ -50,6 +57,12 @@ impl App {
         let base = app_dir();
         let progress_path = base.join("progress.json");
         let (progress, progress_notice) = load_progress(&progress_path);
+
+        // Load persisted user settings (daily limit, etc.) from settings.ini.
+        // A missing file yields defaults, so first run behaves as before.
+        let settings_path = base.join("settings.ini");
+        let settings = load_settings(&settings_path);
+
 
         let (words, words_notice) = match load_words(&base) {
             Ok(words) => (words, String::new()),
@@ -82,10 +95,11 @@ impl App {
             words,
             progress,
             progress_path,
+            settings_path,
             mode: Mode::Home,
             level: "全部".into(),
             lesson: "全部".into(),
-            daily_limit: 20,
+            daily_limit: settings.daily_limit,
             queue: Vec::new(),
             pos: 0,
             revealed: false,
@@ -95,10 +109,28 @@ impl App {
             show_about: false,
             search: String::new(),
             tts,
-            speak_on_dictation: false,
+            speak_on_dictation: settings.speak_on_dictation,
             spoken_pos: None,
         }
     }
+
+    /// Snapshot the current user-configurable state into a Settings value.
+    fn current_settings(&self) -> Settings {
+        Settings {
+            daily_limit: self.daily_limit,
+            speak_on_dictation: self.speak_on_dictation,
+        }
+    }
+
+    /// Persist current settings to settings.ini, surfacing any error on the
+    /// notice line. Called whenever a setting changes in the UI.
+    pub fn save_settings(&mut self) {
+        let settings = self.current_settings();
+        if let Err(e) = save_settings(&self.settings_path, &settings) {
+            self.notice = e;
+        }
+    }
+
 
     /// Speak the given text through the platform TTS backend, if available.
     /// Errors are surfaced on the notice line but never panic. Calling this

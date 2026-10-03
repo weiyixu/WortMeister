@@ -1,2 +1,6 @@
 dist
 target
+
+# User-local runtime files (generated next to the executable)
+progress.json
+settings.ini

@@ -5,7 +5,8 @@ use std::fs;
 use std::path::{Path, PathBuf};
 use unicode_normalization::UnicodeNormalization;
 
-use crate::model::{ProgressFile, Word};
+use crate::model::{ProgressFile, Settings, Word};
+
 
 /// Current local date (no time component).
 pub fn today() -> NaiveDate {
@@ -129,5 +130,68 @@ fn backup_corrupt_file(path: &Path) -> std::io::Result<PathBuf> {
     fs::rename(path, &backup)?;
     Ok(backup)
 }
+
+/// Load application settings from a simple INI file.
+///
+/// The format is a minimal `key = value` INI (optional `[section]` headers are
+/// tolerated and ignored, as are blank lines and `#`/`;` comments). Unknown
+/// keys are skipped and any missing key keeps its default value, so old files
+/// stay forward compatible as new settings are introduced. A missing or
+/// unreadable file simply yields the defaults.
+pub fn load_settings(path: &Path) -> Settings {
+    let mut settings = Settings::default();
+
+    let raw = match fs::read_to_string(path) {
+        Ok(s) => s,
+        Err(_) => return settings,
+    };
+
+    for line in raw.lines() {
+        let line = line.trim();
+        if line.is_empty() || line.starts_with('#') || line.starts_with(';') {
+            continue;
+        }
+        // Section headers like [general] are accepted but not required.
+        if line.starts_with('[') && line.ends_with(']') {
+            continue;
+        }
+        let Some((key, value)) = line.split_once('=') else {
+            continue;
+        };
+        let key = key.trim();
+        let value = value.trim();
+        match key {
+            "daily_limit" => {
+                if let Ok(n) = value.parse::<usize>() {
+                    // Keep within the same range enforced by the UI control.
+                    settings.daily_limit = n.clamp(5, 100);
+                }
+            }
+            "speak_on_dictation" => {
+                if let Ok(b) = value.parse::<bool>() {
+                    settings.speak_on_dictation = b;
+                }
+            }
+            _ => {}
+        }
+    }
+
+    settings
+}
+
+/// Persist application settings to the INI file, returning an error string on
+/// failure so the caller can surface it on the notice line.
+pub fn save_settings(path: &Path, settings: &Settings) -> Result<(), String> {
+    let contents = format!(
+        "# Deutsch Worttrainer 设置文件\n\
+         # 每次修改会自动保存，可手动编辑。\n\
+         [general]\n\
+         daily_limit = {}\n\
+         speak_on_dictation = {}\n",
+        settings.daily_limit, settings.speak_on_dictation
+    );
+    fs::write(path, contents).map_err(|e| format!("保存设置失败: {e}"))
+}
+
 
 

@@ -29,7 +29,7 @@ impl App {
                 if ui.selectable_label(self.mode == m, t).clicked() {
                     if m == Mode::Learn || m == Mode::Dictation {
                         self.make_queue(m);
-                    } else {
+                    } else { 
                         self.mode = m;
                     }
                 }
@@ -93,8 +93,16 @@ impl App {
                 });
 
             ui.label("每日数量");
-            ui.add(egui::DragValue::new(&mut self.daily_limit).range(5..=100));
+            // Persist the daily limit to settings.ini whenever it changes so it
+            // is remembered across restarts instead of resetting to the default.
+            if ui
+                .add(egui::DragValue::new(&mut self.daily_limit).range(5..=100))
+                .changed()
+            {
+                self.save_settings();
+            }
         });
+
     }
 
     /// Home dashboard: stats and start buttons.
@@ -249,8 +257,14 @@ impl App {
                     self.speak(&w.german);
                 }
             });
-            ui.checkbox(&mut self.speak_on_dictation, "出题时自动播放读音");
+            if ui
+                .checkbox(&mut self.speak_on_dictation, "出题时自动播放读音")
+                .changed()
+            {
+                self.save_settings();
+            }
             ui.label(&w.example_zh);
+
             ui.add_space(8.0);
 
             // Auto-play the German word once per card when enabled, tracking the
@@ -286,7 +300,13 @@ impl App {
                     self.speak(&w.german);
                 }
             });
-            ui.checkbox(&mut self.speak_on_dictation, "显示单词时自动播放读音");
+            if ui
+                .checkbox(&mut self.speak_on_dictation, "显示单词时自动播放读音")
+                .changed()
+            {
+                self.save_settings();
+            }
+
 
             // Auto-play the German word once per card when enabled, tracking the
             // queue position so it does not repeat on every UI frame.
