@@ -20,6 +20,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   speech voice must be installed in Windows.
 
 ### Changed
+- Text-to-speech now selects an installed German voice at startup, so words
+  are pronounced in German instead of the default system voice (often English).
+  If no German voice is installed, a notice explains how to add one via Windows
+  language settings and playback falls back to the default voice.
 - Home dashboard statistics reworked into three mutually exclusive buckets,
   all scoped to the current level / lesson filter: 未学新词 (no record yet),
   今日待复习 (studied and due today), 已掌握 (studied, scheduled for a future

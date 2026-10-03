@@ -5,7 +5,7 @@ use std::fs;
 use std::path::PathBuf;
 
 use rand::seq::SliceRandom;
-use tts::Tts;
+use tts::{Tts, Voice};
 
 use crate::model::{CardProgress, ProgressFile, Word};
 use crate::srs::{apply_grade, Grade};
@@ -58,8 +58,13 @@ impl App {
 
         // Try to initialise the platform text-to-speech backend. On failure we
         // keep running without audio and surface a hint via the notice line.
+        // When it succeeds, try to select a German voice so words are read with
+        // correct German pronunciation instead of the default (often English).
         let (tts, tts_notice) = match Tts::default() {
-            Ok(engine) => (Some(engine), String::new()),
+            Ok(mut engine) => {
+                let notice = select_german_voice(&mut engine);
+                (Some(engine), notice)
+            }
             Err(e) => (
                 None,
                 format!("语音功能不可用（{e}）。朗读按钮将不起作用。"),
@@ -209,3 +214,34 @@ impl App {
         v
     }
 }
+
+/// Whether a voice speaks German, based on its BCP-47 language tag (de, de-DE,
+/// de-AT, ...). The tag is compared case-insensitively against the "de" prefix.
+fn is_german(voice: &Voice) -> bool {
+    let lang = voice.language().to_string().to_lowercase();
+    lang == "de" || lang.starts_with("de-")
+}
+
+/// Select a German voice on the engine if one is installed. Returns an empty
+/// string on success, or a user-facing notice when no German voice is found
+/// (or the voice list cannot be read), so callers can surface a hint.
+fn select_german_voice(engine: &mut Tts) -> String {
+    let voices = match engine.voices() {
+        Ok(v) => v,
+        // Some backends do not support enumerating voices; leave the default.
+        Err(_) => return String::new(),
+    };
+
+    if let Some(de) = voices.iter().find(|v| is_german(v)) {
+        if let Err(e) = engine.set_voice(de) {
+            return format!("无法设置德语语音（{e}），将使用默认语音。");
+        }
+        return String::new();
+    }
+
+    "未检测到德语语音，朗读可能使用其他语言发音。请在 Windows 设置中添加德语语音包\
+     （设置 → 时间和语言 → 语言和区域 → 添加语言 → Deutsch，并安装语音功能）。"
+        .into()
+}
+
+
