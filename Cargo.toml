@@ -1,9 +1,9 @@
 [package]
 name = "deutsch-worttrainer"
-version = "0.0.7"
+version = "0.0.8"
 edition = "2021"
 authors = ["Deutsch Coach Pro"]
-description = "Windows desktop German vocabulary trainer"
+description = "Cross-platform desktop German vocabulary trainer"
 
 [dependencies]
 eframe = "0.29"

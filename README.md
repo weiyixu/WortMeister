@@ -1,6 +1,7 @@
-# Deutsch Worttrainer (Rust / Windows)
+# Deutsch Worttrainer (Rust / cross-platform)
 
-A local, offline A1.1/A1.2 German vocabulary learning and dictation app.
+A local, offline A1.1/A1.2 German vocabulary learning and dictation app. Runs
+on Windows, macOS and Linux.
 
 ## Included
 - Daily review queue with configurable daily limit
@@ -11,7 +12,8 @@ A local, offline A1.1/A1.2 German vocabulary learning and dictation app.
 - Filters by level and lesson
 - CSV-based extensible vocabulary store
 - JSON progress sidecar, so vocabulary and learner history remain separate
-- UTF-8 German/Chinese support
+- UTF-8 German/Chinese support, with platform-aware CJK font loading so Chinese
+  renders correctly on Windows, macOS and Linux
 
 ## Build on Windows
 1. Install the stable Rust toolchain from rustup.rs.
@@ -19,7 +21,27 @@ A local, offline A1.1/A1.2 German vocabulary learning and dictation app.
 3. Run `build_windows.bat`.
 4. Start `dist\DeutschWorttrainer.exe`.
 
-At first launch the program searches for `vocabulary.csv` beside the executable, then `data\vocabulary.csv`. Progress is stored as `progress.json` beside the executable.
+## Build on macOS
+1. Install the stable Rust toolchain from rustup.rs.
+2. Install Xcode command line tools: `xcode-select --install`.
+3. Run `chmod +x build_macos.sh && ./build_macos.sh` (or
+   `./build_macos.sh universal` for a universal Intel + Apple Silicon binary).
+4. Launch `dist/macos/DeutschWorttrainer.app`.
+
+Note: the universal binary runs on the latest macOS (Intel and Apple Silicon).
+Older macOS 10.x support is best-effort; see `build_macos.sh` for the
+`MACOSX_DEPLOYMENT_TARGET` setting.
+
+## Build in the cloud (GitHub Actions)
+If you do not have a Mac, push the project to GitHub. The workflows in
+`.github/workflows/` build the Windows and macOS artifacts on GitHub-hosted
+runners; download them from the Actions run. Both workflows also support manual
+triggering (workflow_dispatch).
+
+## Runtime files
+At first launch the program searches for `vocabulary.csv` beside the executable,
+then `data\vocabulary.csv`. Progress is stored as `progress.json` beside the
+executable.
 
 ## CSV schema
 Required columns:

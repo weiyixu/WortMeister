@@ -5,6 +5,21 @@ All notable changes to Deutsch Worttrainer are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.8] - 2026-10-04
+
+### Fixed
+- Chinese text no longer renders as empty boxes on macOS (and Linux). Font
+  loading previously only searched Windows font paths, so no CJK-capable font
+  was loaded on other platforms. Font setup is now platform-aware and tries the
+  common system CJK fonts for each OS (PingFang / STHeiti / Hiragino on macOS,
+  Microsoft YaHei / SimHei / SimSun on Windows, Noto Sans CJK / WenQuanYi on
+  Linux), using the first one found.
+
+### Added
+- Cross-platform builds: a `build_macos.sh` script that produces a universal
+  (Intel + Apple Silicon) binary and a double-clickable `.app` bundle, plus
+  GitHub Actions workflows to build macOS and Windows binaries in the cloud.
+
 ## [0.0.7] - 2026-10-01
 
 ### Added
