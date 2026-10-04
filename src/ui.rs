@@ -287,9 +287,14 @@ impl App {
             if !self.revealed {
                 resp.request_focus();
             }
+            // Detect Enter while the field has focus. We cannot rely on
+            // lost_focus() here because request_focus() above re-grabs focus on
+            // the same frame, which suppresses the focus-loss signal and would
+            // make Enter appear to do nothing.
             let enter =
-                resp.lost_focus() && ui.input(|i| i.key_pressed(egui::Key::Enter));
+                resp.has_focus() && ui.input(|i| i.key_pressed(egui::Key::Enter));
             if enter || ui.button("检查答案").clicked() {
+
                 self.feedback = Some(norm(&self.input) == norm(&w.german));
                 self.revealed = true;
             }

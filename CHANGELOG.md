@@ -5,7 +5,19 @@ All notable changes to Deutsch Worttrainer are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.9] - 2026-10-04
+
+### Fixed
+- Dictation mode: pressing Enter after typing an answer now checks the answer
+  again. The input field requests keyboard focus every frame so the user can
+  type immediately, but this re-grabbed focus on the same frame the field would
+  otherwise lose it on Enter, which suppressed the `lost_focus()` signal the
+  Enter check relied on. Enter is now detected while the field has focus
+  (`has_focus()`), which is unaffected by the re-focus and restores the
+  automatic answer check.
+
 ## [0.0.8] - 2026-10-04
+
 
 ### Fixed
 - Chinese text no longer renders as empty boxes on macOS (and Linux). Font
