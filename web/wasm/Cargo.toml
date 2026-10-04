@@ -1,0 +1,24 @@
+[package]
+name = "wortmeister_wasm"
+version = "0.0.9"
+edition = "2021"
+description = "WebAssembly bindings for the WortMeister core (used by the PWA)"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+# Reuse the exact same logic as desktop and iOS: one source of truth.
+wortmeister_core = { path = "../../core" }
+wasm-bindgen = "0.2"
+serde_json = "1"
+# rand (used by the core's queue shuffle) pulls in getrandom; on the
+# wasm32-unknown-unknown target it needs the "js" feature to use the browser's
+# crypto.getRandomValues as its entropy source. This dependency only exists to
+# enable that feature for the WASM build.
+getrandom = { version = "0.2", features = ["js"] }
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = "z"

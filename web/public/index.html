@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <!-- viewport-fit=cover + safe-area padding so it looks right on iPhone. -->
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <meta name="theme-color" content="#1f6feb" />
+  <!-- iOS: allow "Add to Home Screen" to run full-screen like a real app. -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="WortMeister" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="icons/icon-180.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>WortMeister</title>
+</head>
+<body>
+  <main id="app">
+    <!-- Home screen -->
+    <section id="home" class="screen">
+      <h1>WortMeister</h1>
+      <p class="sub">德语单词训练 · 离线可用</p>
+
+      <label class="field">
+        <span>级别</span>
+        <select id="level"></select>
+      </label>
+
+      <label class="field">
+        <span>每日数量：<b id="limitValue">20</b></span>
+        <input id="limit" type="range" min="5" max="100" step="5" value="20" />
+      </label>
+
+      <p id="dueBadge" class="badge"></p>
+
+      <div class="actions">
+        <button id="startLearn" class="primary">学习卡片</button>
+        <button id="startDictation">听写模式</button>
+        <button id="openStats">学习统计</button>
+      </div>
+
+      <p id="notice" class="notice"></p>
+    </section>
+
+    <!-- Statistics screen -->
+    <section id="stats" class="screen hidden">
+      <div class="topbar">
+        <button id="statsBack" class="link">返回</button>
+        <span class="counter">学习统计</span>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat"><b id="stReviewsToday">0</b><span>今日复习</span></div>
+        <div class="stat"><b id="stStreak">0</b><span>连续天数</span></div>
+        <div class="stat"><b id="stDue">0</b><span>今日到期</span></div>
+        <div class="stat"><b id="stLearned">0</b><span>已掌握</span></div>
+        <div class="stat"><b id="stStudied">0</b><span>已学习</span></div>
+        <div class="stat"><b id="stNew">0</b><span>未学习</span></div>
+        <div class="stat"><b id="stAccuracy">0%</b><span>正确率</span></div>
+        <div class="stat"><b id="stTotal">0</b><span>词库总数</span></div>
+      </div>
+
+      <div class="progress-wrap">
+        <div class="progress-label">
+          <span>掌握进度</span>
+          <span id="stMasteryPct">0%</span>
+        </div>
+        <div class="progress-bar"><div id="stMasteryFill" class="progress-fill"></div></div>
+      </div>
+
+      <p id="stAnswers" class="badge"></p>
+
+      <button id="resetProgress" class="danger">清除所有学习进度</button>
+    </section>
+
+
+    <!-- Review screen (shared by learn + dictation) -->
+    <section id="review" class="screen hidden">
+      <div class="topbar">
+        <button id="back" class="link">返回</button>
+        <span id="counter" class="counter"></span>
+      </div>
+
+      <div class="card">
+        <div id="prompt" class="prompt"></div>
+        <button id="speak" class="speak" aria-label="朗读">🔊 朗读</button>
+
+        <div id="answer" class="answer hidden">
+          <div id="chinese" class="chinese"></div>
+          <div id="example" class="example"></div>
+          <div id="exampleZh" class="example-zh"></div>
+        </div>
+      </div>
+
+      <!-- Dictation input -->
+      <div id="dictationBox" class="dictation hidden">
+        <input id="typed" type="text" autocomplete="off" autocapitalize="off"
+               autocorrect="off" placeholder="输入你听到的德语单词" />
+        <div id="dictationResult" class="result"></div>
+      </div>
+
+      <div id="controls" class="controls"></div>
+    </section>
+  </main>
+
+  <!-- The glue script is an ES module so it can `import` the wasm bindings. -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Rust build output for the WASM crate.
+wasm/target/
+
+# Generated WASM package (rebuilt by wasm-pack / CI). Keep the source, not the
+# build output. If you prefer to commit it (so GitHub Pages works without CI),
+# delete this line.
+public/pkg/
+
+# The vocabulary is copied into public/ at build time from ../data.
+public/vocabulary.csv

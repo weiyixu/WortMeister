@@ -1,0 +1,121 @@
+name: iOS build
+
+# Builds the Rust core as an XCFramework and compiles the SwiftUI app for the
+# iOS Simulator. The simulator build needs NO Apple Developer account and NO
+# code signing, so it works out of the box on a public GitHub-hosted macOS
+# runner and proves the whole Rust + Swift pipeline compiles.
+#
+# Producing a device .ipa or uploading to TestFlight/App Store additionally
+# requires an Apple Developer account ($99/yr) and signing secrets; see the
+# commented "device-ipa" job and IOS_PLAN.md for how to enable it.
+
+on:
+  push:
+    paths:
+      - "WortMeister/core/**"
+      - "WortMeister/ios/**"
+      - ".github/workflows/ios.yml"
+  workflow_dispatch: {}
+
+jobs:
+  simulator-build:
+    name: Build core + app (Simulator, unsigned)
+    runs-on: macos-14
+    defaults:
+      run:
+        working-directory: WortMeister
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Add iOS Rust targets
+        run: |
+          rustup target add aarch64-apple-ios aarch64-apple-ios-sim x86_64-apple-ios
+
+      - name: Cache cargo
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            WortMeister/core/target
+          key: cargo-ios-${{ hashFiles('WortMeister/core/Cargo.lock') }}
+
+      - name: Build Rust XCFramework
+        run: |
+          chmod +x ios/build_rust_xcframework.sh
+          ./ios/build_rust_xcframework.sh
+
+      - name: Run core unit tests
+        run: cargo test --manifest-path core/Cargo.toml
+
+      # The Xcode project is expected at ios/WortMeister.xcodeproj (create it
+      # once in Xcode; see IOS_PLAN.md). This step compiles it for a simulator
+      # destination, which requires no signing.
+      - name: Build app for Simulator
+        run: |
+          if [ -d ios/WortMeister.xcodeproj ]; then
+            xcodebuild \
+              -project ios/WortMeister.xcodeproj \
+              -scheme WortMeister \
+              -configuration Debug \
+              -sdk iphonesimulator \
+              -destination 'platform=iOS Simulator,name=iPhone 15' \
+              CODE_SIGNING_ALLOWED=NO \
+              build
+          else
+            echo "::warning::ios/WortMeister.xcodeproj not found yet."
+            echo "The Rust XCFramework built successfully. Create the Xcode"
+            echo "project once (see IOS_PLAN.md) and this step will build the app."
+          fi
+
+      - name: Upload XCFramework artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: WortMeisterCore-xcframework
+          path: WortMeister/ios/WortMeisterCore.xcframework
+          if-no-files-found: error
+
+  # ---------------------------------------------------------------------------
+  # OPTIONAL: signed device .ipa for TestFlight / App Store.
+  # Requires an Apple Developer account and these repository secrets:
+  #   BUILD_CERTIFICATE_BASE64, P12_PASSWORD, PROVISIONING_PROFILE_BASE64,
+  #   KEYCHAIN_PASSWORD, APPLE_TEAM_ID
+  # Uncomment and fill in once your account + signing assets are ready.
+  # ---------------------------------------------------------------------------
+  #
+  # device-ipa:
+  #   name: Archive signed .ipa
+  #   runs-on: macos-14
+  #   needs: simulator-build
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - uses: dtolnay/rust-toolchain@stable
+  #     - run: rustup target add aarch64-apple-ios
+  #     - name: Build Rust XCFramework
+  #       working-directory: WortMeister
+  #       run: ./ios/build_rust_xcframework.sh
+  #     - name: Import signing certificate
+  #       env:
+  #         CERT: ${{ secrets.BUILD_CERTIFICATE_BASE64 }}
+  #         P12_PASSWORD: ${{ secrets.P12_PASSWORD }}
+  #         PROFILE: ${{ secrets.PROVISIONING_PROFILE_BASE64 }}
+  #         KEYCHAIN_PASSWORD: ${{ secrets.KEYCHAIN_PASSWORD }}
+  #       run: |
+  #         # Decode cert + profile, create a temp keychain, import, install profile.
+  #         # (Standard Apple CI signing recipe - see IOS_PLAN.md.)
+  #         echo "configure signing here"
+  #     - name: Archive and export .ipa
+  #       working-directory: WortMeister
+  #       run: |
+  #         xcodebuild -project ios/WortMeister.xcodeproj -scheme WortMeister \
+  #           -configuration Release -sdk iphoneos -archivePath build/App.xcarchive \
+  #           DEVELOPMENT_TEAM=${{ secrets.APPLE_TEAM_ID }} archive
+  #         xcodebuild -exportArchive -archivePath build/App.xcarchive \
+  #           -exportOptionsPlist ios/ExportOptions.plist -exportPath build/ipa
+  #     - uses: actions/upload-artifact@v4
+  #       with:
+  #         name: WortMeister-ipa
+  #         path: WortMeister/build/ipa/*.ipa

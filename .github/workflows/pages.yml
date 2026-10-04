@@ -1,0 +1,76 @@
+name: Deploy PWA to GitHub Pages
+
+# Builds the Rust core -> WebAssembly, assembles the static site and publishes
+# it to GitHub Pages. This is 100% free and needs no Apple account: once
+# deployed, open the page in Safari on your iPhone and choose "Add to Home
+# Screen" to use WortMeister like an installed app (offline capable).
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "WortMeister/core/**"
+      - "WortMeister/web/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch: {}
+
+# Permissions required by the Pages deploy action.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: WortMeister
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+
+      - name: Install wasm-pack
+        run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+
+      - name: Cache cargo
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            WortMeister/web/wasm/target
+          key: cargo-wasm-${{ hashFiles('WortMeister/web/wasm/Cargo.toml', 'WortMeister/core/Cargo.toml') }}
+
+      - name: Build WASM package
+        run: |
+          wasm-pack build web/wasm --target web --out-dir ../public/pkg --release
+
+      - name: Copy vocabulary into site
+        run: cp data/vocabulary.csv web/public/vocabulary.csv
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Publish the assembled static site directory.
+          path: WortMeister/web/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
