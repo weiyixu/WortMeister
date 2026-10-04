@@ -12,8 +12,8 @@ name: iOS build
 on:
   push:
     paths:
-      - "WortMeister/core/**"
-      - "WortMeister/ios/**"
+      - "core/**"
+      - "ios/**"
       - ".github/workflows/ios.yml"
   workflow_dispatch: {}
 
@@ -21,9 +21,6 @@ jobs:
   simulator-build:
     name: Build core + app (Simulator, unsigned)
     runs-on: macos-14
-    defaults:
-      run:
-        working-directory: WortMeister
     steps:
       - uses: actions/checkout@v4
 
@@ -40,8 +37,8 @@ jobs:
           path: |
             ~/.cargo/registry
             ~/.cargo/git
-            WortMeister/core/target
-          key: cargo-ios-${{ hashFiles('WortMeister/core/Cargo.lock') }}
+            ./core/target
+          key: cargo-ios-${{ hashFiles('core/Cargo.lock') }}
 
       - name: Build Rust XCFramework
         run: |
@@ -75,7 +72,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: WortMeisterCore-xcframework
-          path: WortMeister/ios/WortMeisterCore.xcframework
+          path: ./ios/WortMeisterCore.xcframework
           if-no-files-found: error
 
   # ---------------------------------------------------------------------------

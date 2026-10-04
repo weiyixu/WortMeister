@@ -9,8 +9,9 @@ on:
   push:
     branches: [main, master]
     paths:
-      - "WortMeister/core/**"
-      - "WortMeister/web/**"
+      - "core/**"
+      - "web/**"
+      - "data/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch: {}
 
@@ -28,9 +29,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: WortMeister
     steps:
       - uses: actions/checkout@v4
 
@@ -48,8 +46,8 @@ jobs:
           path: |
             ~/.cargo/registry
             ~/.cargo/git
-            WortMeister/web/wasm/target
-          key: cargo-wasm-${{ hashFiles('WortMeister/web/wasm/Cargo.toml', 'WortMeister/core/Cargo.toml') }}
+            web/wasm/target
+          key: cargo-wasm-${{ hashFiles('web/wasm/Cargo.toml', 'core/Cargo.toml') }}
 
       - name: Build WASM package
         run: |
@@ -62,7 +60,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Publish the assembled static site directory.
-          path: WortMeister/web/public
+          path: web/public
 
   deploy:
     needs: build
